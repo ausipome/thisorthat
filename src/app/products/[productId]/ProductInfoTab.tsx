@@ -29,7 +29,7 @@ const ProductInfoTab: FC<ProductInfoTabProps> = ({
   ourThoughts,
   tech_specs,
 }) => {
-  const [activeTab, setActiveTab] = useState('Tech Specs');
+  const [activeTab, setActiveTab] = useState('What We Think');
 
   return (
     <div>
