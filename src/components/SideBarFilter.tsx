@@ -11,18 +11,15 @@ import Heading from '@/shared/Heading/Heading';
 import Input from '@/shared/Input/Input';
 
 // DEMO DATA
-const brands = [
+const OS = [
   {
     name: 'All',
   },
   {
-    name: 'Nike',
+    name: 'MacOS',
   },
   {
-    name: 'New Balance',
-  },
-  {
-    name: 'Rick Owens',
+    name: 'Windows',
   },
 ];
 
@@ -40,22 +37,22 @@ const PRICE_RANGE = [1, 500];
 //
 const SidebarFilters = () => {
   const [rangePrices, setRangePrices] = useState([100, 500]);
-  const [activeBrand, setActiveBrand] = useState('All');
+  const [activeOs, setActiveOs] = useState('All');
   const [activeGender, setActiveGender] = useState('Men');
   const [activeLocation, setActiveLocation] = useState('New York');
 
   const renderTabsCategories = () => {
     return (
       <div className="relative flex flex-col space-y-4 pb-8">
-        <h3 className="mb-2.5 text-xl font-medium">Brands</h3>
+        <h3 className="mb-2.5 text-xl font-medium">Operating System</h3>
         <div className="grid grid-cols-2 gap-4">
-          {brands.map((item) => (
+          {OS.map((item) => (
             <button
               key={item.name}
               type="button"
-              onClick={() => setActiveBrand(item.name)}
+              onClick={() => setActiveOs(item.name)}
               className={`rounded-lg py-4 ${
-                activeBrand === item.name ? 'bg-primary text-white' : 'bg-gray'
+                activeOs === item.name ? 'bg-primary text-white' : 'bg-gray'
               }`}
             >
               {item.name}

@@ -87,6 +87,67 @@ import MicrosoftSurface73 from '@/images/Microsoft/Surface7/Surface73.webp';
 import MicrosoftSurface74 from '@/images/Microsoft/Surface7/Surface74.webp';
 import MicrosoftSurface75 from '@/images/Microsoft/Surface7/Surface75.webp';
 
+import Yoga7iGen9 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif';
+import Yoga7iGen92 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif';
+import Yoga7iGen93 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen93.avif';
+import Yoga7iGen94 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen94.avif';
+import Yoga7iGen95 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen95.avif';
+
+import MacBookPro14M3 from '@/images/Apple/MacBookPro14M3/MacBookPro14M3.avif';
+import MacBookPro14M32 from '@/images/Apple/MacBookPro14M3/MacBookPro14M32.avif';
+import MacBookPro14M33 from '@/images/Apple/MacBookPro14M3/MacBookPro14M33.avif';
+import MacBookPro14M34 from '@/images/Apple/MacBookPro14M3/MacBookPro14M34.avif';
+import MacBookPro14M35 from '@/images/Apple/MacBookPro14M3/MacBookPro14M35.avif';
+
+import ThinkPadX1Gen12 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif';
+import ThinkPadX1Gen122 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen122.avif';
+import ThinkPadX1Gen123 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen123.webp';
+import ThinkPadX1Gen124 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen124.avif';
+import ThinkPadX1Gen125 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen125.avif';
+
+import HPOmniBookUltra14 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp';
+import HPOmniBookUltra142 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp';
+import HPOmniBookUltra143 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra143.webp';
+import HPOmniBookUltra144 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra144.webp';
+import HPOmniBookUltra145 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra145.webp';
+
+import MacBookPro14M4 from '@/images/Apple/MacBookPro14M4/MacBookPro14M4.webp';
+import MacBookPro14M42 from '@/images/Apple/MacBookPro14M4/MacBookPro14M42.webp';
+import MacBookPro14M43 from '@/images/Apple/MacBookPro14M4/MacBookPro14M43.webp';
+import MacBookPro14M44 from '@/images/Apple/MacBookPro14M4/MacBookPro14M44.webp';
+import MacBookPro14M45 from '@/images/Apple/MacBookPro14M4/MacBookPro14M45.webp';
+
+import ASUSProArtP16 from '@/images/Asus/ASUSProArtP16/ASUSProArtP16.webp';
+import ASUSProArtP162 from '@/images/Asus/ASUSProArtP16/ASUSProArtP162.webp';
+import ASUSProArtP163 from '@/images/Asus/ASUSProArtP16/ASUSProArtP163.webp';
+import ASUSProArtP164 from '@/images/Asus/ASUSProArtP16/ASUSProArtP164.webp';
+import ASUSProArtP165 from '@/images/Asus/ASUSProArtP16/ASUSProArtP165.webp';
+
+import ThinkPadP1Gen7 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen7.avif';
+import ThinkPadP1Gen72 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen72.avif';
+import ThinkPadP1Gen73 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen73.webp';
+import ThinkPadP1Gen74 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen74.webp';
+import ThinkPadP1Gen75 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen75.avif';
+
+import SurfaceStudio2 from '@/images/Microsoft/SurfaceStudio2/SurfaceStudio2.webp';
+import SurfaceStudio22 from '@/images/Microsoft/SurfaceStudio2/SurfaceStudio22.webp';
+import SurfaceStudio23 from '@/images/Microsoft/SurfaceStudio2/SurfaceStudio23.webp';
+
+import MSITitan18HX from '@/images/MSI/MSITitan18HX/MSITitan18HX.webp';
+import MSITitan18HX2 from '@/images/MSI/MSITitan18HX/MSITitan18HX2.webp';
+import MSITitan18HX3 from '@/images/MSI/MSITitan18HX/MSITitan18HX3.webp';
+import MSITitan18HX4 from '@/images/MSI/MSITitan18HX/MSITitan18HX4.webp';
+import MSITitan18HX5 from '@/images/MSI/MSITitan18HX/MSITitan18HX5.webp';
+
+import ROGZephyrusG16 from '@/images/Asus/ROGZephyrusG16/ROGZephyrusG16.jpg';
+import ROGZephyrusG162 from '@/images/Asus/ROGZephyrusG16/ROGZephyrusG162.jpg';
+import ROGZephyrusG163 from '@/images/Asus/ROGZephyrusG16/ROGZephyrusG163.jpg';
+
+import LegionPro7iGen10 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen10.webp';
+import LegionPro7iGen102 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen102.avif';
+import LegionPro7iGen103 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen103.avif';
+import LegionPro7iGen104 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen104.avif';
+import LegionPro7iGen105 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen105.avif';
 
 import compass_profile from '@/images/compass_profile.jpeg';
 import compass1 from '@/images/compass1.jpg';
@@ -114,7 +175,7 @@ export const topNavLinks: NavItemType[] = [
   },
   {
     id: 'eexct',
-    name: 'Collections',
+    name: 'Laptops',
     href: '/products',
   },
   {
@@ -1766,7 +1827,7 @@ export const laptops = [
   {
     slug: 'MacBookPro16M4Pro',
     name: 'Apple 16" MacBook Pro (2024) - M4 Pro, 24GB RAM, 20-Core GPU, 512GB SSD - Space Black',
-    coverImage: MacBookPro16M4Pro,
+    coverImage: MacBookPro14M4,
     currentPrice: 2215,
     previousPrice: 2499,
     refurbishedPrice: 0,
@@ -1776,7 +1837,7 @@ export const laptops = [
     reviews: 96,
     pieces_sold: 310,
     ourPick: false,
-    shots: [MacBookPro16M4Pro, MacBookPro16M4Pro2, MacBookPro16M4Pro3, MacBookPro16M4Pro4, MacBookPro16M4Pro5],
+    shots: [MacBookPro14M4, MacBookPro14M42, MacBookPro14M43, MacBookPro14M44, MacBookPro14M45],
     tags: ['Apple', 'MacBook Pro', 'M4', '16RAM', '512SSD', 'Creative', 'Business', 'Developer', 'Laptops'],
     link: 'https://ao.com/product/mx2x3ba-apple-macbook-pro-laptop-black-104036-251.aspx',
     overview:
@@ -2079,7 +2140,7 @@ export const laptops = [
     reviews: 61,
     pieces_sold: 260,
     ourPick: true,
-    shots: [SurfaceStudio2, SurfaceStudio22, SurfaceStudio23, SurfaceStudio24, SurfaceStudio25],
+    shots: [SurfaceStudio2, SurfaceStudio22, SurfaceStudio23],
     tags: ['Microsoft', 'Touchscreen', 'RTX 3060', 'Creative', '16RAM', '512SSD', 'Laptops', 'i7'],
     link: 'https://ao.com/product/zrf00004-microsoft-surface-studio-2-laptop-silver-99144-251.aspx',
     overview:
@@ -2281,7 +2342,7 @@ export const laptops = [
     reviews: 49,
     pieces_sold: 210,
     ourPick: true,
-    shots: [ROGZephyrusG16, ROGZephyrusG162, ROGZephyrusG163, ROGZephyrusG164, ROGZephyrusG165],
+    shots: [ROGZephyrusG16, ROGZephyrusG162, ROGZephyrusG163],
     tags: ['Asus','32RAM', '2TBSSD', 'Gaming', 'Creative', 'Ultra9'],
     link: 'https://uk.store.asus.com/rog-zephyrus-g16-2024-gu605486-90nr0iq6-m001c0.html',
     overview:
@@ -2384,7 +2445,7 @@ export const laptops = [
     ourPick: true,
     shots: [LegionPro7iGen10, LegionPro7iGen102, LegionPro7iGen103, LegionPro7iGen104, LegionPro7iGen105],
     tags: ['Lenovo', 'Windows', '32RAM', '1TBSSD', 'Gaming','Creative', 'Ultra9', 'Laptops'],
-    link: 'https://www.lenovo.com/gb/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-7i-gen-10-(16-inch-intel)/len101g0036',
+    link: 'https://www.lenovo.com/gb/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-7i-gen-10-16-inch-intel/len101g0039',
     overview:
       "The Lenovo Legion Pro 7i Gen 10 is a cutting-edge gaming and content creation laptop powered by Intel’s Ultra 9 275HX processor and NVIDIA GeForce RTX 5070 Ti GPU. Designed to dominate both performance benchmarks and visual experiences, it features a stunning 16” WQXGA OLED 240Hz display with 100% DCI-P3 coverage and HDR 1000 True Black. Backed by 32GB of DDR5 RAM and a 1TB Gen4 SSD, this machine is made to crush the latest games, accelerate creative workflows, and handle AI-driven applications with ease.",
     ourThoughts: [
