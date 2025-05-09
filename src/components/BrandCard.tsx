@@ -10,21 +10,17 @@ import ButtonSecondary from '@/shared/Button/ButtonSecondary';
 interface BrandCardProps {
   brandName: string;
   rating: number;
-  reviews: number;
-  followers: number;
   visitLink: string;
   logo: StaticImageData;
-  shoes: StaticImageData[];
+  laptops: StaticImageData[];
 }
 
 const BrandCard: FC<BrandCardProps> = ({
   brandName,
   rating,
-  reviews,
-  followers,
   visitLink,
   logo,
-  shoes,
+  laptops,
 }) => {
   return (
     <div className="rounded-2xl border border-neutral-300 p-3">
@@ -45,10 +41,8 @@ const BrandCard: FC<BrandCardProps> = ({
               <MdStar className="text-yellow-400" />
               <p className="text-sm">
                 {rating}{' '}
-                <span className="text-neutral-500">{`(${reviews} Reviews)`}</span>
               </p>
             </div>
-            <p className="text-sm text-neutral-500">{followers}M Followers</p>
           </div>
         </div>
 
@@ -61,15 +55,15 @@ const BrandCard: FC<BrandCardProps> = ({
       </div>
 
       <div className="mt-3 grid grid-cols-2 gap-3">
-        {shoes.map((shoe) => (
+        {laptops.map((laptop) => (
           <div
-            key={shoe.src}
+            key={laptop.src}
             className="h-[150px] overflow-hidden rounded-lg bg-gray"
           >
             <Image
-              src={shoe}
-              alt="shoe"
-              className="h-full w-full object-cover object-bottom"
+              src={laptop}
+              alt="Laptop"
+              className="h-full w-full object-cover object-center transition-transform duration-300 hover:scale-105"
             />
           </div>
         ))}

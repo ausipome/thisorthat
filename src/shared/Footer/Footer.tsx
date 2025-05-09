@@ -19,7 +19,6 @@ const Footer: React.FC = () => {
           <div className="space-y-10 md:pr-20">
             <Logo />
             <p className="">{footerData.description}</p>
-            <Subscribe />
           </div>
 
             <div className="space-y-5 ml-50">

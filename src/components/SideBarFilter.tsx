@@ -1,120 +1,102 @@
 'use client';
 
 import 'rc-slider/assets/index.css';
-
-import { pathOr } from 'ramda';
 import Slider from 'rc-slider';
-import React, { useState } from 'react';
-import { MdSearch } from 'react-icons/md';
-
+import React from 'react';
 import Heading from '@/shared/Heading/Heading';
-import Input from '@/shared/Input/Input';
 
-// DEMO DATA
 const OS = [
-  {
-    name: 'All',
-  },
-  {
-    name: 'MacOS',
-  },
-  {
-    name: 'Windows',
-  },
+  { name: 'All' },
+  { name: 'MacOS' },
+  { name: 'Windows' },
 ];
 
-const gender = ['Men', 'Women', 'Unisex', 'Kids'];
+const userTypes = ['All', 'Basic', 'Student', 'Creative', 'Business', 'Developer', 'Gaming'];
 
-const locations = [
-  'New York',
-  'Canada',
-  'Bangladesh',
-  'Indonesia',
-  'San Francisco',
-];
+const PRICE_RANGE = [1, 5000];
 
-const PRICE_RANGE = [1, 500];
-//
-const SidebarFilters = () => {
-  const [rangePrices, setRangePrices] = useState([100, 500]);
-  const [activeOs, setActiveOs] = useState('All');
-  const [activeGender, setActiveGender] = useState('Men');
-  const [activeLocation, setActiveLocation] = useState('New York');
+type SidebarFiltersProps = {
+  activeOs: string;
+  setActiveOs: (value: string) => void;
+  activeUser: string;
+  setActiveUser: (value: string) => void;
+  rangePrices: number[];
+  setRangePrices: (value: number[]) => void;
+};
 
-  const renderTabsCategories = () => {
-    return (
-      <div className="relative flex flex-col space-y-4 pb-8">
-        <h3 className="mb-2.5 text-xl font-medium">Operating System</h3>
-        <div className="grid grid-cols-2 gap-4">
-          {OS.map((item) => (
-            <button
-              key={item.name}
-              type="button"
-              onClick={() => setActiveOs(item.name)}
-              className={`rounded-lg py-4 ${
-                activeOs === item.name ? 'bg-primary text-white' : 'bg-gray'
-              }`}
-            >
-              {item.name}
-            </button>
-          ))}
-        </div>
+const SidebarFilters = ({
+  activeOs,
+  setActiveOs,
+  activeUser,
+  setActiveUser,
+  rangePrices,
+  setRangePrices,
+}: SidebarFiltersProps) => {
+  const renderTabsCategories = () => (
+    <div className="relative flex flex-col space-y-4 pb-8">
+      <h3 className="mb-2.5 text-xl font-medium">Operating System</h3>
+      <div className="grid grid-cols-2 gap-4">
+        {OS.map((item) => (
+          <button
+            key={item.name}
+            type="button"
+            onClick={() => setActiveOs(item.name)}
+            className={`rounded-lg py-4 ${
+              activeOs === item.name ? 'bg-primary text-white' : 'bg-gray'
+            }`}
+          >
+            {item.name}
+          </button>
+        ))}
       </div>
-    );
-  };
+    </div>
+  );
 
-  // OK
-  const renderTabsGender = () => {
-    return (
-      <div className="relative flex flex-col space-y-4 py-8">
-        <h3 className="mb-2.5 text-xl font-medium">Gender</h3>
-        <div className="grid grid-cols-2 gap-4">
-          {gender.map((item) => (
-            <button
-              key={item}
-              type="button"
-              onClick={() => setActiveGender(item)}
-              className={`rounded-lg py-4 ${
-                activeGender === item ? 'bg-primary text-white' : 'bg-gray'
-              }`}
-            >
-              {item}
-            </button>
-          ))}
-        </div>
+  const renderTabsUserType = () => (
+    <div className="relative flex flex-col space-y-4 py-8">
+      <h3 className="mb-2.5 text-xl font-medium">Use Type</h3>
+      <div className="grid grid-cols-2 gap-4">
+        {userTypes.map((item) => (
+          <button
+            key={item}
+            type="button"
+            onClick={() => setActiveUser(item)}
+            className={`rounded-lg py-4 ${
+              activeUser === item ? 'bg-primary text-white' : 'bg-gray'
+            }`}
+          >
+            {item}
+          </button>
+        ))}
       </div>
-    );
-  };
+    </div>
+  );
 
-  // OK
-  const renderTabsPriceRage = () => {
-    return (
-      <div className="relative flex flex-col space-y-5 py-8 pr-3">
-        <div className="space-y-5">
-          <span className="font-semibold">Price range</span>
-          <Slider
-            range
-            min={PRICE_RANGE[0]}
-            max={PRICE_RANGE[1]}
-            step={1}
-            defaultValue={[
-              pathOr(0, [0], rangePrices),
-              pathOr(0, [1], rangePrices),
-            ]}
-            allowCross={false}
-            onChange={(_input: number | number[]) =>
-              setRangePrices(_input as number[])
+  const renderTabsPriceRange = () => (
+    <div className="relative flex flex-col space-y-5 py-8 pr-3">
+      <div className="space-y-5">
+        <span className="font-semibold">Price range</span>
+        <Slider
+          range
+          min={PRICE_RANGE[0]}
+          max={PRICE_RANGE[1]}
+          step={1}
+          value={rangePrices}
+          allowCross={false}
+          onChange={(input) => {
+            if (Array.isArray(input)) {
+              setRangePrices(input);
             }
-          />
-        </div>
+          }}
+        />
+      </div>
 
+      {rangePrices.length === 2 && (
         <div className="flex justify-between space-x-5">
           <div>
             <div className="block text-sm font-medium">Min price</div>
             <div className="relative mt-1 rounded-md">
-              <span className="pointer-events-none absolute inset-y-0 right-4 flex items-center text-neutral-500 sm:text-sm">
-                $
-              </span>
+              <span className="pointer-events-none absolute inset-y-0 right-4 flex items-center text-neutral-500 sm:text-sm">$</span>
               <input
                 type="text"
                 name="minPrice"
@@ -128,9 +110,7 @@ const SidebarFilters = () => {
           <div>
             <div className="block text-sm font-medium">Max price</div>
             <div className="relative mt-1 rounded-md">
-              <span className="pointer-events-none absolute inset-y-0 right-4 flex items-center text-neutral-500 sm:text-sm">
-                $
-              </span>
+              <span className="pointer-events-none absolute inset-y-0 right-4 flex items-center text-neutral-500 sm:text-sm">$</span>
               <input
                 type="text"
                 disabled
@@ -142,51 +122,17 @@ const SidebarFilters = () => {
             </div>
           </div>
         </div>
-      </div>
-    );
-  };
-
-  // OK
-  const renderTabsLocation = () => {
-    return (
-      <div className="relative flex flex-col space-y-4 py-8">
-        <h3 className="mb-2.5 text-xl font-medium">Location</h3>
-        <div className="mb-2 flex items-center gap-2 space-y-3 rounded-full border border-neutral-300 px-4 md:flex md:space-y-0">
-          <MdSearch className="text-2xl text-neutral-500" />
-          <Input
-            type="password"
-            rounded="rounded-full"
-            placeholder="Search..."
-            sizeClass="h-12 px-0 py-3"
-            className="border-transparent bg-transparent placeholder:text-neutral-500 focus:border-transparent"
-          />
-        </div>
-        <div className="grid grid-cols-2 gap-4">
-          {locations.map((item) => (
-            <button
-              key={item}
-              type="button"
-              onClick={() => setActiveLocation(item)}
-              className={`rounded-lg py-4 ${
-                activeLocation === item ? 'bg-primary text-white' : 'bg-gray'
-              }`}
-            >
-              {item}
-            </button>
-          ))}
-        </div>
-      </div>
-    );
-  };
+      )}
+    </div>
+  );
 
   return (
     <div className="top-28 lg:sticky">
       <Heading className="mb-0">Filter products</Heading>
       <div className="divide-y divide-neutral-300">
         {renderTabsCategories()}
-        {renderTabsGender()}
-        {renderTabsPriceRage()}
-        {renderTabsLocation()}
+        {renderTabsUserType()}
+        {renderTabsPriceRange()}
       </div>
     </div>
   );

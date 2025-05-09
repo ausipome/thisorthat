@@ -1,10 +1,9 @@
 import React from 'react';
-
-import Filter from '@/components/Filter';
 import ProductCard from '@/components/ProductCard';
 import { productsSection, laptops } from '@/data/content';
 import ButtonPrimary from '@/shared/Button/ButtonPrimary';
 import Heading from '@/shared/Heading/Heading';
+import Link from 'next/link';
 
 const SectionProducts = () => {
   return (
@@ -12,10 +11,9 @@ const SectionProducts = () => {
       <Heading isCenter isMain desc={productsSection.description}>
         {productsSection.heading}
       </Heading>
-      <Filter />
 
       <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-4">
-        {laptops.map((laptop) => (
+      {laptops.slice(0, 12).map((laptop) => (
           <ProductCard
             key={laptop.name}
             product={laptop}
@@ -25,7 +23,7 @@ const SectionProducts = () => {
       </div>
 
       <div className="mt-14 flex items-center justify-center">
-        <ButtonPrimary>View More</ButtonPrimary>
+        <Link href='/laptops'><ButtonPrimary>View All Laptops</ButtonPrimary></Link>
       </div>
     </div>
   );

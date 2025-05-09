@@ -3,15 +3,10 @@ import notFound from '@/images/preview/404.jpg';
 import blogPage from '@/images/preview/blogs.jpg';
 import blogSingle from '@/images/preview/blogsingle.jpg';
 import cart from '@/images/preview/cart.jpg';
-import checkout from '@/images/preview/checkout.jpg';
 import collection from '@/images/preview/collection.jpg';
-import contact from '@/images/preview/contact.jpg';
 import faq from '@/images/preview/faq.jpg';
-import forgotPass from '@/images/preview/forgotPass.jpg';
-import login from '@/images/preview/login.jpg';
 import showcase1 from '@/images/preview/showcase1.jpg';
 import showcase2 from '@/images/preview/showcase2.jpg';
-import signup from '@/images/preview/signup.jpg';
 import singleProduct from '@/images/preview/singleProduct.jpg';
 
 export const templateDetails = {
@@ -92,8 +87,8 @@ export const mainPages = {
     },
     {
       coverImage: collection,
-      pageName: 'Products',
-      href: '/products',
+      pageName: 'Laptops',
+      href: '/laptops',
       CMS: false,
     },
     {
@@ -123,37 +118,6 @@ export const mainPages = {
   ],
 };
 
-export const utilityPages = {
-  heading: 'Utility pages',
-  description: `Take a look at the utility pages included in the ${templateDetails.name}`,
-  pages: [
-    {
-      coverImage: login,
-      pageName: 'Login',
-      href: '/login',
-    },
-    {
-      coverImage: signup,
-      pageName: 'Signup',
-      href: '/login',
-    },
-    {
-      coverImage: forgotPass,
-      pageName: 'Forgot Password',
-      href: '/forgot-pass',
-    },
-    {
-      coverImage: checkout,
-      pageName: 'Checkout',
-      href: '/',
-    },
-    {
-      coverImage: contact,
-      pageName: 'Contact',
-      href: '/contact',
-    },
-  ],
-};
 
 export const browseTemplates = {
   heading: 'Browse All Templates',

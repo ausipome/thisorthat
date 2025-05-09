@@ -149,21 +149,9 @@ import LegionPro7iGen103 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen10
 import LegionPro7iGen104 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen104.avif';
 import LegionPro7iGen105 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen105.avif';
 
-import compass_profile from '@/images/compass_profile.jpeg';
-import compass1 from '@/images/compass1.jpg';
-import compass2 from '@/images/compass2.jpg';
-import compass3 from '@/images/compass3.png';
-import compass4 from '@/images/compass4.jpg';
-import dunklow from '@/images/dunklow.webp';
-import lebronxx from '@/images/lebronxx.webp';
-import new_balance from '@/images/new_balance.png';
-import new_balance1 from '@/images/new_balance1.webp';
-import new_balance2 from '@/images/new_balance2.webp';
-import new_balance3 from '@/images/new_balance3.webp';
-import new_balance4 from '@/images/new_balance4.webp';
-import nike_profile from '@/images/nike_profile.jpg';
-import redlow from '@/images/redlow.webp';
-import yellowLow from '@/images/yellowLow.webp';
+import AO_LOGO from '@/images/companies/AO_LOGO.avif';
+import BM_LOGO from '@/images/companies/BM_LOGO.png';
+import LD_LOGO from '@/images/companies/LD_LOGO.png';
 
 import type { BlogType } from './types';
 
@@ -176,12 +164,7 @@ export const topNavLinks: NavItemType[] = [
   {
     id: 'eexct',
     name: 'Laptops',
-    href: '/products',
-  },
-  {
-    id: 'h6ii8g',
-    name: 'Contact',
-    href: '/contact',
+    href: '/laptops',
   },
   {
     id: 'h678ty',
@@ -198,14 +181,8 @@ export const NavLinks: NavItemType[] = [
   },
   {
     id: 'eexct',
-    name: 'Collection',
-    href: '/products',
-  },
-
-  {
-    id: 'h6ii8g',
-    name: 'Contact',
-    href: '/contact',
+    name: 'Laptops',
+    href: '/laptops',
   },
   {
     id: 'h678ty',
@@ -215,16 +192,16 @@ export const NavLinks: NavItemType[] = [
 ];
 
 export const headerSection = {
-  title: 'NEW ARRIVAL!',
-  heading: 'AIR JORDAN 6 GX EASTSIDE',
+  title: "We’ve Got You Covered",
+  heading: "Why it's Soooooooo Important to Choose the Right Tech",
   description:
-    "Feel unbeatable from the tee box to the final putt in a design that's pure early MJ: speed, class",
+    "Whether you’re a student, a professional, or just someone who loves tech, the right device can make all the difference. It’s not just about performance; it’s about finding the perfect fit for your lifestyle. Explore our curated selection of laptops and discover how the right tech can elevate your experience.",
 };
 
 export const promotionTag = {
-  heading: 'DISC UP TO 50% FOR SNEAKERS FEST ID 2023',
+  heading: 'Why Buy Refurbished? Because Smart Tech Doesn’t Have to Cost a Fortune',
   description:
-    'Join the sneaker fest 2023 on 23 October. We have more fun gigs too and supported by FootWear!.',
+    'Get up to 50% off when you choose refurbished devices—same performance, smaller price tag, and better for the planet. Join us in making smarter choices.',
 };
 
 export const shoes = [
@@ -246,7 +223,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [AcerAspire3i5, AcerAspire3i52, AcerAspire3i53, AcerAspire3i54, AcerAspire3i55, AcerAspire3i56, AcerAspire3i57, AcerAspire3i58],
-    "tags": ['Basic', 'Student', 'professionals', 'Acer', 'i5', '8RAM', '512SSD', 'Laptops'],
+    "tags": ['Basic', 'Student', 'professionals', 'Acer', 'i5', '8RAM', '512SSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/nxk6sek00b-acer-aspire-3-a31559-laptop-silver-102012-251.aspx',
     overview:
       "Up your productivity and multitask to your heart’s content with this Acer Aspire 3 laptop. Because it has an Intel® Core™ i5 processor and 8GB of RAM, it can tackle lots of apps running at the same time – the perfect excuse to pop some tunes or a video on while you work. You won’t have to wait long to get stuck in either, since the speedy 512GB SSD rapidly loads up while also giving you a hefty amount of storage space. Need a good view of what you’re up to? That’s exactly what the Full HD TN display gives you – a clear picture bursting with lifelike colours. And you’ll still feel fresh after a few hours thanks to the BlueLightShield™ tech that stops harmful light irritating your peepers.",
@@ -347,7 +324,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [AcerAspire3i3, AcerAspire3i32, AcerAspire3i33, AcerAspire3i34, AcerAspire3i35, AcerAspire3i36, AcerAspire3i37, AcerAspire3i38],
-    "tags": ['Basic', 'Student', 'Acer', 'i3', '8RAM', '128SSD', 'Laptops'],
+    "tags": ['Basic', 'Student', 'Acer', 'i3', '8RAM', '128SSD', 'Laptops', 'Windows'],
     link: 'https://www.johnlewis.com/acer-aspire-go-14-laptop-intel-core-i3-processor-8gb-ram-128gb-ssd-14-wuxga-silver',
     overview:
       "The Aspire Go 14 from Acer is an ideal everyday laptop. With an Intel Core i3 chip and 8GB of RAM, it can power through a wide range of tasks. Plus you get a 128GB SSD for all your documents, media and files, and a battery life of up to 8.5 hours from a single charge. It also features the Copilot key, giving you instant access to Microsoft’s AI-powered assistant. The 14” display features WUXGA resolution, so you get 10% more detail than standard Full HD, plus Acer’s BlueLightShield technology which helps reduce eye strain and fatigue.",
@@ -448,7 +425,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [LenovoIdeaPadSlim3i5, LenovoIdeaPadSlim3i52, LenovoIdeaPadSlim3i53, LenovoIdeaPadSlim3i54, LenovoIdeaPadSlim3i55, LenovoIdeaPadSlim3i56, LenovoIdeaPadSlim3i57, LenovoIdeaPadSlim3i58],
-    "tags": ['Basic', 'Student', 'professionals', 'Lenovo', 'i5', '8RAM', '512SSD', 'Laptops'],
+    "tags": ['Basic', 'Student', 'professionals', 'Lenovo', 'i5', '8RAM', '512SSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/83er00g4uk-lenovo-ideapad-slim-3-laptop-grey-103813-251.aspx',
     overview:
       "This Lenovo IdeaPad Slim 3 laptop covers all your bases, whether you’re studying up for an exam, working on a project, or just chilling on the sofa. You’ll have a fab view of whatever you’re up to on its 15-inch Full HD TN screen, which is clear and smooth – perfect long days in the library, office, or on the sofa. There’ll be no slowing you down either, with its Intel® Core™ i5 processor and 8GB of RAM giving you plenty of power to multitask with ease. Plus, you can store all your docs, photos and music on its roomy 512GB SSD that also takes you from boot up to login in seconds. Talk about speedy.",
@@ -543,7 +520,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [LenovoIdeaPadSlim3i3, LenovoIdeaPadSlim3i32, LenovoIdeaPadSlim3i33, LenovoIdeaPadSlim3i34, LenovoIdeaPadSlim3i35, LenovoIdeaPadSlim3i36, LenovoIdeaPadSlim3i37, LenovoIdeaPadSlim3i38],
-    "tags": ['Basic', 'Student', 'Lenovo', 'i3', '8RAM', 'Laptops'],
+    "tags": ['Basic', 'Student', 'Lenovo', 'i3', '8RAM', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/82xb0093uk-lenovo-ideapad-slim-3-laptop-grey-103812-251.aspx',
     overview:
       "This Lenovo IdeaPad Slim 3 laptop is the perfect way to polish off all your projects. Start your day off with a clear, colourful view that’s also super-smooth thanks to its 15.6-inch Full HD IPS screen – just what you need to get stuck in. You won’t run into any snags when you’re typing up a storm either. That’s because it has an Intel® Core™ i3 processor and 8GB of RAM to power your presentations or provide some background motivation from your fave playlist. Made a good chunk of progress? Make sure you save it with the 128GB of storage, which has plenty of room for all sorts of important docs.",
@@ -638,7 +615,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [HPPavilionx360i3, HPPavilionx360i32, HPPavilionx360i33, HPPavilionx360i34, HPPavilionx360i35, HPPavilionx360i36, HPPavilionx360i37, HPPavilionx360i38],
-    "tags": ['Basic', 'Student', 'HP', 'i3', '8RAM', '256SSD', 'Laptops'],
+    "tags": ['Basic', 'Student', 'HP', 'i3', '8RAM', '256SSD', 'Laptops', 'Windows'],
     link: 'https://www.hp.com/gb-en/shop/product.aspx?id=800P2EA&opt=ABU&sel=NTB&srsltid=AfmBOopjc1QIx4pqcgfZvQjHb-hsgcZ54w_hM4F_ysLnNcrpS7j_ltqseNI&gQT=2',
     overview:
       "The HP Pavilion x360 Laptop is designed for flexibility. Find the perfect angle by rotating the screen 360°, plus immerse yourself in entertainment with quality custom-tuned speakers. Stay reliably and powerfully connected with your machine's Intel® Processor and HP Network Booster. What's more, this laptop is crafted with recycled materials.",
@@ -733,7 +710,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: true,
     shots: [ASUSVivoBook15i5, ASUSVivoBook15i52, ASUSVivoBook15i53, ASUSVivoBook15i54, ASUSVivoBook15i55, ASUSVivoBook15i56, ASUSVivoBook15i57, ASUSVivoBook15i58],
-    "tags": ['Basic', 'Student', 'Asus', 'i5', '8RAM', '512SSD', 'Laptops'],
+    "tags": ['Basic', 'Student', 'Asus', 'i5', '8RAM', '512SSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/x1504zanj043w-asus-vivobook-15-laptop-silver-99445-251.aspx',
     overview:
       "From work in the morning to streaming in the evening, this ASUS Vivobook 15 has an 8-hour battery that’ll carry you through the day. With a Full HD screen, it’s got a clear picture that’s great for anything from docs to boxsets. If you’re juggling a few projects, then the Intel® Core™ i5 processor and 8GB of RAM will make multitasking a breeze. You’ll also need space for quite a few apps and the 512GB SSD offers plenty of it, as well as speedy loading times. You can rattle off that to-do list and get to the fun stuff quicker. Brill.",
@@ -828,7 +805,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [MacBookAirM1, MacBookAirM12,MacBookAirM13, MacBookAirM14,MacBookAirM15],
-    "tags": ['Basic', 'Student', 'Apple', 'M1', '8RAM', '256SSD', 'Laptops'],
+    "tags": ['Basic', 'Student', 'MacOS', 'M1', '8RAM', '256SSD', 'Laptops'],
     link: '',
     overview:
       "Our thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. Our most advanced Neural Engine for up to 9x faster machine learning. The longest battery life ever in a MacBook Air. And a silent, fanless design. This much power has never been this ready to go.",
@@ -929,7 +906,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: true,
     shots: [MacBookAirM2, MacBookAirM22,MacBookAirM23, MacBookAirM24,MacBookAirM25],
-    "tags": ['Basic', 'Student', 'Apple', 'M2', '8RAM', '256SSD', 'Laptops'],
+    "tags": ['Basic', 'Student', 'MacOS', 'M2', '8RAM', '256SSD', 'Laptops'],
     link: '',
     overview:
       "Redesigned around the next-generation M2 chip, MacBook Air is strikingly thin and brings exceptional speed and power efficiency within its durable all‑aluminium enclosure. It’s the ultrafast, ultra-capable laptop that lets you work, play or create just about anything — anywhere.",
@@ -1030,7 +1007,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [MacBookAirM3, MacBookAirM32,MacBookAirM33, MacBookAirM34],
-    "tags": ['Student', 'Business', 'Developer', 'Creative' , 'Apple', 'M3', '8RAM', '256SSD', 'Laptops'],
+    "tags": ['Student', 'Business', 'Developer', 'Creative' , 'MacOS', 'M3', '8RAM', '256SSD', 'Laptops'],
     link: '',
     overview:
       "The blazing-fast MacBook Air with the M3 chip is a super-portable laptop that sails through work and play.",
@@ -1131,7 +1108,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [ASUSZenbookS14OLED, ASUSZenbookS14OLED2,ASUSZenbookS14OLED3, ASUSZenbookS14OLED4, ASUSZenbookS14OLED5],
-    "tags": ['Student', 'Business' , 'Asus', 'i7', '32RAM', '1TSSD', 'Laptops'],
+    "tags": ['Student', 'Business' , 'Asus', 'i7', '32RAM', '1TSSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/ux5406sapz169w-asus-zenbook-s-14-laptop-white-103127-251.aspx',
     overview:
       "Get ready to become a productivity pro with this 14-inch ASUS Zenbook laptop. From editing your latest pics to finishing up a video, the Intel® Core™ Ultra 7 processor runs demanding software smoothly. And with 32GB of RAM to back it up, you can seamlessly flick between programs to tackle every task in a flash. How’s that for multitasking mastery? Not just that, ASUS Eye Care reduces blue light and flickering to protect your vision while you get on with your to-do list. There’ll be room for every doc on the 1TB SSD - and it’ll load everything up super-fast too. If you fancy winding down with a new series, the 3K OLED screen’s breathtaking image quality means you’ll never miss a single detail.",
@@ -1232,7 +1209,7 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [MicrosoftSurface7, MicrosoftSurface72,MicrosoftSurface73, MicrosoftSurface74, MicrosoftSurface75],
-    "tags": ['Student', 'Business' , 'Microsoft', 'Snapdragon', '16RAM', '512SSD', 'Laptops'],
+    "tags": ['Student', 'Business' , 'Windows', 'Snapdragon', '16RAM', '512SSD', 'Laptops'],
     link: 'https://ao.com/product/zgm00040-microsoft-surface-7-copilot-laptop-black-102030-251.aspx',
     overview:
       "Power all your projects with this 13.8-inch Microsoft Surface laptop. Its Qualcomm Snapdragon X Plus processor has all the oomph you need to run software smoothly, while the 16GB of RAM can multitask with the best of them. And that’s not where its productivity ends as it’s got Copilot+ tech too, which uses clever AI to optimise all your everyday functions. From communication and creativity to searching and security, it’s full of features to make everything you do easier and more intuitive. The 3K PixelSense touchscreen helps with that too, streamlining navigation and showing absolutely stunning images – may as well stick on a film when you’ve got some down time. And you’ll have plenty of storage on the 512GB SSD combined with super-fast loading times to boot.",
@@ -1333,7 +1310,7 @@ export const laptops = [
     pieces_sold: 450,
     ourPick: false,
     shots: [Yoga7iGen9, Yoga7iGen92, Yoga7iGen93, Yoga7iGen94, Yoga7iGen95],
-    tags: ['Lenovo', 'Touchscreen', 'Student', 'Business', '16RAM', '512SSD', 'Laptops', 'Microsoft','Ultra5'],
+    tags: ['Lenovo', 'Touchscreen', 'Student', 'Business', '16RAM', '512SSD', 'Laptops', 'Windows','Ultra5'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/yoga/yoga-2-in-1-series/lenovo-yoga-7i-2-in-1-gen-9-14-inch-intel/83djcto1wwgb1',
     overview:
       "Meet the Lenovo Yoga 7i Gen 9, a sleek and versatile 2-in-1 laptop perfect for those who value performance and flexibility. Powered by the Intel® Core™ Ultra 5 processor, it delivers fast and efficient computing for everyday productivity, creative work, and more. With its stunning 14-inch OLED touchscreen, you get vivid visuals and smooth touch response—ideal for both professional use and casual streaming. And with 16GB of RAM and a 512GB SSD, you’ll have fast access to your files, apps, and projects, without slowdown or storage worries.",
@@ -1434,7 +1411,7 @@ export const laptops = [
     pieces_sold: 950,
     ourPick: false,
     shots: [MacBookPro14M3, MacBookPro14M32, MacBookPro14M33, MacBookPro14M34, MacBookPro14M35],
-    tags: ['Apple', 'M3', '512SSD', '8RAM', 'Creative', 'Business', 'Student', 'Developer', 'Creative' , 'Laptops'],
+    tags: ['MacOS', 'M3', '512SSD', '8RAM', 'Creative', 'Business', 'Student', 'Developer', 'Laptops'],
     link: '',
     overview:
       "The 2023 14-inch MacBook Pro with Apple’s M3 chip is a game-changer for professionals and creatives who demand top-tier performance in a compact form. Equipped with an 8-core CPU and a 10-core GPU, it offers incredible speed, seamless multitasking, and impressive graphics capabilities. The 512GB SSD provides rapid storage access, while 8GB of unified memory ensures efficient handling of even the most intensive workflows. Whether you're editing video, coding, or managing large design files, this MacBook Pro delivers pro-level power with signature Apple style.",
@@ -1535,7 +1512,7 @@ export const laptops = [
     pieces_sold: 520,
     ourPick: false,
     shots: [ThinkPadX1Gen12, ThinkPadX1Gen122, ThinkPadX1Gen123, ThinkPadX1Gen124, ThinkPadX1Gen125],
-    tags: ['Lenovo', 'Business', '16RAM', '256SSD', 'Laptops', 'Microsoft', 'Ultra5'],
+    tags: ['Lenovo', 'Business', '16RAM', '256SSD', 'Laptops', 'Windows', 'Ultra5'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-12-14-inch-intel/21kccto1wwgb4',
     overview:
       "The Lenovo ThinkPad X1 Carbon Gen 12 is a premium business laptop that’s built for performance, portability, and durability. Featuring an Intel® Core™ Ultra 5 processor, 16GB of lightning-fast LPDDR5X RAM, and a 256GB SSD, it’s equipped to handle demanding workloads with ease. The 14-inch WUXGA IPS display is bright, colour-accurate, and easy on the eyes—even during long work sessions. Whether you're in the office, travelling, or working remotely, the X1 Carbon is a rock-solid choice for professionals who need speed and reliability in a sleek, lightweight form factor.",
@@ -1636,7 +1613,7 @@ export const laptops = [
     pieces_sold: 380,
     ourPick: false,
     shots: [HPOmniBookUltra14, HPOmniBookUltra142, HPOmniBookUltra143, HPOmniBookUltra144, HPOmniBookUltra145],
-    tags: ['HP', 'RyzenAI9', '16RAM', '1TBSSD', 'Business', 'Student','Developer', 'Laptops', 'Microsoft'],
+    tags: ['HP', 'RyzenAI9', '16RAM', '1TBSSD', 'Business', 'Student','Developer', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/am6y7eaabu-hp-omnibook-ultra-14fd0001na-laptop-grey-104190-251.aspx',
     overview:
       "The HP OmniBook Ultra 14-fd0001na is built for the future of computing, featuring AMD’s powerful new Ryzen™ AI 9 processor. This AI PC is equipped to deliver seamless multitasking, intelligent performance optimization, and serious power for professional and creative workloads alike. Its slim, lightweight design makes it incredibly portable, while the 14-inch display provides immersive visuals for everything from productivity to streaming. With a massive 1TB SSD and 16GB RAM, you’ll never be short on speed or space.",
@@ -1737,7 +1714,7 @@ export const laptops = [
     pieces_sold: 420,
     ourPick: false,
     shots: [MacBookPro14M4, MacBookPro14M42, MacBookPro14M43, MacBookPro14M44, MacBookPro14M45],
-    tags: ['Apple', 'MacBook Pro', 'M4', '16RAM', '1TBSSD', 'Creative', 'Business', 'Developer', 'Laptops'],
+    tags: ['MacOS', 'MacBook Pro', 'M4', '16RAM', '1TBSSD', 'Creative', 'Business', 'Developer', 'Laptops'],
     link: 'https://www.apple.com/uk/shop/buy-mac/macbook-pro/14-inch-space-black-apple-m4-chip-with-10-core-gpu-1tb',
     overview:
       "The 2024 14-inch MacBook Pro with the brand-new Apple M4 chip delivers groundbreaking performance and battery life in an elegant, ultra-premium package. With a 10-core GPU and 16GB of unified memory, it’s made for creatives, coders, and professionals who demand peak productivity. The stunning Liquid Retina XDR display, ultra-fast 1TB SSD, and deep macOS integration make this MacBook Pro a dream machine for both work and entertainment. Finished in bold Space Black, it’s as powerful as it is sleek.",
@@ -1838,7 +1815,7 @@ export const laptops = [
     pieces_sold: 310,
     ourPick: false,
     shots: [MacBookPro14M4, MacBookPro14M42, MacBookPro14M43, MacBookPro14M44, MacBookPro14M45],
-    tags: ['Apple', 'MacBook Pro', 'M4', '16RAM', '512SSD', 'Creative', 'Business', 'Developer', 'Laptops'],
+    tags: ['MacOS', 'MacBook Pro', 'M4', '16RAM', '512SSD', 'Creative', 'Business', 'Developer', 'Laptops'],
     link: 'https://ao.com/product/mx2x3ba-apple-macbook-pro-laptop-black-104036-251.aspx',
     overview:
       "The 2024 16-inch MacBook Pro with Apple M4 Pro is engineered for elite professionals who demand unrivalled power, stunning visuals, and seamless workflow integration. With a 12-core CPU, a massive 20-core GPU, and 24GB of unified memory, this machine is a creative and computational beast. Whether you're editing 8K video, designing in 3D, or compiling massive codebases, the MacBook Pro delivers peak performance without compromise. Add in the gorgeous 16.2-inch Liquid Retina XDR display and robust battery life—all wrapped in a sleek Space Black finish—and you've got the ultimate professional laptop.",
@@ -1939,7 +1916,7 @@ export const laptops = [
     pieces_sold: 190,
     ourPick: false,
     shots: [ASUSProArtP16, ASUSProArtP162, ASUSProArtP163, ASUSProArtP164, ASUSProArtP165],
-    tags: ['ASUS', 'RyzenAI9', 'RTX4070', '32RAM', '1TBSSD', 'Creative','Developer', 'Touchscreen', 'Microsoft', 'Laptops'],
+    tags: ['ASUS', 'RyzenAI9', 'RTX4070', '32RAM', '1TBSSD', 'Creative','Developer', 'Touchscreen', 'Windows', 'Laptops'],
     link: 'https://www.asus.com/uk/laptops/for-creators/proart/proart-p16-h7606/',
     overview:
       "The ASUS ProArt P16 is a powerhouse built for creative professionals and AI-intensive workflows. Featuring an ultra-fast AMD Ryzen™ AI 9 HX 370 processor, 32GB of RAM, a 1TB SSD, and a dedicated NVIDIA GeForce RTX 4070 GPU, this laptop is ready to handle everything from 3D rendering to AI model training. The 16-inch OLED 4K touchscreen offers stunning visuals with precise colour accuracy, making it ideal for video editing, design, and animation. This machine is a serious studio replacement in a portable form factor.",
@@ -2040,7 +2017,7 @@ export const laptops = [
     pieces_sold: 130,
     ourPick: true,
     shots: [ThinkPadP1Gen7, ThinkPadP1Gen72, ThinkPadP1Gen73, ThinkPadP1Gen74, ThinkPadP1Gen75],
-    tags: ['Lenovo', 'ThinkPad', 'Ultra9', 'RTX 2000 Ada', '64RAM', '2TBSSD', 'Workstation','Creative','Developer', 'OLED', 'Touchscreen','laptops', 'Microsoft'],
+    tags: ['Lenovo', 'ThinkPad', 'Ultra9', 'RTX 2000 Ada', '64RAM', '2TBSSD', 'Workstation','Creative','Developer', 'OLED', 'Touchscreen','laptops', 'Windows'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/thinkpad/thinkpadp/thinkpad-p1-gen-7-16-inch-intel/len101t0107',
     overview:
       "The Lenovo ThinkPad P1 Gen 7 is a powerhouse mobile workstation designed for professionals who need maximum performance, cutting-edge visuals, and reliable mobility. Featuring an Intel® Core™ Ultra 9 vPro processor, 64GB of next-gen LPDDR5X memory, and a massive 2TB SSD, this laptop is built to tackle the most demanding creative, technical, and AI-enhanced workflows. The dedicated NVIDIA RTX 2000 Ada GPU ensures smooth performance for rendering, 3D modeling, and real-time simulation, while the 16-inch OLED 4K touchscreen with Dolby Vision™ support delivers unmatched visual quality.",
@@ -2141,7 +2118,7 @@ export const laptops = [
     pieces_sold: 260,
     ourPick: true,
     shots: [SurfaceStudio2, SurfaceStudio22, SurfaceStudio23],
-    tags: ['Microsoft', 'Touchscreen', 'RTX 3060', 'Creative', '16RAM', '512SSD', 'Laptops', 'i7'],
+    tags: ['Windows', 'Touchscreen', 'RTX 3060', 'Creative', '16RAM', '512SSD', 'Laptops', 'i7'],
     link: 'https://ao.com/product/zrf00004-microsoft-surface-studio-2-laptop-silver-99144-251.aspx',
     overview:
       "The Microsoft Surface Studio 2 is a high-performance 2-in-1 laptop designed for creators, designers, and professionals who want the flexibility of a tablet and the power of a workstation. Featuring a 14.4” PixelSense Flow touchscreen with 120Hz refresh rate, a powerful Intel® Core™ i7 processor, and dedicated NVIDIA GeForce RTX 3060 graphics, it handles everything from digital art to 3D rendering. With 16GB RAM and a 512GB SSD, it’s built to multitask and move fast—all in a sleek, transformable design.",
@@ -2242,7 +2219,7 @@ export const laptops = [
     pieces_sold: 90,
     ourPick: true,
     shots: [MSITitan18HX, MSITitan18HX2, MSITitan18HX3, MSITitan18HX4, MSITitan18HX5],
-    tags: ['MSI','Ultra9', 'Titan', 'RTX 5080', '4K', '64RAM', '2TBSSD', 'Gaming', 'Creative', 'Laptops', 'Microsoft'],
+    tags: ['MSI','Ultra9', 'Titan', 'RTX 5080', '4K', '64RAM', '2TBSSD', 'Gaming', 'Creative', 'Laptops', 'Windows'],
     link: 'https://www.very.co.uk/msi-titan-18-hx-ai-laptopnbsp--18in-4k-mini-led-120hznbspgeforce-rtx-5080-intel-core-ultra-9-64gb-ram-2tb-ssd-black/1601143576.prd',
     overview:
       "The MSI Titan 18 HX AI Laptop redefines extreme performance in a laptop form factor. Built for gamers, creators, and AI power users, it features a breathtaking 18” 4K Mini LED display with a 120Hz refresh rate, the blistering power of the latest Intel Core Ultra 9 processor, and the beastly GeForce RTX 5080 GPU. With 64GB of DDR5 RAM and a massive 2TB SSD, the Titan delivers desktop-class performance in a portable powerhouse that leaves nothing behind. It's the ultimate AI-ready machine for those who demand the absolute best.",
@@ -2343,7 +2320,7 @@ export const laptops = [
     pieces_sold: 210,
     ourPick: true,
     shots: [ROGZephyrusG16, ROGZephyrusG162, ROGZephyrusG163],
-    tags: ['Asus','32RAM', '2TBSSD', 'Gaming', 'Creative', 'Ultra9'],
+    tags: ['Asus','32RAM', '2TBSSD', 'Gaming', 'Creative', 'Ultra9', 'RTX 4090', 'OLED', '240Hz', 'Laptops', 'Windows'],
     link: 'https://uk.store.asus.com/rog-zephyrus-g16-2024-gu605486-90nr0iq6-m001c0.html',
     overview:
       "The ROG Zephyrus G16 (2024) GU605 is an ultra-premium gaming and creative performance laptop built to shatter limits. With Intel’s new Core™ Ultra 9 16-core processor and NVIDIA’s flagship RTX 4090 GPU, it delivers absolute top-tier performance for gaming, rendering, and AI-powered workflows. The stunning 16” WQXGA OLED display pushes visuals to the next level with a 240Hz refresh rate, 100% DCI-P3 colour, and 0.2ms response time. Packed into a sleek Platinum White chassis, this Zephyrus is as stylish as it is powerful.",
@@ -2534,9 +2511,9 @@ export const laptops = [
 ];
 
 export const productsSection = {
-  heading: 'Shop Now, Look Good Later',
+  heading: 'Shop Smart, Work Better',
   description:
-    'We have a buch of collections for you! Lets explore and find your dream shoes, make it happen',
+    'We’ve curated a top laptop collection just for you! Let’s explore and find the perfect laptop to match your needs—and budget.',
 };
 
 const shoeBrands = ['Nike', 'Alexander Mqueen', 'New Balance', 'Compass'];
@@ -2556,44 +2533,38 @@ const prices = [
 export const filters = [shoeBrands, prices, sizes, shoeTypes];
 
 export const brandsSection = {
-  heading: 'The Official Store of The Amazing Brand',
+  heading: 'Our Favorite Places to Shop',
   description:
-    'We work together with high quality and famous brands around the world',
+    'We always shop here first based on great service and best price',
   brands: [
     {
-      brandName: 'New Balance',
+      brandName: 'AO',
       rating: 4.9,
-      reviews: 10334,
-      followers: 7.2,
-      visitLink: 'https://www.newbalance.com',
-      logo: new_balance,
-      shoes: [new_balance1, new_balance2, new_balance3, new_balance4],
+      visitLink: 'https://ao.com',
+      logo: AO_LOGO,
+      laptops: [ThinkPadP1Gen72, HPPavilionx360i33, HPPavilionx360i32, MacBookAirM3],
     },
     {
-      brandName: 'Compass',
-      rating: 4.9,
-      reviews: 10334,
-      followers: 8.5,
-      visitLink: 'https://www.sepatucompass.com/',
-      logo: compass_profile,
-      shoes: [compass1, compass2, compass3, compass4],
+      brandName: 'Back Market',
+      rating: 4.1,
+      visitLink: 'https://www.backmarket.co.uk',
+      logo: BM_LOGO,
+      laptops: [MacBookAirM12, MacBookPro14M3, MicrosoftSurface73, Yoga7iGen92],
     },
     {
-      brandName: 'Nike',
-      rating: 4.9,
-      reviews: 10334,
-      followers: 11.2,
-      visitLink: 'https://nike.com',
-      logo: nike_profile,
-      shoes: [yellowLow, redlow, dunklow, lebronxx],
+      brandName: 'Laptops Direct',
+      rating: 4.3,
+      visitLink: 'https://www.laptopsdirect.co.uk/',
+      logo: LD_LOGO,
+      laptops: [ASUSProArtP16, HPOmniBookUltra142, LegionPro7iGen102, MacBookPro14M42],
     },
   ],
 };
 
 export const footerBannerData = {
-  heading: 'BRINGING YOU TO UPDATE WITH FANTASTIC FOOTWEAR',
+  heading: 'Navigate the Noise',
   description:
-    'View all brands of our collection on HotKicks, there is another collection. Please check it out bro, like seriously',
+    'At thisorthat.tech, we will only ever recommend the right laptop for your needs and your budget. No upselling, no fluff—just smart picks from the top brands.',
 };
 
 export const footerData = {
@@ -2604,9 +2575,8 @@ export const footerData = {
       title: '',
       links: [
         { href: '/', name: 'Home' },
-        { href: '/products', name: 'Collections' },
+        { href: '/laptops', name: 'Laptops' },
         { href: '/faq', name: 'FAQS' },
-        { href: '/contact', name: 'Contact' },
       ],
     },
   ],
@@ -2686,130 +2656,101 @@ export const contactSection = {
 export const faqsData = {
   heading: 'Frequently Asked Questions',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget adipiscing nibh nunc. Velit rhoncus arcu velesaed.',
+    'Everything you need to know about how we recommend tech, how we make money, and how to get the best value for your needs.',
   faqs: [
     {
-      category: 'Shipping',
+      category: 'How It Works',
       data: [
         {
-          question: 'How can I track my order?',
+          question: 'What exactly do you do?',
           answer:
-            'You can track your order by logging into your account and checking the order status. Additionally, a tracking number will be provided in the shipping confirmation email.',
+            'I help people find the best tech for their needs and budget. Whether you’re a student, a creative, a gamer, or just need a solid everyday laptop, I break down what specs matter and which products are genuinely worth your money.',
         },
         {
-          question: 'What is the estimated delivery time for my order?',
+          question: 'Do you sell the products directly?',
           answer:
-            'Delivery times vary based on your location. Typically, domestic orders take 3-5 business days, while international orders may take 7-14 business days.',
+            'Nope! I don’t stock or sell any products myself. I simply recommend great options from trusted retailers based on my own research, testing, and experience.',
         },
         {
-          question: 'Can I change my shipping address after placing an order?',
+          question: 'Are your recommendations independent?',
           answer:
-            'Unfortunately, we cannot change the shipping address once the order is placed. Please double-check your information before completing the purchase.',
+            'Yes! I only recommend products I genuinely believe are good. If something isn’t worth it, I’ll say so. The trust I build is way more important than pushing a sale.',
         },
         {
-          question: 'Do you offer expedited shipping options?',
+          question: 'How do you choose what to recommend?',
           answer:
-            'Yes, we offer expedited shipping at an additional cost. You can choose your preferred shipping method during the checkout process.',
+            'I look at performance, value for money, reliability, reviews, and my own testing. I also focus heavily on use-case — because the “best” laptop for a student might be a terrible choice for a video editor.',
         },
         {
-          question: 'What should I do if my order is delayed or lost?',
+          question: 'Can I get help choosing something specific?',
           answer:
-            'If your order is significantly delayed or lost, please contact our customer support team, and we will investigate the issue.',
+            'Absolutely! That’s what I love doing most. Just reach out and tell me what you need your tech for, and I’ll help you figure out the best fit.',
         },
       ],
     },
     {
-      category: 'Products',
+      category: 'Recommendations',
       data: [
         {
-          question: 'How do I determine the right size for my sneakers?',
+          question: 'Do you test every product you recommend?',
           answer:
-            'Refer to our size chart available on the product page. It provides measurements and guidelines to help you choose the correct size.',
+            'Not every single one, but many. For those I haven’t tested personally, I rely on trusted sources, specs, hands-on reviews, and comparisons to make solid, informed recommendations.',
         },
         {
-          question: 'Are your sneakers authentic?',
+          question: 'Will you always recommend using my full budget?',
           answer:
-            'Yes, we guarantee the authenticity of all our sneakers. We source them directly from authorized retailers and reputable suppliers.',
+            'Not at all. In many cases, I’ll suggest a cheaper option if it covers your needs. Why spend £1,000 if a £600 laptop does the job just as well?',
         },
         {
-          question: "Can I return or exchange my sneakers if they don't fit?",
+          question: 'Do you recommend refurbished tech?',
           answer:
-            'Yes, we have a hassle-free return policy. You can return or exchange unworn sneakers within 30 days of receiving your order.',
+            'Yes! I love refurbished tech. It can offer incredible value if bought from a trusted source. I often include certified refurbished options in my picks.',
         },
         {
-          question: 'Are the colors of the sneakers accurate in the photos?',
+          question: 'What if I want something that looks good and performs well?',
           answer:
-            'We strive to provide accurate color representation, but slight variations may occur due to monitor settings. Refer to product descriptions for additional details.',
+            'No problem — I consider design and build quality too. I know some people care about aesthetics as much as power, and I always factor that in when recommending options.',
         },
         {
-          question: 'Do you restock sold-out sneakers?',
+          question: 'Can I see all your latest recommendations in one place?',
           answer:
-            'We restock popular styles based on demand. You can sign up for notifications to be informed when a specific product is back in stock.',
+            'Yes — check out the product guides and curated picks on the site. I keep them updated with the best-value options across different price ranges and categories.',
         },
       ],
     },
     {
-      category: 'Payments',
+      category: 'Affiliate Links',
       data: [
         {
-          question: 'What payment methods do you accept?',
+          question: 'How do you make money?',
           answer:
-            'We accept major credit cards, PayPal, and other secure payment methods. You can view the full list during the checkout process.',
+            'I earn a small commission if you buy a product through one of the affiliate links on my site. It doesn’t cost you anything extra — the price stays the same.',
         },
         {
-          question: 'How can I apply a discount code to my order?',
+          question: 'Do affiliate links affect what you recommend?',
           answer:
-            'Enter your discount code in the designated field during checkout. The discount will be applied to your total before payment.',
+            'Not at all. I only recommend stuff I believe in. If something isn’t worth your money, I’ll say so — whether it earns me commission or not.',
         },
         {
-          question: 'Can I modify or cancel my order after payment?',
+          question: 'Do I have to use your links?',
           answer:
-            'Once an order is placed, it cannot be modified or canceled. Please review your order carefully before completing the purchase.',
+            'No, you don’t have to — but using them helps support the site and the work I put into researching and testing products. It’s always appreciated!',
         },
         {
-          question: 'Is my payment information secure?',
+          question: 'Are your links safe to use?',
           answer:
-            'Yes, we use industry-standard encryption to secure your payment information. Your data is protected and never stored on our servers.',
+            'Yes, all affiliate links go to reputable retailers like Amazon, Back Market, or Laptops Direct. I never link to dodgy or unknown sellers.',
         },
         {
-          question: 'Do you offer gift cards?',
+          question: 'How can I tell if a link is an affiliate one?',
           answer:
-            'Yes, we offer gift cards of various denominations. They make great presents for sneaker enthusiasts!',
-        },
-      ],
-    },
-    {
-      category: 'Returns',
-      data: [
-        {
-          question: 'How do I initiate a return or exchange?',
-          answer:
-            'Visit the "Returns & Exchanges" page on our website, follow the instructions, and submit a request. Our team will guide you through the process.',
-        },
-        {
-          question: 'What is your return policy for defective products?',
-          answer:
-            'If you receive a defective product, please contact our customer support within 7 days of receiving the order. We will arrange a replacement or refund.',
-        },
-        {
-          question: 'Are there any restocking fees for returns?',
-          answer:
-            'We do not charge restocking fees for returns. However, please review our return policy for specific details.',
-        },
-        {
-          question: 'How long does it take to process a refund?',
-          answer:
-            'Refunds are typically processed within 5-7 business days after we receive the returned items and verify their condition.',
-        },
-        {
-          question: "Can I return sneakers if I've worn them?",
-          answer:
-            'We only accept returns for unworn sneakers. Please try them on in a clean, indoor environment to ensure they are the right fit before wearing them outside.',
+            'Most of the time, you’ll be able to tell from the URL — but even if you can’t, I try to be transparent. If you click a link and buy something, I may earn a commission.',
         },
       ],
     },
   ],
 };
+
 
 const demoBlogData = {
   sectionOne: {

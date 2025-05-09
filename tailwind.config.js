@@ -22,5 +22,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')], // eslint-disable-line
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+  ], // eslint-disable-line
 };

@@ -2,10 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { FC } from 'react';
 import React from 'react';
-
 import type { ProductType } from '@/data/types';
-
-import LikeButton from './LikeButton';
 
 interface ProductCardProps {
   product: ProductType;
@@ -28,10 +25,9 @@ const ProductCard: FC<ProductCardProps> = ({
             Our Top Pick
           </div>
         )}
-        <LikeButton className="absolute right-2 top-2" />
         <Link
           className="h-[250px] w-full lg:h-[220px]"
-          href={`/products/${product.slug}`}
+          href={`/laptops/${product.slug}`}
         >
           <Image
             src={product.coverImage}

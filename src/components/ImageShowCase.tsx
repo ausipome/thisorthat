@@ -6,8 +6,6 @@ import { pathOr } from 'ramda';
 import type { FC } from 'react';
 import React, { useState } from 'react';
 
-import LikeButton from './LikeButton';
-
 interface ImageShowCaseProps {
   shots: StaticImageData[];
 }
@@ -18,7 +16,6 @@ const ImageShowCase: FC<ImageShowCaseProps> = ({ shots }) => {
   return (
     <div className="space-y-3 rounded-2xl border border-neutral-300 p-2">
   <div className="relative overflow-hidden rounded-2xl md:h-[400px]">
-    <LikeButton className="absolute right-5 top-5" />
     <Image
       src={pathOr('', [activeImageIndex], shots)}
       alt="shoe image"

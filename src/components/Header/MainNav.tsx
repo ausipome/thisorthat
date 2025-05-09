@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { RiSearch2Line } from 'react-icons/ri';
-import Input from '@/shared/Input/Input';
+import { laptops } from '@/data/content';
 import Logo from '@/shared/Logo/Logo';
 import MenuBar from './MenuBar';
+import Search from '@/components/Search';
 
 const MainNav = () => {
   return (
@@ -13,13 +13,9 @@ const MainNav = () => {
       </div>
       <div className="flex items-center gap-5 lg:basis-[60%]">
         <Logo />
-        <div className="hidden w-full max-w-2xl items-center gap-5 rounded-full border border-neutral-300 py-1 pr-3 lg:flex">
-          <Input
-            type="text"
-            className="border-transparent bg-white placeholder:text-neutral-500 focus:border-transparent"
-            placeholder="try 'Lenovo ThinkPad'"
-          />
-          <RiSearch2Line className="text-2xl text-neutral-500" />
+        <div className="hidden w-full max-w-2xl items-center rounded-full border border-neutral-300 py-1 pl-3 pr-3 lg:flex">
+          <Search laptops={laptops} />
+          <RiSearch2Line className="ml-auto text-2xl text-neutral-500" />
         </div>
       </div>
 
