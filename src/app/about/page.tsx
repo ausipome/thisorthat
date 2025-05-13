@@ -94,7 +94,7 @@ Once we’ve nailed your use case, we can make smarter decisions about where you
 
 It’s not about spending it all. It’s about spending it *right*. Sometimes the best laptop for you costs less than what you expected—and I love when that happens.
 
-If you’re not sure where to start, just drop me a message. I’ll help you figure out your use case, match it to the best options, and make sure you walk away with something that feels like it was made for you.
+If you’re not sure where to start, just drop me a message (email or DM, links in footer). I’ll help you figure out your use case, match it to the best options, and make sure you walk away with something that feels like it was made for you.
 
 Smart, simple, and personal. That’s how I do tech.
 

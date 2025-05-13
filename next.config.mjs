@@ -14,9 +14,9 @@ export default bundleAnalyzer({
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'images.pexels.com',
-        port: '',
+        protocol: 'http',
+        hostname: 'localhost',
+        port: '3000',
         pathname: '/**',
       },
       {

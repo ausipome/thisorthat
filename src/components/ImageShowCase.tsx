@@ -17,8 +17,10 @@ const ImageShowCase: FC<ImageShowCaseProps> = ({ shots }) => {
     <div className="space-y-3 rounded-2xl border border-neutral-300 p-2">
   <div className="relative overflow-hidden rounded-2xl md:h-[400px]">
     <Image
+      width={1000}
+      height={1000}
       src={pathOr('', [activeImageIndex], shots)}
-      alt="shoe image"
+      alt="tech image"
       className="h-full w-full object-contain object-center"
     />
   </div>
@@ -36,8 +38,10 @@ const ImageShowCase: FC<ImageShowCaseProps> = ({ shots }) => {
           onClick={() => setActiveImageIndex(index)}
         >
           <Image
+          width={1000}
+          height={1000}
             src={shot}
-            alt="shoe image"
+            alt="tech image"
             className="h-full w-full object-contain object-center"
           />
         </button>

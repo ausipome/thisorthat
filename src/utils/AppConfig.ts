@@ -1,9 +1,7 @@
-// FIXME: Update this configuration file based on your project information
-
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Hotkicks Ecommerce Template',
+  site_name: 'thisorthat.tech',
+  title: 'Buy the right tech, Ecommerce,',
   description:
-    'Hotkicks Ecommerce Template in NextJS, React, HTML and TailwindCSS',
+    'Why its Soooooooo Important to Choose the Right Tech',
   locale: 'en',
 };

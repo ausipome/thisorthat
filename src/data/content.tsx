@@ -1,17 +1,5 @@
-import { FiBox } from 'react-icons/fi';
-import { IoChatboxOutline } from 'react-icons/io5';
-import { MdOutlineCameraAlt } from 'react-icons/md';
 import { BsCircleFill } from 'react-icons/bs'; 
 import type { NavItemType } from '@/components/NavItem';
-
-import AcerAspire3i5 from '@/images/Acer/AcerAspire3i5/AcerAspire3i5.webp';
-import AcerAspire3i52 from '@/images/Acer/AcerAspire3i5/27fb6f5292fa16adc1d8f4a8970abb7d_12.webp';
-import AcerAspire3i53 from '@/images/Acer/AcerAspire3i5/80cae0549bf709acd3f661c2d2acc30c_14.webp';
-import AcerAspire3i54 from '@/images/Acer/AcerAspire3i5/Acer_2023_Bluelight Shield.webp';
-import AcerAspire3i55 from '@/images/Acer/AcerAspire3i5/c292cb6b834556a11094c212dde6bdcd_13.webp';
-import AcerAspire3i56 from '@/images/Acer/AcerAspire3i5/d0e632e2e27a82835b70bec0781ae613_15.webp';
-import AcerAspire3i57 from '@/images/Acer/AcerAspire3i5/dac7a5228c5791c371c35b1da435d28b_16.webp';
-import AcerAspire3i58 from '@/images/Acer/AcerAspire3i5/NXK6SEK00B_Acer_Laptop_03.webp';
 
 import AcerAspire3i3 from '@/images/Acer/AcerAspire3i3/113101105.webp';
 import AcerAspire3i32 from '@/images/Acer/AcerAspire3i3/113101105alt1.webp';
@@ -111,11 +99,11 @@ import HPOmniBookUltra143 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra143
 import HPOmniBookUltra144 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra144.webp';
 import HPOmniBookUltra145 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra145.webp';
 
-import MacBookPro14M4 from '@/images/Apple/MacBookPro14M4/MacBookPro14M4.webp';
-import MacBookPro14M42 from '@/images/Apple/MacBookPro14M4/MacBookPro14M42.webp';
-import MacBookPro14M43 from '@/images/Apple/MacBookPro14M4/MacBookPro14M43.webp';
-import MacBookPro14M44 from '@/images/Apple/MacBookPro14M4/MacBookPro14M44.webp';
-import MacBookPro14M45 from '@/images/Apple/MacBookPro14M4/MacBookPro14M45.webp';
+import MacBookPro14M4 from '@/images/Apple/MacBookPro14M4/MacBookPro14M4.avif';
+import MacBookPro14M42 from '@/images/Apple/MacBookPro14M4/MacBookPro14M42.avif';
+import MacBookPro14M43 from '@/images/Apple/MacBookPro14M4/MacBookPro14M43.avif';
+import MacBookPro14M44 from '@/images/Apple/MacBookPro14M4/MacBookPro14M44.avif';
+import MacBookPro14M45 from '@/images/Apple/MacBookPro14M4/MacBookPro14M45.avif';
 
 import ASUSProArtP16 from '@/images/Asus/ASUSProArtP16/ASUSProArtP16.webp';
 import ASUSProArtP162 from '@/images/Asus/ASUSProArtP16/ASUSProArtP162.webp';
@@ -152,8 +140,6 @@ import LegionPro7iGen105 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen10
 import AO_LOGO from '@/images/companies/AO_LOGO.avif';
 import BM_LOGO from '@/images/companies/BM_LOGO.png';
 import LD_LOGO from '@/images/companies/LD_LOGO.png';
-
-import type { BlogType } from './types';
 
 export const topNavLinks: NavItemType[] = [
   {
@@ -204,15 +190,11 @@ export const promotionTag = {
     'Get up to 50% off when you choose refurbished devices—same performance, smaller price tag, and better for the planet. Join us in making smarter choices.',
 };
 
-export const shoes = [
-  {},
-];
-
 export const laptops = [
   {
     slug: 'AcerAspire3i5',
     name: 'Acer Aspire 3 A315-59 15.6" Laptop - Intel® Core™ i5, 512GB SSD, 8 GB RAM - Silver',
-    coverImage: AcerAspire3i5,
+    coverImage: 'http://localhost:3000/images/Acer/AcerAspire3i5/AcerAspire3i5.webp',
     currentPrice: 549,
     previousPrice: 599,
     refurbishedPrice: 99,
@@ -222,7 +204,14 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: false,
-    shots: [AcerAspire3i5, AcerAspire3i52, AcerAspire3i53, AcerAspire3i54, AcerAspire3i55, AcerAspire3i56, AcerAspire3i57, AcerAspire3i58],
+    shots: ['http://localhost:3000/images/Acer/AcerAspire3i5/AcerAspire3i5.webp',
+            'http://localhost:3000/images/Acer/AcerAspire3i5/27fb6f5292fa16adc1d8f4a8970abb7d_12.webp',
+            'http://localhost:3000/images/Acer/AcerAspire3i5/80cae0549bf709acd3f661c2d2acc30c_14.webp',
+            'http://localhost:3000/images/Acer/AcerAspire3i5/Acer_2023_Bluelight Shield.webp', 
+            'http://localhost:3000/images/Acer/AcerAspire3i5/c292cb6b834556a11094c212dde6bdcd_13.webp',
+            'http://localhost:3000/images/Acer/AcerAspire3i5/d0e632e2e27a82835b70bec0781ae613_15.webp',
+            'http://localhost:3000/images/Acer/AcerAspire3i5/dac7a5228c5791c371c35b1da435d28b_16.webp',
+            'http://localhost:3000/images/Acer/AcerAspire3i5/NXK6SEK00B_Acer_Laptop_03.webp',],
     "tags": ['Basic', 'Student', 'professionals', 'Acer', 'i5', '8RAM', '512SSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/nxk6sek00b-acer-aspire-3-a31559-laptop-silver-102012-251.aspx',
     overview:
@@ -1106,7 +1095,7 @@ export const laptops = [
     rating: 4.8,
     reviews: 56,
     pieces_sold: 600,
-    ourPick: false,
+    ourPick: true,
     shots: [ASUSZenbookS14OLED, ASUSZenbookS14OLED2,ASUSZenbookS14OLED3, ASUSZenbookS14OLED4, ASUSZenbookS14OLED5],
     "tags": ['Student', 'Business' , 'Asus', 'i7', '32RAM', '1TSSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/ux5406sapz169w-asus-zenbook-s-14-laptop-white-103127-251.aspx',
@@ -1409,7 +1398,7 @@ export const laptops = [
     rating: 4.3,
     reviews: 120,
     pieces_sold: 950,
-    ourPick: false,
+    ourPick: true,
     shots: [MacBookPro14M3, MacBookPro14M32, MacBookPro14M33, MacBookPro14M34, MacBookPro14M35],
     tags: ['MacOS', 'M3', '512SSD', '8RAM', 'Creative', 'Business', 'Student', 'Developer', 'Laptops'],
     link: '',
@@ -2015,7 +2004,7 @@ export const laptops = [
     rating: 4.4,
     reviews: 27,
     pieces_sold: 130,
-    ourPick: true,
+    ourPick: false,
     shots: [ThinkPadP1Gen7, ThinkPadP1Gen72, ThinkPadP1Gen73, ThinkPadP1Gen74, ThinkPadP1Gen75],
     tags: ['Lenovo', 'ThinkPad', 'Ultra9', 'RTX 2000 Ada', '64RAM', '2TBSSD', 'Workstation','Creative','Developer', 'OLED', 'Touchscreen','laptops', 'Windows'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/thinkpad/thinkpadp/thinkpad-p1-gen-7-16-inch-intel/len101t0107',
@@ -2217,7 +2206,7 @@ export const laptops = [
     rating: 4.2,
     reviews: 22,
     pieces_sold: 90,
-    ourPick: true,
+    ourPick: false,
     shots: [MSITitan18HX, MSITitan18HX2, MSITitan18HX3, MSITitan18HX4, MSITitan18HX5],
     tags: ['MSI','Ultra9', 'Titan', 'RTX 5080', '4K', '64RAM', '2TBSSD', 'Gaming', 'Creative', 'Laptops', 'Windows'],
     link: 'https://www.very.co.uk/msi-titan-18-hx-ai-laptopnbsp--18in-4k-mini-led-120hznbspgeforce-rtx-5080-intel-core-ultra-9-64gb-ram-2tb-ssd-black/1601143576.prd',
@@ -2419,7 +2408,7 @@ export const laptops = [
     rating: 5,
     reviews: 33,
     pieces_sold: 140,
-    ourPick: true,
+    ourPick: false,
     shots: [LegionPro7iGen10, LegionPro7iGen102, LegionPro7iGen103, LegionPro7iGen104, LegionPro7iGen105],
     tags: ['Lenovo', 'Windows', '32RAM', '1TBSSD', 'Gaming','Creative', 'Ultra9', 'Laptops'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-7i-gen-10-16-inch-intel/len101g0039',
@@ -2516,22 +2505,6 @@ export const productsSection = {
     'We’ve curated a top laptop collection just for you! Let’s explore and find the perfect laptop to match your needs—and budget.',
 };
 
-const shoeBrands = ['Nike', 'Alexander Mqueen', 'New Balance', 'Compass'];
-
-const shoeTypes = ['Type', 'Sandals', 'Sneakers', 'Boots'];
-
-const sizes = ['Size', 'S', 'M', 'L', 'XL', 'XXl'];
-
-const prices = [
-  'Price',
-  'Below $100',
-  'Below $200',
-  'Below $300',
-  'Below $400',
-];
-
-export const filters = [shoeBrands, prices, sizes, shoeTypes];
-
 export const brandsSection = {
   heading: 'Our Favorite Places to Shop',
   description:
@@ -2588,70 +2561,9 @@ export const newsletter = {
     'Drop your email below and start receiving the best offers from HotKicks',
 };
 
-export const shoeSizes = [
-  'EU36',
-  'EU37',
-  'EU38',
-  'EU39',
-  'EU40',
-  'EU41',
-  'EU42',
-  'EU43',
-  'EU44',
-];
-
 export const note =
   " We scour the internet to find you the best prices on the best tech tailored just for you. Our mission is to sift through all the noise, helping you make the best choice with ease. When you're ready to make a purchase, simply click 'Buy Now', and we'll direct you to the retailer offering the best price. Rest assured, all prices are checked daily to ensure you get the most value.";
 
-export const contactSection = {
-  heading: 'Contact us',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis quis phasellus eleifend tellus orci ornare.',
-  directContactInfoHeader: {
-    heading: 'Prefer to reach out directly?',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh magna sit diam pharetra.',
-  },
-  directContactInfo: [
-    {
-      icon: <FiBox className="text-5xl" />,
-      title: 'Sales',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.',
-      contactLink: {
-        href: 'mailto:sales@hotkicks.com',
-        title: 'sales@hotkicks.com',
-      },
-    },
-    {
-      icon: <IoChatboxOutline className="text-5xl" />,
-      title: 'Support',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.',
-      contactLink: {
-        href: 'mailto:support@hotckicks.com',
-        title: 'support@hotckicks.com',
-      },
-    },
-    {
-      icon: <MdOutlineCameraAlt className="text-5xl" />,
-      title: 'Influencers',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.',
-      contactLink: {
-        href: 'mailto:influencers@hotckicks.com',
-        title: 'influencers@hotckicks.com',
-      },
-    },
-  ],
-  instagramPhotos: [
-    'https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=1479&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1463100099107-aa0980c362e6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1505784045224-1247b2b29cf3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1604671801908-6f0c6a092c05?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  ],
-};
 
 export const faqsData = {
   heading: 'Frequently Asked Questions',
@@ -2749,182 +2661,4 @@ export const faqsData = {
       ],
     },
   ],
-};
-
-
-const demoBlogData = {
-  sectionOne: {
-    title: 'What cleaning products are safe for different sneaker materials?',
-    paragraph1:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    points: [
-      'Pretium nibh ipsum consequat nisl vel pretium. Sed vulputate mi sit',
-      'Tristique nulla aliquet enim tortor at auctor urna. Sit amet aliquam id diam maer  dolore eu fugiat nulla pariatur',
-      'Nam libero justo laoreet sit amet. Lacus sed viverra tellus in hac',
-      'Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis',
-    ],
-    paragraph2:
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
-  },
-  sectionTwo: {
-    title: 'Can you provide a step-by-step guide to cleaning sneakers?',
-    description:
-      'Augue lacus viverra vitae congue eu consequat ac felis donec. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. Morbi tristique senectus et netus et malesuada fames ac turpis. Iaculis eu non diam phasellus vestibulum lorem sed.',
-    midImage:
-      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  },
-  sectionThree: {
-    title: 'How do I prevent and remove stains from my sneakers?',
-    description:
-      'Augue lacus viverra vitae congue eu consequat ac felis donec. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. Morbi tristique senectus et netus et malesuada fames ac turpis. Iaculis eu non diam phasellus vestibulum lorem sed.',
-  },
-  sectionFour: {
-    title:
-      'What are the best practices for drying sneakers without causing damage?',
-    description:
-      'Bibendum at varius vel pharetra vel turpis nunc. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Volutpat est velit egestas dui id ornare.',
-    points: [
-      'Pretium nibh ipsum consequat nisl vel pretium. Sed vulputate mi sit',
-      'Tristique nulla aliquet enim tortor at auctor urna. Sit amet aliquam id diam maer  dolore eu fugiat nulla pariatur',
-      'Nam libero justo laoreet sit amet. Lacus sed viverra tellus in hac',
-      'Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis',
-    ],
-  },
-  quote:
-    '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor porta rhoncus, viverra sit et auctor. Augue in volutpat sed eget in etiam.”',
-  sectionFive: [
-    {
-      title: 'How should I store my sneakers to maintain their quality?',
-      description:
-        'Tincidunt nunc pulvinar sapien et ligula. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Aliquet bibendum enim facilisis gravida neque convallis a cras. Molestie nunc non blandit massa enim nec dui nunc.',
-    },
-    {
-      title:
-        'What special care should be taken to extend the lifespan of sneakers?',
-      description:
-        'Tincidunt nunc pulvinar sapien et ligula. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Aliquet bibendum enim facilisis gravida neque convallis a cras. Molestie nunc non blandit massa enim nec dui nunc.',
-    },
-  ],
-};
-
-export const blogs: BlogType[] = [
-  {
-    title: 'The Evolution of Sneaker Culture: A Historical Perspective',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'Style',
-    slug: 'the-evolution-of-sneaker-culture-a-historical-perspective',
-  },
-  {
-    title: 'Top 10 Sneaker Trends to Watch in 2023',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/photo-1448387473223-5c37445527e7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'Fitting',
-    slug: 'top-10-sneaker-trends-to-watch-in-2023',
-  },
-  {
-    title: 'How to Clean and Maintain Your Sneaker Collection',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/photo-1469395446868-fb6a048d5ca3?q=80&w=1633&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'Style',
-    slug: 'how-to-clean-and-maintain-your-sneaker-collection',
-  },
-  {
-    title:
-      'The Influence of Sneaker Collaborations: From Athletes to Designers',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/photo-1659614404055-670edff49a1b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'General',
-    slug: 'the-influence-of-sneaker-collaborations-from-athletes-to-designers',
-  },
-  {
-    title: 'Sneaker Sizing Guide: Finding the Perfect Fit',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/photo-1515396800500-75d7b90b3b94?q=80&w=1492&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'Style',
-    slug: 'sneaker-sizing-guide-finding-the-perfect-fit',
-  },
-  {
-    title:
-      'Sneaker Collecting 101: Building and Organizing Your Sneaker Collection',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'Fitting',
-    slug: 'sneaker-collecting-101-building-and-organizing-your-sneaker-collection',
-  },
-  {
-    title: 'Behind the Design: Sneaker Production Process Unveiled',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/photo-1565814636199-ae8133055c1c?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'General',
-    slug: 'behind-the-design-sneaker-production-process-unveiled',
-  },
-  {
-    title:
-      'Exploring Limited Edition Sneaker Drops: How to Cop Exclusive Releases',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'General',
-    slug: 'exploring-limited-edition-sneaker-drops-how-to-cop-exclusive-releases',
-  },
-  {
-    title: 'Sneaker Spotlight: Nike Review and Styling Tips',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/photo-1607522370275-f14206abe5d3?q=80&w=1421&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'Style',
-    slug: 'sneaker-spotlight-nike-review-and-styling-tips',
-  },
-  {
-    title: 'Sustainable Sneaker Choices: Eco-Friendly Options in the Market',
-    brief:
-      'Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.',
-    date: 'October 2, 2022',
-    coverImage:
-      'https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    blogData: demoBlogData,
-    tag: 'Style',
-    slug: 'sustainable-sneaker-choices-eco-friendly-options-in-the-market',
-  },
-];
-
-export const productsCollection = {
-  heading: 'Shoes Collection',
-  description:
-    'Lorem ipsum dolor sit amet consectetur adipiscing elit facilisi pellentesque cursus eget morbi sagittis sagittis.',
 };

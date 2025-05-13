@@ -25,12 +25,12 @@ const Page = () => {
   
   That’s why I take the time to curate my selection. Every product I feature is something I believe in—something I’d recommend to a friend (and often *have*). I'm constantly researching, testing, and comparing so you don’t have to.
   
-  **Explore the site.** Dive into the recommendations. Ask me questions. This isn’t just a shop—it’s a conversation. I’m here to help you find the perfect fit, not just the highest spec.
+  **Explore the site.** Dive into the recommendations. Ask me questions. This isn’t just a shop—it’s a conversation. I’m here to help you find the perfect fit, not just the highest spec.   
+  Got a question? DM me on TikTok or Insta, or shoot me an email—all the links are in the footer.
   
-  Because tech should work *for* you—not the other way around.
-  
+  Because tech should work *for* you—not the other way around.  
   And honestly? Helping you find the right gear is one of my favourite things to do.
-  
+
   Let’s make tech personal again.`
   };
   

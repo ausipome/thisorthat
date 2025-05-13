@@ -27,7 +27,7 @@ const SectionHeader = () => {
           <ButtonPrimary sizeClass="px-5 py-4"><Link href='/thisorthat'>Learn More</Link></ButtonPrimary>
         </div>
         <div className="basis-[37%]">
-          <Image src={laptop} alt="shoe box" className="w-full" />
+          <Image src={laptop} alt="Buy Laptop" className="w-full" />
         </div>
       </div>
 
