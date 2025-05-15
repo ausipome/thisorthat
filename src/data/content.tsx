@@ -1,42 +1,6 @@
 import { BsCircleFill } from 'react-icons/bs'; 
 import type { NavItemType } from '@/components/NavItem';
 
-import Yoga7iGen9 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif';
-import Yoga7iGen92 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif';
-import Yoga7iGen93 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen93.avif';
-import Yoga7iGen94 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen94.avif';
-import Yoga7iGen95 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen95.avif';
-
-import MacBookPro14M3 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M3.avif';
-import MacBookPro14M32 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M32.avif';
-import MacBookPro14M33 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M33.avif';
-import MacBookPro14M34 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M34.avif';
-import MacBookPro14M35 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M35.avif';
-
-import ThinkPadX1Gen12 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif';
-import ThinkPadX1Gen122 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen122.avif';
-import ThinkPadX1Gen123 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen123.webp';
-import ThinkPadX1Gen124 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen124.avif';
-import ThinkPadX1Gen125 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen125.avif';
-
-import HPOmniBookUltra14 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp';
-import HPOmniBookUltra142 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp';
-import HPOmniBookUltra143 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra143.webp';
-import HPOmniBookUltra144 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra144.webp';
-import HPOmniBookUltra145 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra145.webp';
-
-import MacBookPro14M4 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif';
-import MacBookPro14M42 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M42.avif';
-import MacBookPro14M43 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M43.avif';
-import MacBookPro14M44 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M44.avif';
-import MacBookPro14M45 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M45.avif';
-
-import ASUSProArtP16 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP16.webp';
-import ASUSProArtP162 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP162.webp';
-import ASUSProArtP163 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP163.webp';
-import ASUSProArtP164 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP164.webp';
-import ASUSProArtP165 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP165.webp';
-
 import ThinkPadP1Gen7 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen7.avif';
 import ThinkPadP1Gen72 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen72.avif';
 import ThinkPadP1Gen73 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen73.webp';
@@ -1288,7 +1252,7 @@ export const laptops = [
   {
     slug: 'Yoga7iGen9',
     name: 'Lenovo Yoga 7i 2-in-1 Gen 9 (14") Laptop - Intel® Core™ Ultra 5, 512GB SSD, 16GB RAM - OLED Touchscreen',
-    coverImage: Yoga7iGen9,
+    coverImage: 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif',
     currentPrice: 960,
     previousPrice: 999,
     refurbishedPrice: 0,
@@ -1298,7 +1262,13 @@ export const laptops = [
     reviews: 42,
     pieces_sold: 450,
     ourPick: false,
-    shots: [Yoga7iGen9, Yoga7iGen92, Yoga7iGen93, Yoga7iGen94, Yoga7iGen95],
+    shots: [
+        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif',
+        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif',
+        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen93.avif',
+        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen94.avif',
+        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen95.avif',
+    ],
     tags: ['Lenovo', 'Touchscreen', 'Student', 'Business', '16RAM', '512SSD', 'Laptops', 'Windows','Ultra5'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/yoga/yoga-2-in-1-series/lenovo-yoga-7i-2-in-1-gen-9-14-inch-intel/83djcto1wwgb1',
     overview:
@@ -1389,7 +1359,7 @@ export const laptops = [
   {
     slug: 'MacBookPro14M3',
     name: 'MacBook Pro 14-inch (2023) - Apple M3 8-core CPU & 10-core GPU, 8GB RAM, 512GB SSD - Space Grey',
-    coverImage: MacBookPro14M3,
+    coverImage: 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M3.avif',
     currentPrice: 0,
     previousPrice: 0,
     refurbishedPrice: 995,
@@ -1399,7 +1369,13 @@ export const laptops = [
     reviews: 120,
     pieces_sold: 950,
     ourPick: true,
-    shots: [MacBookPro14M3, MacBookPro14M32, MacBookPro14M33, MacBookPro14M34, MacBookPro14M35],
+    shots: [
+        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M3.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M32.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M33.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M34.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M35.avif',
+    ],
     tags: ['MacOS', 'M3', '512SSD', '8RAM', 'Creative', 'Business', 'Student', 'Developer', 'Laptops'],
     link: '',
     overview:
@@ -1490,7 +1466,7 @@ export const laptops = [
   {
     slug: 'ThinkPadX1Gen12',
     name: 'Lenovo ThinkPad X1 Carbon Gen 12 (14") Laptop - Intel® Core™ Ultra 5, 256GB SSD, 16GB RAM - IPS Display',
-    coverImage: ThinkPadX1Gen12,
+    coverImage: 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif',
     currentPrice: 1750,
     previousPrice: 2099,
     refurbishedPrice: 0,
@@ -1500,7 +1476,14 @@ export const laptops = [
     reviews: 68,
     pieces_sold: 520,
     ourPick: false,
-    shots: [ThinkPadX1Gen12, ThinkPadX1Gen122, ThinkPadX1Gen123, ThinkPadX1Gen124, ThinkPadX1Gen125],
+    shots: [
+        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif',
+        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen122.avif',
+        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen123.webp',
+        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen124.avif',
+        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen125.avif',
+
+    ],
     tags: ['Lenovo', 'Business', '16RAM', '256SSD', 'Laptops', 'Windows', 'Ultra5'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-12-14-inch-intel/21kccto1wwgb4',
     overview:
@@ -1591,7 +1574,7 @@ export const laptops = [
   {
     slug: 'HPOmniBookUltra14',
     name: 'HP OmniBook Ultra 14" Laptop - AMD Ryzen™ AI 9, 1TB SSD, 16GB RAM - Grey',
-    coverImage: HPOmniBookUltra14,
+    coverImage: 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp',
     currentPrice: 1449,
     previousPrice: 1649,
     refurbishedPrice: 0,
@@ -1601,7 +1584,13 @@ export const laptops = [
     reviews: 35,
     pieces_sold: 380,
     ourPick: false,
-    shots: [HPOmniBookUltra14, HPOmniBookUltra142, HPOmniBookUltra143, HPOmniBookUltra144, HPOmniBookUltra145],
+    shots: [
+        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp',
+        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp',
+        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra143.webp',
+        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra144.webp',
+        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra145.webp',
+    ],
     tags: ['HP', 'RyzenAI9', '16RAM', '1TBSSD', 'Business', 'Student','Developer', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/am6y7eaabu-hp-omnibook-ultra-14fd0001na-laptop-grey-104190-251.aspx',
     overview:
@@ -1692,7 +1681,7 @@ export const laptops = [
   {
     slug: 'MacBookPro14M4',
     name: 'Apple 14" MacBook Pro (2024) - M4, 16GB RAM, 10-Core GPU, 1TB SSD - Space Black',
-    coverImage: MacBookPro14M4,
+    coverImage: 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
     currentPrice: 1621,
     previousPrice: 1799,
     refurbishedPrice: 0,
@@ -1702,7 +1691,13 @@ export const laptops = [
     reviews: 74,
     pieces_sold: 420,
     ourPick: false,
-    shots: [MacBookPro14M4, MacBookPro14M42, MacBookPro14M43, MacBookPro14M44, MacBookPro14M45],
+    shots: [
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M42.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M43.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M44.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M45.avif',
+    ],
     tags: ['MacOS', 'MacBook Pro', 'M4', '16RAM', '1TBSSD', 'Creative', 'Business', 'Developer', 'Laptops'],
     link: 'https://www.apple.com/uk/shop/buy-mac/macbook-pro/14-inch-space-black-apple-m4-chip-with-10-core-gpu-1tb',
     overview:
@@ -1793,7 +1788,7 @@ export const laptops = [
   {
     slug: 'MacBookPro16M4Pro',
     name: 'Apple 16" MacBook Pro (2024) - M4 Pro, 24GB RAM, 20-Core GPU, 512GB SSD - Space Black',
-    coverImage: MacBookPro14M4,
+    coverImage:  'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
     currentPrice: 2215,
     previousPrice: 2499,
     refurbishedPrice: 0,
@@ -1803,7 +1798,13 @@ export const laptops = [
     reviews: 96,
     pieces_sold: 310,
     ourPick: false,
-    shots: [MacBookPro14M4, MacBookPro14M42, MacBookPro14M43, MacBookPro14M44, MacBookPro14M45],
+    shots: [
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M42.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M43.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M44.avif',
+        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M45.avif',
+    ],
     tags: ['MacOS', 'MacBook Pro', 'M4', '16RAM', '512SSD', 'Creative', 'Business', 'Developer', 'Laptops'],
     link: 'https://ao.com/product/mx2x3ba-apple-macbook-pro-laptop-black-104036-251.aspx',
     overview:
@@ -1894,7 +1895,7 @@ export const laptops = [
   {
     slug: 'ASUSProArtP16',
     name: 'ASUS ProArt P16 16" OLED Touchscreen Laptop - AMD Ryzen™ AI 9 HX 370, 32GB RAM, 1TB SSD, NVIDIA RTX 4070',
-    coverImage: ASUSProArtP16,
+    coverImage: 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP16.webp',
     currentPrice: 2199,
     previousPrice: 2499,
     refurbishedPrice: 0,
@@ -1904,7 +1905,13 @@ export const laptops = [
     reviews: 41,
     pieces_sold: 190,
     ourPick: false,
-    shots: [ASUSProArtP16, ASUSProArtP162, ASUSProArtP163, ASUSProArtP164, ASUSProArtP165],
+    shots: [
+        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP16.webp',
+        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP162.webp',
+        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP163.webp',
+        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP164.webp',
+        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP165.webp',
+    ],
     tags: ['ASUS', 'RyzenAI9', 'RTX4070', '32RAM', '1TBSSD', 'Creative','Developer', 'Touchscreen', 'Windows', 'Laptops'],
     link: 'https://www.asus.com/uk/laptops/for-creators/proart/proart-p16-h7606/',
     overview:
