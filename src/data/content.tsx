@@ -1,145 +1,71 @@
 import { BsCircleFill } from 'react-icons/bs'; 
 import type { NavItemType } from '@/components/NavItem';
 
-import AcerAspire3i3 from '@/images/Acer/AcerAspire3i3/113101105.webp';
-import AcerAspire3i32 from '@/images/Acer/AcerAspire3i3/113101105alt1.webp';
-import AcerAspire3i33 from '@/images/Acer/AcerAspire3i3/113101105alt2.webp';
-import AcerAspire3i34 from '@/images/Acer/AcerAspire3i3/113101105alt3.webp';
-import AcerAspire3i35 from '@/images/Acer/AcerAspire3i3/113101105alt4.webp';
-import AcerAspire3i36 from '@/images/Acer/AcerAspire3i3/113101105alt5.webp';
-import AcerAspire3i37 from '@/images/Acer/AcerAspire3i3/113101105alt6.webp';
-import AcerAspire3i38 from '@/images/Acer/AcerAspire3i3/113101105alt7.webp';
+import Yoga7iGen9 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif';
+import Yoga7iGen92 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif';
+import Yoga7iGen93 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen93.avif';
+import Yoga7iGen94 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen94.avif';
+import Yoga7iGen95 from 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen95.avif';
 
-import LenovoIdeaPadSlim3i5 from '@/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_02.webp';
-import LenovoIdeaPadSlim3i52 from '@/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_12.webp';
-import LenovoIdeaPadSlim3i53 from '@/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_11.webp';
-import LenovoIdeaPadSlim3i54 from '@/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_10.webp';
-import LenovoIdeaPadSlim3i55 from '@/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_06.webp';
-import LenovoIdeaPadSlim3i56 from '@/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_13.webp';
-import LenovoIdeaPadSlim3i57 from '@/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_05.webp';
-import LenovoIdeaPadSlim3i58 from '@/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_03.webp';
+import MacBookPro14M3 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M3.avif';
+import MacBookPro14M32 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M32.avif';
+import MacBookPro14M33 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M33.avif';
+import MacBookPro14M34 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M34.avif';
+import MacBookPro14M35 from 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M35.avif';
 
-import LenovoIdeaPadSlim3i3 from '@/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_01.webp';
-import LenovoIdeaPadSlim3i32 from '@/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_07.webp';
-import LenovoIdeaPadSlim3i33 from '@/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_09.webp';
-import LenovoIdeaPadSlim3i34 from '@/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_05.webp';
-import LenovoIdeaPadSlim3i35 from '@/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_06.webp';
-import LenovoIdeaPadSlim3i36 from '@/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_12.webp';
-import LenovoIdeaPadSlim3i37 from '@/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_11.webp';
-import LenovoIdeaPadSlim3i38 from '@/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_02.webp';
+import ThinkPadX1Gen12 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif';
+import ThinkPadX1Gen122 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen122.avif';
+import ThinkPadX1Gen123 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen123.webp';
+import ThinkPadX1Gen124 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen124.avif';
+import ThinkPadX1Gen125 from 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen125.avif';
 
-import HPPavilionx360i3 from '@/images/HP/HPPavilionx360i3/l_10250996.jpg';
-import HPPavilionx360i32 from '@/images/HP/HPPavilionx360i3/l_10250996_011.jpg';
-import HPPavilionx360i33 from '@/images/HP/HPPavilionx360i3/l_10250996_012.jpg';
-import HPPavilionx360i34 from '@/images/HP/HPPavilionx360i3/l_10250996_013.jpg';
-import HPPavilionx360i35 from '@/images/HP/HPPavilionx360i3/l_10250996_014.jpg';
-import HPPavilionx360i36 from '@/images/HP/HPPavilionx360i3/l_10250996_015.jpg';
-import HPPavilionx360i37 from '@/images/HP/HPPavilionx360i3/l_10250996_017.jpg';
-import HPPavilionx360i38 from '@/images/HP/HPPavilionx360i3/l_10250996_016.jpg';
+import HPOmniBookUltra14 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp';
+import HPOmniBookUltra142 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp';
+import HPOmniBookUltra143 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra143.webp';
+import HPOmniBookUltra144 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra144.webp';
+import HPOmniBookUltra145 from 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra145.webp';
 
-import ASUSVivoBook15i5 from '@/images/Asus/ASUSVivoBook15i5/590b8b12809ad61cc03dedd200190ac8_1.webp';
-import ASUSVivoBook15i52 from '@/images/Asus/ASUSVivoBook15i5/758acf486381eee7dd6ea0c8482acff4_3.webp';
-import ASUSVivoBook15i53 from '@/images/Asus/ASUSVivoBook15i5/7458460dd65f74d03d2336a2485bf51b_5.webp';
-import ASUSVivoBook15i54 from '@/images/Asus/ASUSVivoBook15i5/adf8d605412e5ff61793bfc922e589eb_2.webp';
-import ASUSVivoBook15i55 from '@/images/Asus/ASUSVivoBook15i5/479605abed6012172fbcdf383e49ecd8_11.webp';
-import ASUSVivoBook15i56 from '@/images/Asus/ASUSVivoBook15i5/454b889cf0d1e24dbec6552549694008_4.webp';
-import ASUSVivoBook15i57 from '@/images/Asus/ASUSVivoBook15i5/3dc78c1475c37dccae8691a9bbd4ac15_9.webp';
-import ASUSVivoBook15i58 from '@/images/Asus/ASUSVivoBook15i5/10028895bfb0f88b01d16281dc8aef58_8.webp';
+import MacBookPro14M4 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif';
+import MacBookPro14M42 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M42.avif';
+import MacBookPro14M43 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M43.avif';
+import MacBookPro14M44 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M44.avif';
+import MacBookPro14M45 from 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M45.avif';
 
-import MacBookAirM1 from '@/images/Apple/MacBookAirM1/macair1.avif';
-import MacBookAirM12 from '@/images/Apple/MacBookAirM1/macair2.jpg';
-import MacBookAirM13 from '@/images/Apple/MacBookAirM1/macair3.jpg';
-import MacBookAirM14 from '@/images/Apple/MacBookAirM1/macair4.jpg';
-import MacBookAirM15 from '@/images/Apple/MacBookAirM1/macair5.jpg';
+import ASUSProArtP16 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP16.webp';
+import ASUSProArtP162 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP162.webp';
+import ASUSProArtP163 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP163.webp';
+import ASUSProArtP164 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP164.webp';
+import ASUSProArtP165 from 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP165.webp';
 
-import MacBookAirM2 from '@/images/Apple/MacBookAirM2/macair1.avif';
-import MacBookAirM22 from '@/images/Apple/MacBookAirM2/macair2.avif';
-import MacBookAirM23 from '@/images/Apple/MacBookAirM2/macair3.avif';
-import MacBookAirM24 from '@/images/Apple/MacBookAirM2/macair4.avif';
-import MacBookAirM25 from '@/images/Apple/MacBookAirM2/macair5.avif';
+import ThinkPadP1Gen7 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen7.avif';
+import ThinkPadP1Gen72 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen72.avif';
+import ThinkPadP1Gen73 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen73.webp';
+import ThinkPadP1Gen74 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen74.webp';
+import ThinkPadP1Gen75 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen75.avif';
 
-import MacBookAirM3 from '@/images/Apple/MacBookAirM3/macair1.avif';
-import MacBookAirM32 from '@/images/Apple/MacBookAirM3/macair2.avif';
-import MacBookAirM33 from '@/images/Apple/MacBookAirM3/macair3.avif';
-import MacBookAirM34 from '@/images/Apple/MacBookAirM3/macair4.avif';
+import SurfaceStudio2 from 'http://localhost:3000/images/Microsoft/SurfaceStudio2/SurfaceStudio2.webp';
+import SurfaceStudio22 from 'http://localhost:3000/images/Microsoft/SurfaceStudio2/SurfaceStudio22.webp';
+import SurfaceStudio23 from 'http://localhost:3000/images/Microsoft/SurfaceStudio2/SurfaceStudio23.webp';
 
-import ASUSZenbookS14OLED from '@/images/Asus/ZenbookS14OLED/oled1.webp';
-import ASUSZenbookS14OLED2 from '@/images/Asus/ZenbookS14OLED/oled2.webp';
-import ASUSZenbookS14OLED3 from '@/images/Asus/ZenbookS14OLED/oled3.webp';
-import ASUSZenbookS14OLED4 from '@/images/Asus/ZenbookS14OLED/oled4.webp';
-import ASUSZenbookS14OLED5 from '@/images/Asus/ZenbookS14OLED/oled5.webp';
+import MSITitan18HX from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX.webp';
+import MSITitan18HX2 from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX2.webp';
+import MSITitan18HX3 from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX3.webp';
+import MSITitan18HX4 from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX4.webp';
+import MSITitan18HX5 from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX5.webp';
 
-import MicrosoftSurface7 from '@/images/Microsoft/Surface7/Surface7.webp';
-import MicrosoftSurface72 from '@/images/Microsoft/Surface7/Surface72.webp';
-import MicrosoftSurface73 from '@/images/Microsoft/Surface7/Surface73.webp';
-import MicrosoftSurface74 from '@/images/Microsoft/Surface7/Surface74.webp';
-import MicrosoftSurface75 from '@/images/Microsoft/Surface7/Surface75.webp';
+import ROGZephyrusG16 from 'http://localhost:3000/images/Asus/ROGZephyrusG16/ROGZephyrusG16.jpg';
+import ROGZephyrusG162 from 'http://localhost:3000/images/Asus/ROGZephyrusG16/ROGZephyrusG162.jpg';
+import ROGZephyrusG163 from 'http://localhost:3000/images/Asus/ROGZephyrusG16/ROGZephyrusG163.jpg';
 
-import Yoga7iGen9 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif';
-import Yoga7iGen92 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif';
-import Yoga7iGen93 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen93.avif';
-import Yoga7iGen94 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen94.avif';
-import Yoga7iGen95 from '@/images/Lenovo/Yoga7iGen9/Yoga7iGen95.avif';
+import LegionPro7iGen10 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen10.webp';
+import LegionPro7iGen102 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen102.avif';
+import LegionPro7iGen103 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen103.avif';
+import LegionPro7iGen104 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen104.avif';
+import LegionPro7iGen105 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen105.avif';
 
-import MacBookPro14M3 from '@/images/Apple/MacBookPro14M3/MacBookPro14M3.avif';
-import MacBookPro14M32 from '@/images/Apple/MacBookPro14M3/MacBookPro14M32.avif';
-import MacBookPro14M33 from '@/images/Apple/MacBookPro14M3/MacBookPro14M33.avif';
-import MacBookPro14M34 from '@/images/Apple/MacBookPro14M3/MacBookPro14M34.avif';
-import MacBookPro14M35 from '@/images/Apple/MacBookPro14M3/MacBookPro14M35.avif';
-
-import ThinkPadX1Gen12 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif';
-import ThinkPadX1Gen122 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen122.avif';
-import ThinkPadX1Gen123 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen123.webp';
-import ThinkPadX1Gen124 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen124.avif';
-import ThinkPadX1Gen125 from '@/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen125.avif';
-
-import HPOmniBookUltra14 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp';
-import HPOmniBookUltra142 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp';
-import HPOmniBookUltra143 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra143.webp';
-import HPOmniBookUltra144 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra144.webp';
-import HPOmniBookUltra145 from '@/images/HP/HPOmniBookUltra14/HPOmniBookUltra145.webp';
-
-import MacBookPro14M4 from '@/images/Apple/MacBookPro14M4/MacBookPro14M4.avif';
-import MacBookPro14M42 from '@/images/Apple/MacBookPro14M4/MacBookPro14M42.avif';
-import MacBookPro14M43 from '@/images/Apple/MacBookPro14M4/MacBookPro14M43.avif';
-import MacBookPro14M44 from '@/images/Apple/MacBookPro14M4/MacBookPro14M44.avif';
-import MacBookPro14M45 from '@/images/Apple/MacBookPro14M4/MacBookPro14M45.avif';
-
-import ASUSProArtP16 from '@/images/Asus/ASUSProArtP16/ASUSProArtP16.webp';
-import ASUSProArtP162 from '@/images/Asus/ASUSProArtP16/ASUSProArtP162.webp';
-import ASUSProArtP163 from '@/images/Asus/ASUSProArtP16/ASUSProArtP163.webp';
-import ASUSProArtP164 from '@/images/Asus/ASUSProArtP16/ASUSProArtP164.webp';
-import ASUSProArtP165 from '@/images/Asus/ASUSProArtP16/ASUSProArtP165.webp';
-
-import ThinkPadP1Gen7 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen7.avif';
-import ThinkPadP1Gen72 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen72.avif';
-import ThinkPadP1Gen73 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen73.webp';
-import ThinkPadP1Gen74 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen74.webp';
-import ThinkPadP1Gen75 from '@/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen75.avif';
-
-import SurfaceStudio2 from '@/images/Microsoft/SurfaceStudio2/SurfaceStudio2.webp';
-import SurfaceStudio22 from '@/images/Microsoft/SurfaceStudio2/SurfaceStudio22.webp';
-import SurfaceStudio23 from '@/images/Microsoft/SurfaceStudio2/SurfaceStudio23.webp';
-
-import MSITitan18HX from '@/images/MSI/MSITitan18HX/MSITitan18HX.webp';
-import MSITitan18HX2 from '@/images/MSI/MSITitan18HX/MSITitan18HX2.webp';
-import MSITitan18HX3 from '@/images/MSI/MSITitan18HX/MSITitan18HX3.webp';
-import MSITitan18HX4 from '@/images/MSI/MSITitan18HX/MSITitan18HX4.webp';
-import MSITitan18HX5 from '@/images/MSI/MSITitan18HX/MSITitan18HX5.webp';
-
-import ROGZephyrusG16 from '@/images/Asus/ROGZephyrusG16/ROGZephyrusG16.jpg';
-import ROGZephyrusG162 from '@/images/Asus/ROGZephyrusG16/ROGZephyrusG162.jpg';
-import ROGZephyrusG163 from '@/images/Asus/ROGZephyrusG16/ROGZephyrusG163.jpg';
-
-import LegionPro7iGen10 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen10.webp';
-import LegionPro7iGen102 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen102.avif';
-import LegionPro7iGen103 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen103.avif';
-import LegionPro7iGen104 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen104.avif';
-import LegionPro7iGen105 from '@/images/Lenovo/LegionPro7iGen10/LegionPro7iGen105.avif';
-
-import AO_LOGO from '@/images/companies/AO_LOGO.avif';
-import BM_LOGO from '@/images/companies/BM_LOGO.png';
-import LD_LOGO from '@/images/companies/LD_LOGO.png';
+import AO_LOGO from 'http://localhost:3000/images/companies/AO_LOGO.avif';
+import BM_LOGO from 'http://localhost:3000/images/companies/BM_LOGO.png';
+import LD_LOGO from 'http://localhost:3000/images/companies/LD_LOGO.png';
 
 export const topNavLinks: NavItemType[] = [
   {
@@ -302,7 +228,7 @@ export const laptops = [
   {
     slug: 'AcerAspire3i3',
     name: 'Acer Aspire Go 14 Laptop, Intel Core i3 Processor, 8GB RAM, 128GB SSD, 14” WUXGA, Silver',
-    coverImage: AcerAspire3i3,
+    coverImage: 'http://localhost:3000/images/Acer/AcerAspire3i3/113101105.webp',
     currentPrice: 299,
     previousPrice: 399,
     refurbishedPrice: 99,
@@ -312,7 +238,16 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: false,
-    shots: [AcerAspire3i3, AcerAspire3i32, AcerAspire3i33, AcerAspire3i34, AcerAspire3i35, AcerAspire3i36, AcerAspire3i37, AcerAspire3i38],
+    shots: [
+      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105.webp',
+      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt1.webp',
+      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt2.webp',
+      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt3.webp',
+      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt4.webp',
+      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt5.webp',
+      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt6.webp',
+      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt7.webp',
+],
     "tags": ['Basic', 'Student', 'Acer', 'i3', '8RAM', '128SSD', 'Laptops', 'Windows'],
     link: 'https://www.johnlewis.com/acer-aspire-go-14-laptop-intel-core-i3-processor-8gb-ram-128gb-ssd-14-wuxga-silver',
     overview:
@@ -403,7 +338,7 @@ export const laptops = [
   {
     slug: 'LenovoIdeaPadSlim3i5',
     name: 'Lenovo IdeaPad Slim 3 15.6" Laptop - Intel® Core™ i5, 512GB SSD, 8 GB RAM - Grey',
-    coverImage: LenovoIdeaPadSlim3i5,
+    coverImage: 'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_02.webp',
     currentPrice: 399,
     previousPrice: 549,
     refurbishedPrice: 99,
@@ -413,7 +348,16 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: false,
-    shots: [LenovoIdeaPadSlim3i5, LenovoIdeaPadSlim3i52, LenovoIdeaPadSlim3i53, LenovoIdeaPadSlim3i54, LenovoIdeaPadSlim3i55, LenovoIdeaPadSlim3i56, LenovoIdeaPadSlim3i57, LenovoIdeaPadSlim3i58],
+    shots: [
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_02.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_12.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_11.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_10.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_06.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_13.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_05.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_03.webp',
+    ],
     "tags": ['Basic', 'Student', 'professionals', 'Lenovo', 'i5', '8RAM', '512SSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/83er00g4uk-lenovo-ideapad-slim-3-laptop-grey-103813-251.aspx',
     overview:
@@ -498,7 +442,7 @@ export const laptops = [
   {
     slug: 'LenovoIdeaPadSlim3i3',
     name: 'Lenovo IdeaPad Slim 3 15.6" Laptop - Intel® Core™ i3 N-series, 128GB eUFS, 8 GB RAM - Grey',
-    coverImage: LenovoIdeaPadSlim3i3,
+    coverImage: 'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_01.webp',
     currentPrice: 269,
     previousPrice: 399,
     refurbishedPrice: 99,
@@ -508,7 +452,16 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: false,
-    shots: [LenovoIdeaPadSlim3i3, LenovoIdeaPadSlim3i32, LenovoIdeaPadSlim3i33, LenovoIdeaPadSlim3i34, LenovoIdeaPadSlim3i35, LenovoIdeaPadSlim3i36, LenovoIdeaPadSlim3i37, LenovoIdeaPadSlim3i38],
+    shots: [
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_01.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_07.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_09.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_05.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_06.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_12.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_11.webp',
+      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_02.webp',
+    ],
     "tags": ['Basic', 'Student', 'Lenovo', 'i3', '8RAM', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/82xb0093uk-lenovo-ideapad-slim-3-laptop-grey-103812-251.aspx',
     overview:
@@ -593,7 +546,7 @@ export const laptops = [
   {
     slug: 'HPPavilionx360i5',
     name: 'HP Pavilion 14" x360 Laptop - Intel® Core™ i3, 8GB, Touchscreen 256GB SSD - Silver',
-    coverImage: HPPavilionx360i3,
+    coverImage: 'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996.jpg',
     currentPrice: 479,
     previousPrice: 699,
     refurbishedPrice: 99,
@@ -603,7 +556,16 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: false,
-    shots: [HPPavilionx360i3, HPPavilionx360i32, HPPavilionx360i33, HPPavilionx360i34, HPPavilionx360i35, HPPavilionx360i36, HPPavilionx360i37, HPPavilionx360i38],
+    shots: [
+      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996.jpg',
+      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_011.jpg',
+      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_012.jpg',
+      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_013.jpg',
+      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_014.jpg',
+      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_015.jpg',
+      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_017.jpg',
+      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_016.jpg',
+    ],
     "tags": ['Basic', 'Student', 'HP', 'i3', '8RAM', '256SSD', 'Laptops', 'Windows'],
     link: 'https://www.hp.com/gb-en/shop/product.aspx?id=800P2EA&opt=ABU&sel=NTB&srsltid=AfmBOopjc1QIx4pqcgfZvQjHb-hsgcZ54w_hM4F_ysLnNcrpS7j_ltqseNI&gQT=2',
     overview:
@@ -688,7 +650,7 @@ export const laptops = [
   {
     slug: 'ASUSVivoBook15i5',
     name: 'ASUS VivoBook 15 15.6" Laptop - Intel® Core™ i5, 512GB SSD, 8 GB RAM - Silver',
-    coverImage: ASUSVivoBook15i5,
+    coverImage: 'http://localhost:3000/images/Asus/ASUSVivoBook15i5/590b8b12809ad61cc03dedd200190ac8_1.webp',
     currentPrice: 399,
     previousPrice: 549,
     refurbishedPrice: 99,
@@ -698,7 +660,16 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: true,
-    shots: [ASUSVivoBook15i5, ASUSVivoBook15i52, ASUSVivoBook15i53, ASUSVivoBook15i54, ASUSVivoBook15i55, ASUSVivoBook15i56, ASUSVivoBook15i57, ASUSVivoBook15i58],
+    shots: [
+        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/590b8b12809ad61cc03dedd200190ac8_1.webp',
+        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/758acf486381eee7dd6ea0c8482acff4_3.webp',
+        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/7458460dd65f74d03d2336a2485bf51b_5.webp',
+        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/adf8d605412e5ff61793bfc922e589eb_2.webp',
+        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/479605abed6012172fbcdf383e49ecd8_11.webp',
+        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/454b889cf0d1e24dbec6552549694008_4.webp',
+        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/3dc78c1475c37dccae8691a9bbd4ac15_9.webp',
+        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/10028895bfb0f88b01d16281dc8aef58_8.webp',
+    ],
     "tags": ['Basic', 'Student', 'Asus', 'i5', '8RAM', '512SSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/x1504zanj043w-asus-vivobook-15-laptop-silver-99445-251.aspx',
     overview:
@@ -783,7 +754,7 @@ export const laptops = [
   {
     slug: 'MacBookAirM1',
     name: 'MacBook Air 13-inch (2020) - Apple M1 8-core and 7-core GPU - 8GB RAM - SSD 256GB',
-    coverImage: MacBookAirM1,
+    coverImage: 'http://localhost:3000/images/Apple/MacBookAirM1/macair1.avif',
     currentPrice: 0,
     previousPrice: 0,
     refurbishedPrice: 405,
@@ -793,7 +764,13 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: false,
-    shots: [MacBookAirM1, MacBookAirM12,MacBookAirM13, MacBookAirM14,MacBookAirM15],
+    shots: [
+        'http://localhost:3000/images/Apple/MacBookAirM1/macair1.avif',
+        'http://localhost:3000/images/Apple/MacBookAirM1/macair2.jpg',
+        'http://localhost:3000/images/Apple/MacBookAirM1/macair3.jpg',
+        'http://localhost:3000/images/Apple/MacBookAirM1/macair4.jpg',
+        'http://localhost:3000/images/Apple/MacBookAirM1/macair5.jpg',
+    ],
     "tags": ['Basic', 'Student', 'MacOS', 'M1', '8RAM', '256SSD', 'Laptops'],
     link: '',
     overview:
@@ -884,7 +861,7 @@ export const laptops = [
   {
     slug: 'MacBookAirM2',
     name: 'MacBook Air 13-inch (2022) - Apple M2 8-core and 8-core GPU - 8GB RAM - SSD 256GB',
-    coverImage: MacBookAirM2,
+    coverImage:  'http://localhost:3000/images/Apple/MacBookAirM2/macair1.avif',
     currentPrice: 0,
     previousPrice: 0,
     refurbishedPrice: 630,
@@ -894,7 +871,13 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: true,
-    shots: [MacBookAirM2, MacBookAirM22,MacBookAirM23, MacBookAirM24,MacBookAirM25],
+    shots: [
+        'http://localhost:3000/images/Apple/MacBookAirM2/macair1.avif',
+        'http://localhost:3000/images/Apple/MacBookAirM2/macair2.avif',
+        'http://localhost:3000/images/Apple/MacBookAirM2/macair3.avif',
+        'http://localhost:3000/images/Apple/MacBookAirM2/macair4.avif',
+        'http://localhost:3000/images/Apple/MacBookAirM2/macair5.avif',
+    ],
     "tags": ['Basic', 'Student', 'MacOS', 'M2', '8RAM', '256SSD', 'Laptops'],
     link: '',
     overview:
@@ -985,7 +968,7 @@ export const laptops = [
   {
     slug: 'MacBookAirM3',
     name: 'MacBook Air 13-inch (2024) - Apple M3 8-core and 8-core GPU - 8GB RAM - SSD 256GB',
-    coverImage: MacBookAirM3,
+    coverImage: 'http://localhost:3000/images/Apple/MacBookAirM3/macair1.avif',
     currentPrice: 0,
     previousPrice: 0,
     refurbishedPrice: 749,
@@ -995,7 +978,12 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: false,
-    shots: [MacBookAirM3, MacBookAirM32,MacBookAirM33, MacBookAirM34],
+    shots: [
+        'http://localhost:3000/images/Apple/MacBookAirM3/macair1.avif',
+        'http://localhost:3000/images/Apple/MacBookAirM3/macair2.avif',
+        'http://localhost:3000/images/Apple/MacBookAirM3/macair3.avif',
+        'http://localhost:3000/images/Apple/MacBookAirM3/macair4.avif',
+    ],
     "tags": ['Student', 'Business', 'Developer', 'Creative' , 'MacOS', 'M3', '8RAM', '256SSD', 'Laptops'],
     link: '',
     overview:
@@ -1086,7 +1074,7 @@ export const laptops = [
   {
     slug: 'ASUSZenbookS14OLED',
     name: 'ASUS Zenbook S 14 OLED 14" Laptop - Intel® Core™ Ultra 7, 1TB SSD, 32 GB RAM - Scandinavian White',
-    coverImage: ASUSZenbookS14OLED,
+    coverImage: 'http://localhost:3000/images/Asus/ZenbookS14OLED/oled1.webp',
     currentPrice: 1249,
     previousPrice: 1499,
     refurbishedPrice: 0,
@@ -1096,7 +1084,13 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: true,
-    shots: [ASUSZenbookS14OLED, ASUSZenbookS14OLED2,ASUSZenbookS14OLED3, ASUSZenbookS14OLED4, ASUSZenbookS14OLED5],
+    shots: [
+        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled1.webp',
+        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled2.webp',
+        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled3.webp',
+        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled4.webp',
+        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled5.webp',
+    ],
     "tags": ['Student', 'Business' , 'Asus', 'i7', '32RAM', '1TSSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/ux5406sapz169w-asus-zenbook-s-14-laptop-white-103127-251.aspx',
     overview:
@@ -1187,7 +1181,7 @@ export const laptops = [
   {
     slug: 'MicrosoftSurface7',
     name: 'Microsoft Surface 7 Copilot+ 13.8" Laptop - Qualcomm Snapdragon®, 512GB SSD, 16 GB RAM - Black',
-    coverImage: MicrosoftSurface7,
+    coverImage: 'http://localhost:3000/images/Microsoft/Surface7/Surface7.webp',
     currentPrice: 1035,
     previousPrice: 1249,
     refurbishedPrice: 0,
@@ -1197,7 +1191,13 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: false,
-    shots: [MicrosoftSurface7, MicrosoftSurface72,MicrosoftSurface73, MicrosoftSurface74, MicrosoftSurface75],
+    shots: [
+        'http://localhost:3000/images/Microsoft/Surface7/Surface7.webp',
+        'http://localhost:3000/images/Microsoft/Surface7/Surface72.webp',
+        'http://localhost:3000/images/Microsoft/Surface7/Surface73.webp',
+        'http://localhost:3000/images/Microsoft/Surface7/Surface74.webp',
+        'http://localhost:3000/images/Microsoft/Surface7/Surface75.webp',
+    ],
     "tags": ['Student', 'Business' , 'Windows', 'Snapdragon', '16RAM', '512SSD', 'Laptops'],
     link: 'https://ao.com/product/zgm00040-microsoft-surface-7-copilot-laptop-black-102030-251.aspx',
     overview:
@@ -2515,21 +2515,22 @@ export const brandsSection = {
       rating: 4.9,
       visitLink: 'https://ao.com',
       logo: AO_LOGO,
-      laptops: [ThinkPadP1Gen72, HPPavilionx360i33, HPPavilionx360i32, MacBookAirM3],
+      laptops: ['http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen72.avif', 'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_011.jpg',
+      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_012.jpg', 'http://localhost:3000/images/Apple/MacBookAirM3/macair1.avif'],
     },
     {
       brandName: 'Back Market',
       rating: 4.1,
       visitLink: 'https://www.backmarket.co.uk',
       logo: BM_LOGO,
-      laptops: [MacBookAirM12, MacBookPro14M3, MicrosoftSurface73, Yoga7iGen92],
+      laptops: ['http://localhost:3000/images/Apple/MacBookAirM1/macair2.jpg', 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M3.avif', 'http://localhost:3000/images/Microsoft/Surface7/Surface73.webp', 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif'],
     },
     {
       brandName: 'Laptops Direct',
       rating: 4.3,
       visitLink: 'https://www.laptopsdirect.co.uk/',
       logo: LD_LOGO,
-      laptops: [ASUSProArtP16, HPOmniBookUltra142, LegionPro7iGen102, MacBookPro14M42],
+      laptops: ['http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP16.webp', 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp', 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen102.avif', 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M42.avif'],
     },
   ],
 };
