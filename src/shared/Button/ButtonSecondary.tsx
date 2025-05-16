@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-
 import type { ButtonProps } from '@/shared/Button/Button';
 import Button from '@/shared/Button/Button';
 
@@ -30,5 +29,4 @@ const ButtonSecondary: React.FC<ButtonPrimaryProps> = ({
 };
 
 export default ButtonSecondary;
-
 

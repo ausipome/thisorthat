@@ -1,36 +1,6 @@
 import { BsCircleFill } from 'react-icons/bs'; 
 import type { NavItemType } from '@/components/NavItem';
 
-import ThinkPadP1Gen7 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen7.avif';
-import ThinkPadP1Gen72 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen72.avif';
-import ThinkPadP1Gen73 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen73.webp';
-import ThinkPadP1Gen74 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen74.webp';
-import ThinkPadP1Gen75 from 'http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen75.avif';
-
-import SurfaceStudio2 from 'http://localhost:3000/images/Microsoft/SurfaceStudio2/SurfaceStudio2.webp';
-import SurfaceStudio22 from 'http://localhost:3000/images/Microsoft/SurfaceStudio2/SurfaceStudio22.webp';
-import SurfaceStudio23 from 'http://localhost:3000/images/Microsoft/SurfaceStudio2/SurfaceStudio23.webp';
-
-import MSITitan18HX from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX.webp';
-import MSITitan18HX2 from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX2.webp';
-import MSITitan18HX3 from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX3.webp';
-import MSITitan18HX4 from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX4.webp';
-import MSITitan18HX5 from 'http://localhost:3000/images/MSI/MSITitan18HX/MSITitan18HX5.webp';
-
-import ROGZephyrusG16 from 'http://localhost:3000/images/Asus/ROGZephyrusG16/ROGZephyrusG16.jpg';
-import ROGZephyrusG162 from 'http://localhost:3000/images/Asus/ROGZephyrusG16/ROGZephyrusG162.jpg';
-import ROGZephyrusG163 from 'http://localhost:3000/images/Asus/ROGZephyrusG16/ROGZephyrusG163.jpg';
-
-import LegionPro7iGen10 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen10.webp';
-import LegionPro7iGen102 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen102.avif';
-import LegionPro7iGen103 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen103.avif';
-import LegionPro7iGen104 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen104.avif';
-import LegionPro7iGen105 from 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen105.avif';
-
-import AO_LOGO from 'http://localhost:3000/images/companies/AO_LOGO.avif';
-import BM_LOGO from 'http://localhost:3000/images/companies/BM_LOGO.png';
-import LD_LOGO from 'http://localhost:3000/images/companies/LD_LOGO.png';
-
 export const topNavLinks: NavItemType[] = [
   {
     id: 'ee46t',
@@ -84,7 +54,7 @@ export const laptops = [
   {
     slug: 'AcerAspire3i5',
     name: 'Acer Aspire 3 A315-59 15.6" Laptop - Intel® Core™ i5, 512GB SSD, 8 GB RAM - Silver',
-    coverImage: 'http://localhost:3000/images/Acer/AcerAspire3i5/AcerAspire3i5.webp',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i5/AcerAspire3i5.webp',
     currentPrice: 549,
     previousPrice: 599,
     refurbishedPrice: 99,
@@ -94,14 +64,14 @@ export const laptops = [
     reviews: 56,
     pieces_sold: 600,
     ourPick: false,
-    shots: ['http://localhost:3000/images/Acer/AcerAspire3i5/AcerAspire3i5.webp',
-            'http://localhost:3000/images/Acer/AcerAspire3i5/27fb6f5292fa16adc1d8f4a8970abb7d_12.webp',
-            'http://localhost:3000/images/Acer/AcerAspire3i5/80cae0549bf709acd3f661c2d2acc30c_14.webp',
-            'http://localhost:3000/images/Acer/AcerAspire3i5/Acer_2023_Bluelight Shield.webp', 
-            'http://localhost:3000/images/Acer/AcerAspire3i5/c292cb6b834556a11094c212dde6bdcd_13.webp',
-            'http://localhost:3000/images/Acer/AcerAspire3i5/d0e632e2e27a82835b70bec0781ae613_15.webp',
-            'http://localhost:3000/images/Acer/AcerAspire3i5/dac7a5228c5791c371c35b1da435d28b_16.webp',
-            'http://localhost:3000/images/Acer/AcerAspire3i5/NXK6SEK00B_Acer_Laptop_03.webp',],
+    shots: ['https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i5/AcerAspire3i5.webp',
+            'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i5/27fb6f5292fa16adc1d8f4a8970abb7d_12.webp',
+            'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i5/80cae0549bf709acd3f661c2d2acc30c_14.webp',
+            'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i5/Acer_2023_Bluelight Shield.webp', 
+            'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i5/c292cb6b834556a11094c212dde6bdcd_13.webp',
+            'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i5/d0e632e2e27a82835b70bec0781ae613_15.webp',
+            'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i5/dac7a5228c5791c371c35b1da435d28b_16.webp',
+            'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i5/NXK6SEK00B_Acer_Laptop_03.webp',],
     "tags": ['Basic', 'Student', 'professionals', 'Acer', 'i5', '8RAM', '512SSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/nxk6sek00b-acer-aspire-3-a31559-laptop-silver-102012-251.aspx',
     overview:
@@ -192,7 +162,7 @@ export const laptops = [
   {
     slug: 'AcerAspire3i3',
     name: 'Acer Aspire Go 14 Laptop, Intel Core i3 Processor, 8GB RAM, 128GB SSD, 14” WUXGA, Silver',
-    coverImage: 'http://localhost:3000/images/Acer/AcerAspire3i3/113101105.webp',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i3/113101105.webp',
     currentPrice: 299,
     previousPrice: 399,
     refurbishedPrice: 99,
@@ -203,14 +173,14 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [
-      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105.webp',
-      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt1.webp',
-      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt2.webp',
-      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt3.webp',
-      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt4.webp',
-      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt5.webp',
-      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt6.webp',
-      'http://localhost:3000/images/Acer/AcerAspire3i3/113101105alt7.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i3/113101105.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i3/113101105alt1.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i3/113101105alt2.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i3/113101105alt3.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i3/113101105alt4.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i3/113101105alt5.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i3/113101105alt6.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Acer/AcerAspire3i3/113101105alt7.webp',
 ],
     "tags": ['Basic', 'Student', 'Acer', 'i3', '8RAM', '128SSD', 'Laptops', 'Windows'],
     link: 'https://www.johnlewis.com/acer-aspire-go-14-laptop-intel-core-i3-processor-8gb-ram-128gb-ssd-14-wuxga-silver',
@@ -302,7 +272,7 @@ export const laptops = [
   {
     slug: 'LenovoIdeaPadSlim3i5',
     name: 'Lenovo IdeaPad Slim 3 15.6" Laptop - Intel® Core™ i5, 512GB SSD, 8 GB RAM - Grey',
-    coverImage: 'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_02.webp',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_02.webp',
     currentPrice: 399,
     previousPrice: 549,
     refurbishedPrice: 99,
@@ -313,14 +283,14 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_02.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_12.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_11.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_10.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_06.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_13.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_05.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_03.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_02.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_12.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_11.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_10.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_06.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_13.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_05.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i5/83ER00G4UK_Lenvo_laptop_03.webp',
     ],
     "tags": ['Basic', 'Student', 'professionals', 'Lenovo', 'i5', '8RAM', '512SSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/83er00g4uk-lenovo-ideapad-slim-3-laptop-grey-103813-251.aspx',
@@ -406,7 +376,7 @@ export const laptops = [
   {
     slug: 'LenovoIdeaPadSlim3i3',
     name: 'Lenovo IdeaPad Slim 3 15.6" Laptop - Intel® Core™ i3 N-series, 128GB eUFS, 8 GB RAM - Grey',
-    coverImage: 'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_01.webp',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_01.webp',
     currentPrice: 269,
     previousPrice: 399,
     refurbishedPrice: 99,
@@ -417,14 +387,14 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_01.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_07.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_09.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_05.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_06.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_12.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_11.webp',
-      'http://localhost:3000/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_02.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_01.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_07.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_09.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_05.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_06.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_12.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_11.webp',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_02.webp',
     ],
     "tags": ['Basic', 'Student', 'Lenovo', 'i3', '8RAM', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/82xb0093uk-lenovo-ideapad-slim-3-laptop-grey-103812-251.aspx',
@@ -510,7 +480,7 @@ export const laptops = [
   {
     slug: 'HPPavilionx360i5',
     name: 'HP Pavilion 14" x360 Laptop - Intel® Core™ i3, 8GB, Touchscreen 256GB SSD - Silver',
-    coverImage: 'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996.jpg',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996.jpg',
     currentPrice: 479,
     previousPrice: 699,
     refurbishedPrice: 99,
@@ -521,14 +491,14 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [
-      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996.jpg',
-      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_011.jpg',
-      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_012.jpg',
-      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_013.jpg',
-      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_014.jpg',
-      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_015.jpg',
-      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_017.jpg',
-      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_016.jpg',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996.jpg',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996_011.jpg',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996_012.jpg',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996_013.jpg',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996_014.jpg',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996_015.jpg',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996_017.jpg',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996_016.jpg',
     ],
     "tags": ['Basic', 'Student', 'HP', 'i3', '8RAM', '256SSD', 'Laptops', 'Windows'],
     link: 'https://www.hp.com/gb-en/shop/product.aspx?id=800P2EA&opt=ABU&sel=NTB&srsltid=AfmBOopjc1QIx4pqcgfZvQjHb-hsgcZ54w_hM4F_ysLnNcrpS7j_ltqseNI&gQT=2',
@@ -614,7 +584,7 @@ export const laptops = [
   {
     slug: 'ASUSVivoBook15i5',
     name: 'ASUS VivoBook 15 15.6" Laptop - Intel® Core™ i5, 512GB SSD, 8 GB RAM - Silver',
-    coverImage: 'http://localhost:3000/images/Asus/ASUSVivoBook15i5/590b8b12809ad61cc03dedd200190ac8_1.webp',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSVivoBook15i5/590b8b12809ad61cc03dedd200190ac8_1.webp',
     currentPrice: 399,
     previousPrice: 549,
     refurbishedPrice: 99,
@@ -625,14 +595,14 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: true,
     shots: [
-        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/590b8b12809ad61cc03dedd200190ac8_1.webp',
-        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/758acf486381eee7dd6ea0c8482acff4_3.webp',
-        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/7458460dd65f74d03d2336a2485bf51b_5.webp',
-        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/adf8d605412e5ff61793bfc922e589eb_2.webp',
-        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/479605abed6012172fbcdf383e49ecd8_11.webp',
-        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/454b889cf0d1e24dbec6552549694008_4.webp',
-        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/3dc78c1475c37dccae8691a9bbd4ac15_9.webp',
-        'http://localhost:3000/images/Asus/ASUSVivoBook15i5/10028895bfb0f88b01d16281dc8aef58_8.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSVivoBook15i5/590b8b12809ad61cc03dedd200190ac8_1.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSVivoBook15i5/758acf486381eee7dd6ea0c8482acff4_3.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSVivoBook15i5/7458460dd65f74d03d2336a2485bf51b_5.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSVivoBook15i5/adf8d605412e5ff61793bfc922e589eb_2.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSVivoBook15i5/479605abed6012172fbcdf383e49ecd8_11.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSVivoBook15i5/454b889cf0d1e24dbec6552549694008_4.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSVivoBook15i5/3dc78c1475c37dccae8691a9bbd4ac15_9.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSVivoBook15i5/10028895bfb0f88b01d16281dc8aef58_8.webp',
     ],
     "tags": ['Basic', 'Student', 'Asus', 'i5', '8RAM', '512SSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/x1504zanj043w-asus-vivobook-15-laptop-silver-99445-251.aspx',
@@ -718,7 +688,7 @@ export const laptops = [
   {
     slug: 'MacBookAirM1',
     name: 'MacBook Air 13-inch (2020) - Apple M1 8-core and 7-core GPU - 8GB RAM - SSD 256GB',
-    coverImage: 'http://localhost:3000/images/Apple/MacBookAirM1/macair1.avif',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair1.avif',
     currentPrice: 0,
     previousPrice: 0,
     refurbishedPrice: 405,
@@ -729,11 +699,11 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [
-        'http://localhost:3000/images/Apple/MacBookAirM1/macair1.avif',
-        'http://localhost:3000/images/Apple/MacBookAirM1/macair2.jpg',
-        'http://localhost:3000/images/Apple/MacBookAirM1/macair3.jpg',
-        'http://localhost:3000/images/Apple/MacBookAirM1/macair4.jpg',
-        'http://localhost:3000/images/Apple/MacBookAirM1/macair5.jpg',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair1.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair2.jpg',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair3.jpg',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair4.jpg',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair5.jpg',
     ],
     "tags": ['Basic', 'Student', 'MacOS', 'M1', '8RAM', '256SSD', 'Laptops'],
     link: '',
@@ -825,7 +795,7 @@ export const laptops = [
   {
     slug: 'MacBookAirM2',
     name: 'MacBook Air 13-inch (2022) - Apple M2 8-core and 8-core GPU - 8GB RAM - SSD 256GB',
-    coverImage:  'http://localhost:3000/images/Apple/MacBookAirM2/macair1.avif',
+    coverImage:  'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair1.avif',
     currentPrice: 0,
     previousPrice: 0,
     refurbishedPrice: 630,
@@ -836,11 +806,11 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: true,
     shots: [
-        'http://localhost:3000/images/Apple/MacBookAirM2/macair1.avif',
-        'http://localhost:3000/images/Apple/MacBookAirM2/macair2.avif',
-        'http://localhost:3000/images/Apple/MacBookAirM2/macair3.avif',
-        'http://localhost:3000/images/Apple/MacBookAirM2/macair4.avif',
-        'http://localhost:3000/images/Apple/MacBookAirM2/macair5.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair1.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair2.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair3.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair4.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair5.avif',
     ],
     "tags": ['Basic', 'Student', 'MacOS', 'M2', '8RAM', '256SSD', 'Laptops'],
     link: '',
@@ -932,7 +902,7 @@ export const laptops = [
   {
     slug: 'MacBookAirM3',
     name: 'MacBook Air 13-inch (2024) - Apple M3 8-core and 8-core GPU - 8GB RAM - SSD 256GB',
-    coverImage: 'http://localhost:3000/images/Apple/MacBookAirM3/macair1.avif',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM3/macair1.avif',
     currentPrice: 0,
     previousPrice: 0,
     refurbishedPrice: 749,
@@ -943,10 +913,10 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [
-        'http://localhost:3000/images/Apple/MacBookAirM3/macair1.avif',
-        'http://localhost:3000/images/Apple/MacBookAirM3/macair2.avif',
-        'http://localhost:3000/images/Apple/MacBookAirM3/macair3.avif',
-        'http://localhost:3000/images/Apple/MacBookAirM3/macair4.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM3/macair1.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM3/macair2.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM3/macair3.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM3/macair4.avif',
     ],
     "tags": ['Student', 'Business', 'Developer', 'Creative' , 'MacOS', 'M3', '8RAM', '256SSD', 'Laptops'],
     link: '',
@@ -1038,7 +1008,7 @@ export const laptops = [
   {
     slug: 'ASUSZenbookS14OLED',
     name: 'ASUS Zenbook S 14 OLED 14" Laptop - Intel® Core™ Ultra 7, 1TB SSD, 32 GB RAM - Scandinavian White',
-    coverImage: 'http://localhost:3000/images/Asus/ZenbookS14OLED/oled1.webp',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ZenbookS14OLED/oled1.webp',
     currentPrice: 1249,
     previousPrice: 1499,
     refurbishedPrice: 0,
@@ -1049,11 +1019,11 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: true,
     shots: [
-        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled1.webp',
-        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled2.webp',
-        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled3.webp',
-        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled4.webp',
-        'http://localhost:3000/images/Asus/ZenbookS14OLED/oled5.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ZenbookS14OLED/oled1.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ZenbookS14OLED/oled2.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ZenbookS14OLED/oled3.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ZenbookS14OLED/oled4.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ZenbookS14OLED/oled5.webp',
     ],
     "tags": ['Student', 'Business' , 'Asus', 'i7', '32RAM', '1TSSD', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/ux5406sapz169w-asus-zenbook-s-14-laptop-white-103127-251.aspx',
@@ -1145,7 +1115,7 @@ export const laptops = [
   {
     slug: 'MicrosoftSurface7',
     name: 'Microsoft Surface 7 Copilot+ 13.8" Laptop - Qualcomm Snapdragon®, 512GB SSD, 16 GB RAM - Black',
-    coverImage: 'http://localhost:3000/images/Microsoft/Surface7/Surface7.webp',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/Surface7/Surface7.webp',
     currentPrice: 1035,
     previousPrice: 1249,
     refurbishedPrice: 0,
@@ -1156,11 +1126,11 @@ export const laptops = [
     pieces_sold: 600,
     ourPick: false,
     shots: [
-        'http://localhost:3000/images/Microsoft/Surface7/Surface7.webp',
-        'http://localhost:3000/images/Microsoft/Surface7/Surface72.webp',
-        'http://localhost:3000/images/Microsoft/Surface7/Surface73.webp',
-        'http://localhost:3000/images/Microsoft/Surface7/Surface74.webp',
-        'http://localhost:3000/images/Microsoft/Surface7/Surface75.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/Surface7/Surface7.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/Surface7/Surface72.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/Surface7/Surface73.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/Surface7/Surface74.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/Surface7/Surface75.webp',
     ],
     "tags": ['Student', 'Business' , 'Windows', 'Snapdragon', '16RAM', '512SSD', 'Laptops'],
     link: 'https://ao.com/product/zgm00040-microsoft-surface-7-copilot-laptop-black-102030-251.aspx',
@@ -1252,7 +1222,7 @@ export const laptops = [
   {
     slug: 'Yoga7iGen9',
     name: 'Lenovo Yoga 7i 2-in-1 Gen 9 (14") Laptop - Intel® Core™ Ultra 5, 512GB SSD, 16GB RAM - OLED Touchscreen',
-    coverImage: 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif',
     currentPrice: 960,
     previousPrice: 999,
     refurbishedPrice: 0,
@@ -1263,11 +1233,11 @@ export const laptops = [
     pieces_sold: 450,
     ourPick: false,
     shots: [
-        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif',
-        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif',
-        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen93.avif',
-        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen94.avif',
-        'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen95.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/Yoga7iGen9/Yoga7iGen9.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/Yoga7iGen9/Yoga7iGen93.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/Yoga7iGen9/Yoga7iGen94.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/Yoga7iGen9/Yoga7iGen95.avif',
     ],
     tags: ['Lenovo', 'Touchscreen', 'Student', 'Business', '16RAM', '512SSD', 'Laptops', 'Windows','Ultra5'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/yoga/yoga-2-in-1-series/lenovo-yoga-7i-2-in-1-gen-9-14-inch-intel/83djcto1wwgb1',
@@ -1359,7 +1329,7 @@ export const laptops = [
   {
     slug: 'MacBookPro14M3',
     name: 'MacBook Pro 14-inch (2023) - Apple M3 8-core CPU & 10-core GPU, 8GB RAM, 512GB SSD - Space Grey',
-    coverImage: 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M3.avif',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M3/MacBookPro14M3.avif',
     currentPrice: 0,
     previousPrice: 0,
     refurbishedPrice: 995,
@@ -1370,11 +1340,11 @@ export const laptops = [
     pieces_sold: 950,
     ourPick: true,
     shots: [
-        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M3.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M32.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M33.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M34.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M35.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M3/MacBookPro14M3.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M3/MacBookPro14M32.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M3/MacBookPro14M33.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M3/MacBookPro14M34.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M3/MacBookPro14M35.avif',
     ],
     tags: ['MacOS', 'M3', '512SSD', '8RAM', 'Creative', 'Business', 'Student', 'Developer', 'Laptops'],
     link: '',
@@ -1466,7 +1436,7 @@ export const laptops = [
   {
     slug: 'ThinkPadX1Gen12',
     name: 'Lenovo ThinkPad X1 Carbon Gen 12 (14") Laptop - Intel® Core™ Ultra 5, 256GB SSD, 16GB RAM - IPS Display',
-    coverImage: 'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif',
     currentPrice: 1750,
     previousPrice: 2099,
     refurbishedPrice: 0,
@@ -1477,11 +1447,11 @@ export const laptops = [
     pieces_sold: 520,
     ourPick: false,
     shots: [
-        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif',
-        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen122.avif',
-        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen123.webp',
-        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen124.avif',
-        'http://localhost:3000/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen125.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen12.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen122.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen123.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen124.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadX1Gen12/ThinkPadX1Gen125.avif',
 
     ],
     tags: ['Lenovo', 'Business', '16RAM', '256SSD', 'Laptops', 'Windows', 'Ultra5'],
@@ -1574,7 +1544,7 @@ export const laptops = [
   {
     slug: 'HPOmniBookUltra14',
     name: 'HP OmniBook Ultra 14" Laptop - AMD Ryzen™ AI 9, 1TB SSD, 16GB RAM - Grey',
-    coverImage: 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp',
     currentPrice: 1449,
     previousPrice: 1649,
     refurbishedPrice: 0,
@@ -1585,11 +1555,11 @@ export const laptops = [
     pieces_sold: 380,
     ourPick: false,
     shots: [
-        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp',
-        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp',
-        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra143.webp',
-        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra144.webp',
-        'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra145.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPOmniBookUltra14/HPOmniBookUltra14.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPOmniBookUltra14/HPOmniBookUltra143.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPOmniBookUltra14/HPOmniBookUltra144.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPOmniBookUltra14/HPOmniBookUltra145.webp',
     ],
     tags: ['HP', 'RyzenAI9', '16RAM', '1TBSSD', 'Business', 'Student','Developer', 'Laptops', 'Windows'],
     link: 'https://ao.com/product/am6y7eaabu-hp-omnibook-ultra-14fd0001na-laptop-grey-104190-251.aspx',
@@ -1681,7 +1651,7 @@ export const laptops = [
   {
     slug: 'MacBookPro14M4',
     name: 'Apple 14" MacBook Pro (2024) - M4, 16GB RAM, 10-Core GPU, 1TB SSD - Space Black',
-    coverImage: 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
     currentPrice: 1621,
     previousPrice: 1799,
     refurbishedPrice: 0,
@@ -1692,11 +1662,11 @@ export const laptops = [
     pieces_sold: 420,
     ourPick: false,
     shots: [
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M42.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M43.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M44.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M45.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M42.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M43.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M44.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M45.avif',
     ],
     tags: ['MacOS', 'MacBook Pro', 'M4', '16RAM', '1TBSSD', 'Creative', 'Business', 'Developer', 'Laptops'],
     link: 'https://www.apple.com/uk/shop/buy-mac/macbook-pro/14-inch-space-black-apple-m4-chip-with-10-core-gpu-1tb',
@@ -1788,7 +1758,7 @@ export const laptops = [
   {
     slug: 'MacBookPro16M4Pro',
     name: 'Apple 16" MacBook Pro (2024) - M4 Pro, 24GB RAM, 20-Core GPU, 512GB SSD - Space Black',
-    coverImage:  'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
+    coverImage:  'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
     currentPrice: 2215,
     previousPrice: 2499,
     refurbishedPrice: 0,
@@ -1799,11 +1769,11 @@ export const laptops = [
     pieces_sold: 310,
     ourPick: false,
     shots: [
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M42.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M43.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M44.avif',
-        'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M45.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M4.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M42.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M43.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M44.avif',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M45.avif',
     ],
     tags: ['MacOS', 'MacBook Pro', 'M4', '16RAM', '512SSD', 'Creative', 'Business', 'Developer', 'Laptops'],
     link: 'https://ao.com/product/mx2x3ba-apple-macbook-pro-laptop-black-104036-251.aspx',
@@ -1895,7 +1865,7 @@ export const laptops = [
   {
     slug: 'ASUSProArtP16',
     name: 'ASUS ProArt P16 16" OLED Touchscreen Laptop - AMD Ryzen™ AI 9 HX 370, 32GB RAM, 1TB SSD, NVIDIA RTX 4070',
-    coverImage: 'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP16.webp',
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSProArtP16/ASUSProArtP16.webp',
     currentPrice: 2199,
     previousPrice: 2499,
     refurbishedPrice: 0,
@@ -1906,11 +1876,11 @@ export const laptops = [
     pieces_sold: 190,
     ourPick: false,
     shots: [
-        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP16.webp',
-        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP162.webp',
-        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP163.webp',
-        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP164.webp',
-        'http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP165.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSProArtP16/ASUSProArtP16.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSProArtP16/ASUSProArtP162.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSProArtP16/ASUSProArtP163.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSProArtP16/ASUSProArtP164.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSProArtP16/ASUSProArtP165.webp',
     ],
     tags: ['ASUS', 'RyzenAI9', 'RTX4070', '32RAM', '1TBSSD', 'Creative','Developer', 'Touchscreen', 'Windows', 'Laptops'],
     link: 'https://www.asus.com/uk/laptops/for-creators/proart/proart-p16-h7606/',
@@ -2002,7 +1972,7 @@ export const laptops = [
   {
     slug: 'ThinkPadP1Gen7',
     name: 'Lenovo ThinkPad P1 Gen 7 16" OLED Touch Laptop - Intel® Core™ Ultra 9, 64GB RAM, 2TB SSD, NVIDIA RTX 2000 Ada',
-    coverImage: ThinkPadP1Gen7,
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen7.avif',
     currentPrice: 3899.50,
     previousPrice: 4570,
     refurbishedPrice: 0,
@@ -2012,7 +1982,13 @@ export const laptops = [
     reviews: 27,
     pieces_sold: 130,
     ourPick: false,
-    shots: [ThinkPadP1Gen7, ThinkPadP1Gen72, ThinkPadP1Gen73, ThinkPadP1Gen74, ThinkPadP1Gen75],
+    shots: [
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen7.avif',
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen72.avif',
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen73.webp',
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen74.webp',
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen75.avif',
+    ],
     tags: ['Lenovo', 'ThinkPad', 'Ultra9', 'RTX 2000 Ada', '64RAM', '2TBSSD', 'Workstation','Creative','Developer', 'OLED', 'Touchscreen','laptops', 'Windows'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/thinkpad/thinkpadp/thinkpad-p1-gen-7-16-inch-intel/len101t0107',
     overview:
@@ -2103,7 +2079,7 @@ export const laptops = [
   {
     slug: 'SurfaceStudio2',
     name: 'Microsoft Surface Studio 2 14.4" 2-in-1 Laptop - Intel® Core™ i7, 16GB RAM, 512GB SSD, NVIDIA® GeForce RTX® 3060 - Platinum',
-    coverImage: SurfaceStudio2,
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/SurfaceStudio2/SurfaceStudio2.webp',
     currentPrice: 1915,
     previousPrice: 2069,
     refurbishedPrice: 0,
@@ -2113,7 +2089,11 @@ export const laptops = [
     reviews: 61,
     pieces_sold: 260,
     ourPick: true,
-    shots: [SurfaceStudio2, SurfaceStudio22, SurfaceStudio23],
+    shots: [
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/SurfaceStudio2/SurfaceStudio2.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/SurfaceStudio2/SurfaceStudio22.webp',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/SurfaceStudio2/SurfaceStudio23.webp',
+    ],
     tags: ['Windows', 'Touchscreen', 'RTX 3060', 'Creative', '16RAM', '512SSD', 'Laptops', 'i7'],
     link: 'https://ao.com/product/zrf00004-microsoft-surface-studio-2-laptop-silver-99144-251.aspx',
     overview:
@@ -2204,7 +2184,7 @@ export const laptops = [
   {
     slug: 'MSITitan18HX',
     name: 'MSI Titan 18 HX AI Laptop - 18" 4K Mini LED 120Hz, GeForce RTX 5080, Intel Core Ultra 9, 64GB RAM, 2TB SSD - Black',
-    coverImage: MSITitan18HX,
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/MSI/MSITitan18HX/MSITitan18HX.webp',
     currentPrice: 4999,
     previousPrice: 5299,
     refurbishedPrice: 0,
@@ -2214,7 +2194,13 @@ export const laptops = [
     reviews: 22,
     pieces_sold: 90,
     ourPick: false,
-    shots: [MSITitan18HX, MSITitan18HX2, MSITitan18HX3, MSITitan18HX4, MSITitan18HX5],
+    shots: [
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/MSI/MSITitan18HX/MSITitan18HX.webp',
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/MSI/MSITitan18HX/MSITitan18HX2.webp',
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/MSI/MSITitan18HX/MSITitan18HX3.webp',
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/MSI/MSITitan18HX/MSITitan18HX4.webp',
+'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/MSI/MSITitan18HX/MSITitan18HX5.webp',
+    ],
     tags: ['MSI','Ultra9', 'Titan', 'RTX 5080', '4K', '64RAM', '2TBSSD', 'Gaming', 'Creative', 'Laptops', 'Windows'],
     link: 'https://www.very.co.uk/msi-titan-18-hx-ai-laptopnbsp--18in-4k-mini-led-120hznbspgeforce-rtx-5080-intel-core-ultra-9-64gb-ram-2tb-ssd-black/1601143576.prd',
     overview:
@@ -2305,7 +2291,7 @@ export const laptops = [
   {
     slug: 'ROGZephyrusG16_2024',
     name: 'Asus ROG Zephyrus G16 (2024) GU605 - Intel® Core™ Ultra 9, RTX 4090, 32GB RAM, 2TB SSD, 16" OLED 240Hz - Platinum White',
-    coverImage: ROGZephyrusG16,
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ROGZephyrusG16/ROGZephyrusG16.jpg',
     currentPrice: 3999.99,
     previousPrice: 4499.99,
     refurbishedPrice: 0,
@@ -2315,7 +2301,11 @@ export const laptops = [
     reviews: 49,
     pieces_sold: 210,
     ourPick: true,
-    shots: [ROGZephyrusG16, ROGZephyrusG162, ROGZephyrusG163],
+    shots: [
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ROGZephyrusG16/ROGZephyrusG16.jpg',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ROGZephyrusG16/ROGZephyrusG162.jpg',
+        'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ROGZephyrusG16/ROGZephyrusG163.jpg',
+    ],
     tags: ['Asus','32RAM', '2TBSSD', 'Gaming', 'Creative', 'Ultra9', 'RTX 4090', 'OLED', '240Hz', 'Laptops', 'Windows'],
     link: 'https://uk.store.asus.com/rog-zephyrus-g16-2024-gu605486-90nr0iq6-m001c0.html',
     overview:
@@ -2406,7 +2396,7 @@ export const laptops = [
   {
     slug: 'LegionPro7iGen10',
     name: 'Lenovo Legion Pro 7i Gen 10 (16") - Intel® Core™ Ultra 9, RTX 5070 Ti, 32GB RAM, 1TB SSD, 240Hz OLED - Grey',
-    coverImage: LegionPro7iGen10,
+    coverImage: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LegionPro7iGen10/LegionPro7iGen10.webp',
     currentPrice: 3099,
     previousPrice: 3600,
     refurbishedPrice: 0,
@@ -2416,7 +2406,13 @@ export const laptops = [
     reviews: 33,
     pieces_sold: 140,
     ourPick: false,
-    shots: [LegionPro7iGen10, LegionPro7iGen102, LegionPro7iGen103, LegionPro7iGen104, LegionPro7iGen105],
+    shots: [
+          'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LegionPro7iGen10/LegionPro7iGen10.webp',
+          'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LegionPro7iGen10/LegionPro7iGen102.avif',
+          'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LegionPro7iGen10/LegionPro7iGen103.avif',
+          'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LegionPro7iGen10/LegionPro7iGen104.avif',
+          'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LegionPro7iGen10/LegionPro7iGen105.avif',
+    ],
     tags: ['Lenovo', 'Windows', '32RAM', '1TBSSD', 'Gaming','Creative', 'Ultra9', 'Laptops'],
     link: 'https://www.lenovo.com/gb/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-7i-gen-10-16-inch-intel/len101g0039',
     overview:
@@ -2521,23 +2517,23 @@ export const brandsSection = {
       brandName: 'AO',
       rating: 4.9,
       visitLink: 'https://ao.com',
-      logo: AO_LOGO,
-      laptops: ['http://localhost:3000/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen72.avif', 'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_011.jpg',
-      'http://localhost:3000/images/HP/HPPavilionx360i3/l_10250996_012.jpg', 'http://localhost:3000/images/Apple/MacBookAirM3/macair1.avif'],
+      logo: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/companies/AO_LOGO.avif',
+      laptops: ['https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/ThinkPadP1Gen7/ThinkPadP1Gen72.avif', 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996_011.jpg',
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPPavilionx360i3/l_10250996_012.jpg', 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM3/macair1.avif'],
     },
     {
       brandName: 'Back Market',
       rating: 4.1,
       visitLink: 'https://www.backmarket.co.uk',
-      logo: BM_LOGO,
-      laptops: ['http://localhost:3000/images/Apple/MacBookAirM1/macair2.jpg', 'http://localhost:3000/images/Apple/MacBookPro14M3/MacBookPro14M3.avif', 'http://localhost:3000/images/Microsoft/Surface7/Surface73.webp', 'http://localhost:3000/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif'],
+      logo: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/companies/BM_LOGO.png',
+      laptops: ['https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair2.jpg', 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M3/MacBookPro14M3.avif', 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/Surface7/Surface73.webp', 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/Yoga7iGen9/Yoga7iGen92.avif'],
     },
     {
       brandName: 'Laptops Direct',
       rating: 4.3,
       visitLink: 'https://www.laptopsdirect.co.uk/',
-      logo: LD_LOGO,
-      laptops: ['http://localhost:3000/images/Asus/ASUSProArtP16/ASUSProArtP16.webp', 'http://localhost:3000/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp', 'http://localhost:3000/images/Lenovo/LegionPro7iGen10/LegionPro7iGen102.avif', 'http://localhost:3000/images/Apple/MacBookPro14M4/MacBookPro14M42.avif'],
+      logo: 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/companies/LD_LOGO.png',
+      laptops: ['https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ASUSProArtP16/ASUSProArtP16.webp', 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/HP/HPOmniBookUltra14/HPOmniBookUltra142.webp', 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LegionPro7iGen10/LegionPro7iGen102.avif', 'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookPro14M4/MacBookPro14M42.avif'],
     },
   ],
 };

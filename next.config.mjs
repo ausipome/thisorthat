@@ -14,9 +14,9 @@ export default bundleAnalyzer({
   images: {
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: 'localhost',
-        port: '3000',
+        protocol: 'https',
+        hostname: 's3.eu-west-2.amazonaws.com',
+        port: '',
         pathname: '/**',
       },
       {
