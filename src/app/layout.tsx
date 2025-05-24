@@ -1,5 +1,6 @@
 import '@/styles/global.css';
 
+import { HeroUIProvider } from '@heroui/react';
 import type { Metadata } from 'next';
 import React, { Suspense } from 'react';
 
@@ -10,7 +11,8 @@ import Loading from './loading';
 
 export const metadata: Metadata = {
   title: 'ThisorThat.tech | This or That',
-  description: 'This or That helps you navigate the noise and buy the right tech at the right price.',
+  description:
+    'This or That helps you navigate the noise and buy the right tech at the right price.',
   icons: [
     {
       rel: 'apple-touch-icon',
@@ -39,9 +41,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="">
-        <Header />
-        <Suspense fallback={<Loading />}>{children}</Suspense>
-        <Footer />
+        <HeroUIProvider>
+          <Header />
+          <Suspense fallback={<Loading />}>{children}</Suspense>
+          <Footer />
+        </HeroUIProvider>
       </body>
     </html>
   );

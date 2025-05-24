@@ -1,4 +1,5 @@
 import React from 'react';
+
 import SectionBrands from './SectionBrands';
 import SectionHeader from './SectionHeader';
 import SectionProducts from './SectionProducts';

@@ -1,5 +1,7 @@
 import React from 'react';
+
 import { topNavLinks } from '@/data/content';
+
 import NavigationItem from '../NavItem';
 
 const TopNav = () => {

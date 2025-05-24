@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useState, useRef } from 'react';
 import Link from 'next/link';
+import React, { useRef, useState } from 'react';
+
 import type { ProductType } from '@/data/types';
 
 interface SearchProps {
@@ -23,7 +24,7 @@ const Search: React.FC<SearchProps> = ({ laptops }) => {
       setIsDropdownVisible(false);
     } else {
       const matches = laptops.filter((laptop) =>
-        laptop.name.toLowerCase().includes(term.toLowerCase())
+        laptop.name.toLowerCase().includes(term.toLowerCase()),
       );
       setFilteredLaptops(matches);
       setIsDropdownVisible(true);
@@ -59,14 +60,15 @@ const Search: React.FC<SearchProps> = ({ laptops }) => {
         placeholder="try 'Lenovo ThinkPad'"
       />
       {isDropdownVisible && (
-        <ul className="absolute z-10 mt-2 w-full bg-white border border-gray-300 rounded-md shadow-lg">
+        <ul className="border-gray-300 absolute z-10 mt-2 w-full rounded-md border bg-white shadow-lg">
           {filteredLaptops.map((laptop) => (
-            <li key={laptop.slug} className="p-2 hover:bg-gray-100">
-              <Link 
-              className="block text-sm text-gray-700"
-              onClick={handleResultClick} 
-              href={`/laptops/${laptop.slug}`}>
-                  {laptop.name}
+            <li key={laptop.slug} className="hover:bg-gray-100 p-2">
+              <Link
+                className="text-gray-700 block text-sm"
+                onClick={handleResultClick}
+                href={`/laptops/${laptop.slug}`}
+              >
+                {laptop.name}
               </Link>
             </li>
           ))}

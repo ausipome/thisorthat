@@ -1,4 +1,5 @@
 import React from 'react';
+
 import ButtonSecondary from '@/shared/Button/ButtonSecondary';
 
 const Page404 = () => {

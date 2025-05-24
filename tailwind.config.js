@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
+const { heroui } = require('@heroui/react');
+
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}',
+  ],
   theme: {
     fontSize: {
       xs: '0.75rem',
@@ -22,8 +27,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-  ], // eslint-disable-line
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography'), heroui()], // eslint-disable-line
 };

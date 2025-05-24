@@ -5,13 +5,13 @@ import { MdStar } from 'react-icons/md';
 
 import ImageShowCase from '@/components/ImageShowCase';
 import ButtonPrimary from '@/shared/Button/ButtonPrimary';
-import Heading from '@/shared/Heading/Heading';
 import ButtonSecondary from '@/shared/Button/ButtonSecondary';
+import Heading from '@/shared/Heading/Heading';
 
 interface SectionProductHeaderProps {
   shots: StaticImageData[];
-  link:string,
-  refurbishedLink:string,
+  link: string;
+  refurbishedLink: string;
   name: string;
   prevPrice: number;
   currentPrice: number;
@@ -43,9 +43,7 @@ const SectionProductHeader: FC<SectionProductHeaderProps> = ({
         <div className="mb-10 flex items-center">
           <div className="flex items-center gap-1">
             <MdStar className="text-yellow-400" />
-            <p className="text-sm">
-              {rating}{' '}
-            </p>
+            <p className="text-sm">{rating} </p>
           </div>
         </div>
 
@@ -58,10 +56,14 @@ const SectionProductHeader: FC<SectionProductHeaderProps> = ({
 
         <div className="mt-5 flex items-center gap-5">
           {currentPrice !== 0 && (
-            <ButtonPrimary link={link} className="w-full">Buy Now</ButtonPrimary>
+            <ButtonPrimary link={link} className="w-full">
+              Buy Now
+            </ButtonPrimary>
           )}
           {refurbishedPrice !== 0 && (
-            <ButtonSecondary link={refurbishedLink} className="w-full">Buy Refurbished ${refurbishedPrice}</ButtonSecondary>
+            <ButtonSecondary link={refurbishedLink} className="w-full">
+              Buy Refurbished ${refurbishedPrice}
+            </ButtonSecondary>
           )}
         </div>
       </div>

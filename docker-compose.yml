@@ -1,0 +1,13 @@
+services:
+  nextjs-app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - /usr/src/app/node_modules
+    networks:
+      miie_network:
+
+networks:
+  miie_network:
+    external: true

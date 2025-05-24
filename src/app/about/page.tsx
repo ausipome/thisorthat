@@ -1,13 +1,15 @@
 import React from 'react';
+
 import BlogTemplate from '../../components/BlogTemplate';
 
 const Page = () => {
-    const blogData = {
-        title: "Let’s Find the Perfect Laptop (Without Wasting a Penny)",
-        author: "Martyn Clinton",
-        date: "May 6, 2025",
-        image: "http://localhost:3000/laptop-selection.png",
-        content: `One of the things I love most is helping someone pick out the *right* laptop. Not the flashiest. Not the most expensive. The right one.
+  const blogData = {
+    title: 'Let’s Find the Perfect Laptop (Without Wasting a Penny)',
+    author: 'MC',
+    date: 'May 6, 2025',
+    image:
+      'https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/blog/laptop-selection.png',
+    content: `One of the things I love most is helping someone pick out the *right* laptop. Not the flashiest. Not the most expensive. The right one.
       
 It always starts with a simple question: **What do you actually need it for?** Because let’s be honest—we could all be tempted by powerful machines with top-end specs, but if you’re just checking emails and streaming Netflix, you really don’t need to spend £1,000+. On the other hand, if you’re editing videos or running complex code, you’ll want to invest where it matters most.
       
@@ -98,12 +100,8 @@ If you’re not sure where to start, just drop me a message (email or DM, links 
 
 Smart, simple, and personal. That’s how I do tech.
 
-Let’s find your perfect laptop.`
-      };
-      
-      
-      
-      
+Let’s find your perfect laptop.`,
+  };
 
   return (
     <div>

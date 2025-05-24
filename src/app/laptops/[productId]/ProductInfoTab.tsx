@@ -2,6 +2,7 @@
 
 import type { FC } from 'react';
 import React, { useState } from 'react';
+import { BsCircleFill } from 'react-icons/bs';
 
 import { note } from '@/data/content';
 import Heading from '@/shared/Heading/Heading';
@@ -9,13 +10,11 @@ import Heading from '@/shared/Heading/Heading';
 interface ProductInfoTabProps {
   overview: string;
   ourThoughts: {
-    icon: JSX.Element;
     title: string;
     description: string;
     key: string;
   }[];
   tech_specs: {
-    icon: JSX.Element;
     title: string;
     description: string;
     key: string;
@@ -30,6 +29,42 @@ const ProductInfoTab: FC<ProductInfoTabProps> = ({
   tech_specs,
 }) => {
   const [activeTab, setActiveTab] = useState('What We Think');
+
+  const renderTabContent = () => {
+    if (activeTab === 'Overview') {
+      return <p>{overview}</p>;
+    }
+    if (activeTab === 'Tech Specs') {
+      return (
+        <div className="grid gap-5 md:grid-cols-2">
+          {tech_specs.map((spec) => (
+            <div key={spec.key} className="flex items-center gap-2">
+              <BsCircleFill className="text-xl text-secondary" />
+              <div>
+                <p className="text-sm text-neutral-500">{spec.title}</p>
+                <p>{spec.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      );
+    }
+    if (activeTab === 'What We Think') {
+      return (
+        <div>
+          {ourThoughts.map((thought) => (
+            <div key={thought.key} className="flex items-center gap-2">
+              <div className="py-4">
+                <p className="text-sm text-neutral-500">{thought.title}</p>
+                <p>{thought.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      );
+    }
+    return null;
+  };
 
   return (
     <div>
@@ -52,40 +87,7 @@ const ProductInfoTab: FC<ProductInfoTabProps> = ({
         ))}
       </div>
 
-      {tabs.map((tab) => (
-  <div
-    key={tab}
-    className={`mb-10 ${activeTab === tab ? 'block' : 'hidden'}`}
-  >
-    {activeTab === 'Overview' ? (
-      <p>{overview}</p>
-    ) : activeTab === 'Tech Specs' ? (
-      <div className="grid gap-5 md:grid-cols-2">
-        {tech_specs.map((spec) => (
-          <div key={spec.key} className="flex items-center gap-2">
-            {spec.icon}
-            <div>
-              <p className="text-sm text-neutral-500">{spec.title}</p>
-              <p>{spec.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    ) : activeTab === 'What We Think' ? (
-      <div className="">
-        {ourThoughts.map((thought) => (
-          <div key={thought.key} className="flex items-center gap-2">
-            {thought.icon}
-            <div className='py-4'>
-              <p className="text-sm text-neutral-500">{thought.title}</p>
-              <p>{thought.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    ) : null}
-  </div>
-))}
+      <div className="mb-10">{renderTabContent()}</div>
 
       <div className="space-y-2">
         <h3 className="text-xl font-medium">Our Promise</h3>

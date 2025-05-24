@@ -1,19 +1,20 @@
 import { pathOr } from 'ramda';
 import React from 'react';
 
-import { laptops } from '@/data/content';
-
 import SectionMoreProducts from './SectionMoreProducts';
 import SectionProductHeader from './SectionProductHeader';
 import SectionProductInfo from './SectionProductInfo';
 
 type Props = {
   params: { productId: string };
-  searchParams: { [key: string]: string | string[] | undefined };
 };
 
 const getProductData = async (id: string) => {
-  const filteredDestination = laptops.find((item) => item.slug === id);
+  const res = await fetch('https://getpaidontheweb.com/get-laptop-data', {
+    cache: 'no-store',
+  });
+  const laptops = await res.json();
+  const filteredDestination = laptops.find((item: any) => item.slug === id);
   return filteredDestination;
 };
 
@@ -22,8 +23,7 @@ const SingleProductPage = async (props: Props) => {
 
   return (
     <div className="container">
-
-      <div className="mb-20 mt-20">
+      <div className="my-20">
         <SectionProductHeader
           link={pathOr('', ['link'], selectedProduct)}
           shots={pathOr([], ['shots'], selectedProduct)}
@@ -33,7 +33,7 @@ const SingleProductPage = async (props: Props) => {
           refurbishedLink={pathOr('', ['refurbishedLink'], selectedProduct)}
           refurbishedPrice={pathOr(0, ['refurbishedPrice'], selectedProduct)}
           rating={pathOr(0, ['rating'], selectedProduct)}
-          />
+        />
       </div>
 
       <div className="mb-28">
@@ -43,7 +43,6 @@ const SingleProductPage = async (props: Props) => {
           tech_specs={pathOr([], ['tech_specs'], selectedProduct)}
           ourThoughts={pathOr([], ['ourThoughts'], selectedProduct)}
           ratings={pathOr(0, ['rating'], selectedProduct)}
-          reviews={pathOr(0, ['reviews'], selectedProduct)}
         />
       </div>
 

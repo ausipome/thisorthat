@@ -7,19 +7,16 @@ import Ratings from './Ratings';
 interface SectionProductInfoProps {
   overview: string;
   ourThoughts: {
-    icon: JSX.Element;
     title: string;
     description: string;
     key: string;
   }[];
   tech_specs: {
-    icon: JSX.Element;
     title: string;
     description: string;
     key: string;
   }[];
   ratings: number;
-  reviews: number;
 }
 
 const SectionProductInfo: FC<SectionProductInfoProps> = ({
@@ -27,12 +24,15 @@ const SectionProductInfo: FC<SectionProductInfoProps> = ({
   ourThoughts,
   tech_specs,
   ratings,
-  reviews,
 }) => {
   return (
     <div className="grid gap-16 lg:grid-cols-2">
-      <ProductInfoTab overview={overview} ourThoughts={ourThoughts} tech_specs={tech_specs} />
-      <Ratings rating={ratings} reviews={reviews} />
+      <ProductInfoTab
+        overview={overview}
+        ourThoughts={ourThoughts}
+        tech_specs={tech_specs}
+      />
+      <Ratings rating={ratings} />
     </div>
   );
 };

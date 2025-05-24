@@ -1,11 +1,26 @@
-import React from 'react';
+'use client';
+
+import Link from 'next/link';
+import React, { useEffect, useState } from 'react';
+
 import ProductCard from '@/components/ProductCard';
-import { productsSection, laptops } from '@/data/content';
+import { productsSection } from '@/data/content';
 import ButtonPrimary from '@/shared/Button/ButtonPrimary';
 import Heading from '@/shared/Heading/Heading';
-import Link from 'next/link';
 
 const SectionProducts = () => {
+  const [laptops, setLaptops] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch('https://getpaidontheweb.com/get-laptop-data', { cache: 'no-store' })
+      .then((res) => res.json())
+      .then((data) => {
+        setLaptops(data);
+        setLoading(false);
+      });
+  }, []);
+
   return (
     <div className="container">
       <Heading isCenter isMain desc={productsSection.description}>
@@ -13,17 +28,25 @@ const SectionProducts = () => {
       </Heading>
 
       <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-4">
-      {laptops.slice(0, 12).map((laptop) => (
-          <ProductCard
-            key={laptop.name}
-            product={laptop}
-            className="border-neutral-300"
-          />
-        ))}
+        {loading ? (
+          <div>Loading...</div>
+        ) : (
+          laptops
+            .slice(0, 12)
+            .map((laptop) => (
+              <ProductCard
+                key={laptop.name}
+                product={laptop}
+                className="border-neutral-300"
+              />
+            ))
+        )}
       </div>
 
       <div className="mt-14 flex items-center justify-center">
-        <Link href='/laptops'><ButtonPrimary>View All Laptops</ButtonPrimary></Link>
+        <Link href="/laptops">
+          <ButtonPrimary>View All Laptops</ButtonPrimary>
+        </Link>
       </div>
     </div>
   );

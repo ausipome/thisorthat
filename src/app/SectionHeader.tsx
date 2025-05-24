@@ -1,11 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 import PromoTag from '@/components/PromoTag';
 import { headerSection } from '@/data/content';
-import laptop from '@/images/Asus/ZenbookS14OLED/oled5.webp';
 import ButtonPrimary from '@/shared/Button/ButtonPrimary';
-import Link from 'next/link';
 
 const SectionHeader = () => {
   return (
@@ -21,13 +20,21 @@ const SectionHeader = () => {
           >
             {headerSection.heading}
           </h1>
-          <p className="my-10 w-[80%] text-neutral-500">
+          <p className="my-10 w-4/5 text-neutral-500">
             {headerSection.description}
           </p>
-          <ButtonPrimary sizeClass="px-5 py-4"><Link href='/thisorthat'>Learn More</Link></ButtonPrimary>
+          <ButtonPrimary sizeClass="px-5 py-4">
+            <Link href="/thisorthat">Learn More</Link>
+          </ButtonPrimary>
         </div>
         <div className="basis-[37%]">
-          <Image src={laptop} alt="Buy Laptop" className="w-full" />
+          <Image
+            src="https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ZenbookS14OLED/oled5.webp"
+            width={600}
+            height={600}
+            alt="Buy Laptop"
+            className="w-full"
+          />
         </div>
       </div>
 

@@ -25,13 +25,13 @@ const BrandCard: FC<BrandCardProps> = ({
     <div className="rounded-2xl border border-neutral-300 p-3">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="h-20 w-20 overflow-hidden rounded-lg">
+          <div className="size-20 overflow-hidden rounded-lg">
             <Image
-              width='1000'
-              height='1000'
+              width="1000"
+              height="1000"
               src={logo}
               alt="logo"
-              className="h-full w-full object-cover object-center"
+              className="size-full object-cover object-center"
             />
           </div>
           <div>
@@ -40,9 +40,7 @@ const BrandCard: FC<BrandCardProps> = ({
             </h3>
             <div className="flex items-center gap-1">
               <MdStar className="text-yellow-400" />
-              <p className="text-sm">
-                {rating}{' '}
-              </p>
+              <p className="text-sm">{rating} </p>
             </div>
           </div>
         </div>
@@ -62,11 +60,11 @@ const BrandCard: FC<BrandCardProps> = ({
             className="h-[150px] overflow-hidden rounded-lg bg-gray"
           >
             <Image
-              width='1000'
-              height='1000'
+              width="1000"
+              height="1000"
               src={laptop}
               alt="Laptop"
-              className="h-full w-full object-cover object-center transition-transform duration-300 hover:scale-105"
+              className="size-full object-cover object-center transition-transform duration-300 hover:scale-105"
             />
           </div>
         ))}
