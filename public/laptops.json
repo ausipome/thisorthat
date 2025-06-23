@@ -23,8 +23,8 @@
     ],
     "tags": [
       "Basic",
-      "Student",
-      "Business",
+      "student",
+      "professionals",
       "Acer",
       "i5",
       "8RAM",
@@ -148,7 +148,7 @@
     ],
     "tags": [
       "Basic",
-      "Student",
+      "student",
       "Acer",
       "i3",
       "8RAM",
@@ -277,7 +277,7 @@
     ],
     "tags": [
       "Basic",
-      "Student",
+      "student",
       "professionals",
       "Lenovo",
       "i5",
@@ -395,7 +395,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_11.webp",
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_02.webp"
     ],
-    "tags": ["Basic", "Student", "Lenovo", "i3", "8RAM", "Laptops", "Windows"],
+    "tags": ["Basic", "student", "Lenovo", "i3", "8RAM", "Laptops", "Windows"],
     "link": "https://ao.com/product/82xb0093uk-lenovo-ideapad-slim-3-laptop-grey-103812-251.aspx",
     "overview":
       "This Lenovo IdeaPad Slim 3 laptop is the perfect way to polish off all your projects. Start your day off with a clear, colourful view that’s also super-smooth thanks to its 15.6-inch Full HD IPS screen – just what you need to get stuck in. You won’t run into any snags when you’re typing up a storm either. That’s because it has an Intel® Core™ i3 processor and 8GB of RAM to power your presentations or provide some background motivation from your fave playlist. Made a good chunk of progress? Make sure you save it with the 128GB of storage, which has plenty of room for all sorts of important docs.",
@@ -507,7 +507,7 @@
     ],
     "tags": [
       "Basic",
-      "Student",
+      "student",
       "HP",
       "i3",
       "8RAM",
@@ -627,7 +627,7 @@
     ],
     "tags": [
       "Basic",
-      "Student",
+      "student",
       "Asus",
       "i5",
       "8RAM",
@@ -742,7 +742,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair4.jpg",
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair5.jpg"
     ],
-    "tags": ["Basic", "Student", "MacOS", "M1", "8RAM", "256SSD", "Laptops"],
+    "tags": ["Basic", "student", "MacOS", "M1", "8RAM", "256SSD", "Laptops"],
     "link": "",
     "overview":
       "Our thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. Our most advanced Neural Engine for up to 9x faster machine learning. The longest battery life ever in a MacBook Air. And a silent, fanless design. This much power has never been this ready to go.",
@@ -862,7 +862,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair4.avif",
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair5.avif"
     ],
-    "tags": ["Basic", "Student", "MacOS", "M2", "8RAM", "256SSD", "Laptops"],
+    "tags": ["Basic", "student", "MacOS", "M2", "8RAM", "256SSD", "Laptops"],
     "link": "",
     "overview":
       "redesigned around the next-generation M2 chip, MacBook Air is strikingly thin and brings exceptional speed and power efficiency within its durable all‑aluminium enclosure. It’s the ultrafast, ultra-capable laptop that lets you work, play or create just about anything — anywhere.",
@@ -981,7 +981,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM3/macair4.avif"
     ],
     "tags": [
-      "Student",
+      "student",
       "Business",
       "Developer",
       "Creative",
@@ -1110,7 +1110,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Asus/ZenbookS14OLED/oled5.webp"
     ],
     "tags": [
-      "Student",
+      "student",
       "Business",
       "Asus",
       "i7",
@@ -1232,7 +1232,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Microsoft/Surface7/Surface75.webp"
     ],
     "tags": [
-      "Student",
+      "student",
       "Business",
       "Windows",
       "snapdragon",
@@ -1355,7 +1355,7 @@
     "tags": [
       "Lenovo",
       "Touchscreen",
-      "Student",
+      "student",
       "Business",
       "16RAM",
       "512SSD",
@@ -1488,7 +1488,7 @@
       "8RAM",
       "Creative",
       "Business",
-      "Student",
+      "student",
       "Developer",
       "Laptops"
     ],
@@ -1741,7 +1741,7 @@
       "16RAM",
       "1TBSSD",
       "Business",
-      "Student",
+      "student",
       "Developer",
       "Laptops",
       "Windows"
