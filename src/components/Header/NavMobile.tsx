@@ -22,7 +22,12 @@ const NavMobile: React.FC<NavMobileProps> = ({ onClickClose }) => {
       </div>
       <ul className="flex flex-col space-y-5 px-5 py-6">
         {NavLinks.map((item) => (
-          <Link href={item.href} onClick={onClickClose} key={item.id} className="capitalize">
+          <Link
+            href={item.href}
+            onClick={onClickClose}
+            key={item.id}
+            className="capitalize"
+          >
             {item.name}
           </Link>
         ))}

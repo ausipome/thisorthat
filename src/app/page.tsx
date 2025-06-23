@@ -1,9 +1,10 @@
 import React from 'react';
 
+import AimeChat from '@/components/AimeChat';
+
 import SectionBrands from './SectionBrands';
 import SectionHeader from './SectionHeader';
 import SectionProducts from './SectionProducts';
-import AimeChat from '@/components/AimeChat';
 
 const page = () => {
   return (
