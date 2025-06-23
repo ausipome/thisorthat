@@ -1,10 +1,13 @@
 'use client';
 
-import { useState, FormEvent } from 'react';
+import type { FormEvent } from 'react';
+import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import Image from 'next/image'; // ✅ use next/image
 
 interface Product {
+  id: string; // ✅ add an id for unique keys
   title: string;
   image: string;
   link: string;
@@ -15,6 +18,44 @@ interface Message {
   role: 'user' | 'assistant';
   content: string;
   products?: Product[];
+}
+
+function MarkdownLink(props: any) {
+  return (
+    <a
+      {...props}
+      className="text-blue-600 underline hover:text-blue-800"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {props.children || 'Link'} {/* ✅ make sure anchor has content */}
+    </a>
+  );
+}
+
+function ProductCard({ product }: { product: Product }) {
+  return (
+    <li className="flex items-start gap-4 rounded-lg border bg-white p-4 shadow-sm">
+      <Image
+        src={product.image}
+        alt={product.title}
+        width={112}
+        height={112}
+        className="rounded"
+      />
+      <div className="flex-1">
+        <h3 className="text-lg font-bold">{product.title}</h3>
+        <p className="text-gray-600 mb-2 text-sm">£{product.price}</p>
+        <button
+          type="button"
+          className="rounded bg-blue-600 px-4 py-2 text-sm text-white hover:bg-blue-700"
+          onClick={() => window.open(product.link, '_blank')}
+        >
+          Buy Here
+        </button>
+      </div>
+    </li>
+  );
 }
 
 export default function AimeChat() {
@@ -47,65 +88,43 @@ export default function AimeChat() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto p-4">
-      <div className="flex flex-col items-center mb-4">
-        <img 
-          src="/gee-giraffe.png" 
-          alt="Gee the Giraffe Influencer" 
-          className="w-72 rounded-xl shadow-md"
+    <div className="mx-auto max-w-2xl p-4">
+      <div className="mb-4 flex flex-col items-center">
+        <Image
+          src="/gee-giraffe.png"
+          alt="Gee the Giraffe Influencer"
+          width={288}
+          height={288}
+          className="rounded-xl shadow-md"
         />
-        <h2 className="mt-2 text-2xl font-bold text-center text-gray-800 font-serif">
+        <h2 className="text-gray-800 mt-2 text-center font-serif text-2xl font-bold">
           Meet Gee — Searching high and high to find your perfect tech!
         </h2>
       </div>
 
-      <div className="space-y-4 mb-4">
-        {messages.map((msg, idx) => (
+      <div className="mb-4 space-y-4">
+        {messages.map((msg) => (
           <div
-            key={idx}
-            className={`rounded p-3 text-sm whitespace-pre-wrap shadow-sm transition-all duration-300 ${
-              msg.role === 'user' ? 'bg-gray-100 text-gray-800 self-end' : 'bg-blue-100'
+            key={msg.content} // ✅ Use unique key - better would be a real message ID if you have one
+            className={`whitespace-pre-wrap rounded p-3 text-sm shadow-sm transition-all duration-300 ${
+              msg.role === 'user'
+                ? 'bg-gray-100 text-gray-800 self-end'
+                : 'bg-blue-100'
             }`}
           >
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={{
-                a: ({ node, ...props }) => (
-                  <a
-                    {...props}
-                    className="text-blue-600 underline hover:text-blue-800"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  />
-                ),
+                a: MarkdownLink,
               }}
             >
               {msg.content}
             </ReactMarkdown>
 
             {(msg.products?.length ?? 0) > 0 && (
-              <ul className="space-y-4 mt-2">
-                {msg.products!.map((product, index) => (
-                  <li
-                    key={index}
-                    className="border rounded-lg p-4 flex items-start gap-4 bg-white shadow-sm"
-                  >
-                    <img
-                      src={product.image}
-                      alt={product.title}
-                      className="w-28 rounded"
-                    />
-                    <div className="flex-1">
-                      <h3 className="font-bold text-lg">{product.title}</h3>
-                      <p className="text-sm text-gray-600 mb-2">£{product.price}</p>
-                      <button
-                        className="bg-blue-600 text-white px-4 py-2 rounded text-sm hover:bg-blue-700"
-                        onClick={() => window.open(product.link, '_blank')}
-                      >
-                        Buy Here
-                      </button>
-                    </div>
-                  </li>
+              <ul className="mt-2 space-y-4">
+                {msg.products!.map((product) => (
+                  <ProductCard key={product.id} product={product} />
                 ))}
               </ul>
             )}
@@ -113,11 +132,11 @@ export default function AimeChat() {
         ))}
 
         {loading && (
-          <div className="flex items-center gap-2 p-3 bg-blue-100 rounded w-fit animate-pulse">
-            <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce [animation-delay:0ms]" />
-            <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce [animation-delay:200ms]" />
-            <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce [animation-delay:400ms]" />
-            <span className="text-sm text-gray-700 ml-2">Gee is thinking...</span>
+          <div className="flex w-fit animate-pulse items-center gap-2 rounded bg-blue-100 p-3">
+            <span className="size-2 animate-bounce rounded-full bg-blue-500 [animation-delay:0ms]" />
+            <span className="size-2 animate-bounce rounded-full bg-blue-500 [animation-delay:200ms]" />
+            <span className="size-2 animate-bounce rounded-full bg-blue-500 [animation-delay:400ms]" />
+            <span className="text-gray-700 ml-2 text-sm">Gee is thinking...</span>
           </div>
         )}
       </div>
@@ -126,13 +145,13 @@ export default function AimeChat() {
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="flex-1 border rounded p-2"
+          className="flex-1 rounded border p-2"
           placeholder="What tech are you looking for? Ask Gee..."
           disabled={loading}
         />
         <button
           type="submit"
-          className="bg-blue-500 text-white px-4 py-2 rounded"
+          className="rounded bg-blue-500 px-4 py-2 text-white"
           disabled={loading}
         >
           Send
