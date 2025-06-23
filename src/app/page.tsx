@@ -13,11 +13,11 @@ const page = () => {
       </div>
 
       <div className="mb-32">
-        <SectionProducts />
+        <AimeChat />
       </div>
 
-       <div className="mb-32">
-        <AimeChat />
+      <div className="mb-32">
+        <SectionProducts />
       </div>
 
       <div className="mb-32">
