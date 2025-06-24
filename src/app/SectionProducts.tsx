@@ -13,7 +13,7 @@ const SectionProducts = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:8080/get-laptop-data', { cache: 'no-store' })
+    fetch('https://getpaidontheweb.com/get-laptop-data', { cache: 'no-store' })
       .then((res) => res.json())
       .then((data) => {
         setLaptops(data);

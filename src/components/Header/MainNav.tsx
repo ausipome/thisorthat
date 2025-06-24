@@ -12,7 +12,7 @@ const MainNav = () => {
   const [laptops, setLaptops] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch('http://localhost:8080/get-laptop-data', { cache: 'no-store' })
+    fetch('https://getpaidontheweb.com/get-laptop-data', { cache: 'no-store' })
       .then((res) => res.json())
       .then((data) => setLaptops(data));
   }, []);

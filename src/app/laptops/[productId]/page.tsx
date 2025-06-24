@@ -10,7 +10,7 @@ type Props = {
 };
 
 const getProductData = async (id: string) => {
-  const res = await fetch('http://localhost:8080/get-laptop-data', {
+  const res = await fetch('https://getpaidontheweb.com/get-laptop-data', {
     cache: 'no-store',
   });
   const laptops = await res.json();

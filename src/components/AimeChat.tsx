@@ -1,10 +1,10 @@
 'use client';
 
+import Image from 'next/image'; // ✅ use next/image
 import type { FormEvent } from 'react';
 import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import Image from 'next/image'; // ✅ use next/image
 
 interface Product {
   id: string; // ✅ add an id for unique keys
@@ -74,7 +74,7 @@ export default function AimeChat() {
     setInput('');
     setLoading(true);
 
-    const res = await fetch('http://localhost:8080/aime-chat', {
+    const res = await fetch('https://getpaidontheweb.com/aime-chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ messages: newMessages }),
@@ -136,7 +136,9 @@ export default function AimeChat() {
             <span className="size-2 animate-bounce rounded-full bg-blue-500 [animation-delay:0ms]" />
             <span className="size-2 animate-bounce rounded-full bg-blue-500 [animation-delay:200ms]" />
             <span className="size-2 animate-bounce rounded-full bg-blue-500 [animation-delay:400ms]" />
-            <span className="text-gray-700 ml-2 text-sm">Gee is thinking...</span>
+            <span className="text-gray-700 ml-2 text-sm">
+              Gee is thinking...
+            </span>
           </div>
         )}
       </div>

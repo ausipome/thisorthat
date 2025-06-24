@@ -18,7 +18,7 @@ const Page = () => {
   const [minPrice = 0, maxPrice = Infinity] = rangePrices;
 
   useEffect(() => {
-    fetch('http://localhost:8080/get-laptop-data', { cache: 'no-store' })
+    fetch('https://getpaidontheweb.com/get-laptop-data', { cache: 'no-store' })
       .then((res) => res.json())
       .then((data) => {
         setLaptops(data);

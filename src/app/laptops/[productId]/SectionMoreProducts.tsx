@@ -4,7 +4,7 @@ import ProductCard from '@/components/ProductCard';
 import Heading from '@/shared/Heading/Heading';
 
 const SectionMoreProducts = async () => {
-  const res = await fetch('http://localhost:8080/get-laptop-data', {
+  const res = await fetch('https://getpaidontheweb.com/get-laptop-data', {
     cache: 'no-store',
   });
   const laptops = await res.json();
