@@ -8,12 +8,13 @@ import AimeChat from '@/components/AimeChat';
 const page = () => {
   return (
     <div>
-      <div className="my-7">
-        <SectionHeader />
+      
+      <div className="mb-24 mt-12">
+        <AimeChat />
       </div>
 
-      <div className="mb-32">
-        <AimeChat />
+      <div className="my-7">
+        <SectionHeader />
       </div>
 
       <div className="mb-32">
