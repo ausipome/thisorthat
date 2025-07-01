@@ -9,7 +9,6 @@ import SectionProducts from './SectionProducts';
 const page = () => {
   return (
     <div>
-      
       <div className="mb-24 mt-12">
         <AimeChat />
       </div>

@@ -27,7 +27,7 @@ const ProductCard: FC<ProductCardProps> = ({
     >
       <div className="h-[250px] w-full overflow-hidden rounded-2xl lg:h-[220px] 2xl:h-[300px]">
         {product.ourPick && (
-          <div className="absolute left-6 top-0 rounded-b-lg bg-primary px-3 py-2 text-sm uppercase text-white shadow-md z-10">
+          <div className="absolute left-6 top-0 z-10 rounded-b-lg bg-primary px-3 py-2 text-sm uppercase text-white shadow-md">
             Our Top Pick
           </div>
         )}
