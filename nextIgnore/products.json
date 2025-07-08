@@ -2253,7 +2253,7 @@
       "Developer",
       "OLED",
       "Touchscreen",
-      "laptops",
+      "Laptops",
       "Windows"
     ],
     "link": "https://www.lenovo.com/gb/en/p/laptops/thinkpad/thinkpadp/thinkpad-p1-gen-7-16-inch-intel/len101t0107",
@@ -2510,6 +2510,7 @@
     "RTX 5070 Ti",
     "Intel Ultra 9",
     "32RAM",
+    "Laptops",
     "2TBSSD"
   ],
   "link": "https://amzn.to/45JhUjg",
@@ -2739,7 +2740,8 @@
     "i5",
     "8RAM",
     "512SSD",
-    "Windows"
+    "Windows",
+    "Laptops"
   ],
   "link": "https://amzn.to/44pmVuK",
   "overview": "A flexible 2‑in‑1 with a responsive touchscreen, this Pavilion x360 packs an Intel Core i5 and 8 GB RAM—great for students and business users who want note-taking, presentations or tablet-style use without spending a fortune.",
@@ -2808,7 +2810,8 @@
     "i7",
     "16RAM",
     "512SSD",
-    "Windows"
+    "Windows",
+    "Laptops"
   ],
   "link": "https://www.currys.co.uk/products/hp-pavilion-x360-14ek1551na-14-2-in-1-laptop-intel-core-i7-512-gb-ssd-silver-10250996.html",
   "overview": "A step up in power from the i5, this Pavilion x360 with Core i7 and 16 GB RAM is smarter multitasking for creative and developer users on a convertible form factor.",
@@ -2875,7 +2878,8 @@
     "16RAM",
     "512SSD",
     "Windows",
-    "Durable"
+    "Durable",
+    "Laptops"
   ],
   "link": "https://amzn.to/45NoFR8",
   "overview": "The ThinkPad L14 Gen 3 delivers enterprise-level features—touchscreen, Wi‑Fi 6E, backlit keyboard—and power from a Ryzen 5 PRO 5675U. With 16 GB RAM and 512 GB NVMe SSD, it's a solid, upgradeable, rugged laptop ideal for business and developer workflows.",
@@ -2944,7 +2948,8 @@
     "Ryzen7",
     "16RAM",
     "1TBSSD",
-    "Windows"
+    "Windows",
+    "Laptops"
   ],
   "link": "https://amzn.to/4lb5eqe",
   "overview": "A versatile powerhouse: the HP Envy x360 14″ pairs AMD’s potent Ryzen 7 8840HS with 16 GB RAM and a massive 1 TB SSD. Add a responsive WUXGA touchscreen, long battery life, and Wi‑Fi 6E—you’ve got a 2‑in‑1 that’s ready for everything from class notes to creative work.",
@@ -3012,7 +3017,8 @@
     "16RAM",
     "512SSD",
     "RTX4050",
-    "Windows"
+    "Windows",
+    "Laptops"
   ],
   "link": "https://amzn.to/4eqJW5l",
   "overview": "The Acer Nitro V 15 offers a powerful gaming core with Intel's 13th‑gen i5 and dedicated RTX 4050 GPU. With 16 GB RAM, a 165 Hz FHD screen, and solid thermals, it pulls double duty for gaming and creative/developer workloads.",
@@ -3078,7 +3084,8 @@
     "16RAM",
     "1TBSSD",
     "RTX4060",
-    "Windows"
+    "Windows",
+    "Laptops"
   ],
   "link": "https://amzn.to/4lPRl0D",
   "overview": "The Legion 5 with 14th‑gen i7 and RTX 4060 offers desktop-level gaming in a 16\" chassis. With 1 TB storage, WQXGA 165 Hz display, and strong thermals, it’s ideal for hardcore gaming—and heavy creative or dev workloads.",
@@ -3144,7 +3151,8 @@
     "8RAM",
     "512SSD",
     "Windows",
-    "All-in-One"
+    "All-in-One",
+    "Desktops"
   ],
   "link": "https://www.currys.co.uk/products/lenovo-a100-23.8-allinone-pc-intel-n100-512-gb-ssd-grey-10273928.html",
   "overview": "Now with a generous 512 GB SSD at the same great price, this Lenovo A100 is a powerful entry-level all‑in‑one: clean design, reliable performance, and enough storage for all your files and media.",
@@ -3207,7 +3215,8 @@
     "8RAM",
     "512SSD",
     "Windows",
-    "All-in-One"
+    "All-in-One",
+    "Desktops"
   ],
   "link": "https://www.currys.co.uk/products/acer-aspire-c221610-21.5-allinone-pc-intel-core-i3-512-gb-ssd-black-10265173.html",
   "overview": "The upgraded Aspire C22‑1610 brings a substantial boost with the Intel Core i3‑N305 and a spacious 512 GB SSD—all in the same slim 21.5″ all‑in‑one body. Great value at £399 for students, families, or anyone wanting tidy, reliable performance.",
@@ -3269,7 +3278,8 @@
     "8RAM",
     "256SSD",
     "Windows",
-    "All-in-One"
+    "All-in-One",
+    "Desktops"
   ],
   "link": "https://www.hp.com/gb-en/shop/product.aspx?id=a23wnea&opt=abu&sel=dtp",
   "overview": "The HP 22‑dg0005na offers a fluid all‑in‑one experience with an updated 8‑core i3‑N300, 8 GB DDR5, and 256 GB SSD. At £399, it balances sleek design with sensible performance—great for home, school, or shared family use.",
