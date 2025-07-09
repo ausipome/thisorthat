@@ -30,7 +30,8 @@
       "8RAM",
       "512SSD",
       "Laptops",
-      "Windows"
+      "Windows",
+      "New"
     ],
     "link": "https://amzn.to/4kXSh2F",
     "overview":
@@ -154,7 +155,8 @@
       "8RAM",
       "256SSD",
       "Laptops",
-      "Windows"
+      "Windows",
+      "New"
     ],
     "link": "https://www.currys.co.uk/products/acer-aspire-go-14-laptop-intel-core-i3-256-gb-ssd-silver-10266487.html",
     "overview":
@@ -278,13 +280,14 @@
     "tags": [
       "Basic",
       "Student",
-      "professionals",
+      "Business",
       "Lenovo",
       "i5",
       "8RAM",
       "512SSD",
       "Laptops",
-      "Windows"
+      "Windows",
+      "New"
     ],
     "link": "https://amzn.to/4nn6acu",
     "overview":
@@ -395,7 +398,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_11.webp",
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Lenovo/LenovoIdeaPadSlim3i3/82XB0093UK_Lenovo_Laptop_02.webp"
     ],
-    "tags": ["Basic", "Student", "Lenovo", "i3", "8RAM", "Laptops", "Windows"],
+    "tags": ["Basic", "Student", "Lenovo", "i3", "8RAM", "Laptops", "Windows","New"],
     "link": "https://ao.com/product/82xb0093uk-lenovo-ideapad-slim-3-laptop-grey-103812-251.aspx",
     "overview":
       "This Lenovo IdeaPad Slim 3 laptop is the perfect way to polish off all your projects. Start your day off with a clear, colourful view that’s also super-smooth thanks to its 15.6-inch Full HD IPS screen – just what you need to get stuck in. You won’t run into any snags when you’re typing up a storm either. That’s because it has an Intel® Core™ i3 processor and 8GB of RAM to power your presentations or provide some background motivation from your fave playlist. Made a good chunk of progress? Make sure you save it with the 128GB of storage, which has plenty of room for all sorts of important docs.",
@@ -513,7 +516,8 @@
       "8RAM",
       "256SSD",
       "Laptops",
-      "Windows"
+      "Windows",
+      "New"
     ],
     "link": "https://www.currys.co.uk/products/hp-pavilion-x360-14ek1511sa-14-2-in-1-laptop-intel-core-i3-256-gb-ssd-silver-10251770.html",
     "overview":
@@ -634,7 +638,8 @@
       "8RAM",
       "512SSD",
       "Laptops",
-      "Windows"
+      "Windows",
+      "New"
     ],
     "link": "https://amzn.to/3G9O4dg",
     "overview":
@@ -743,7 +748,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair4.jpg",
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM1/macair5.jpg"
     ],
-    "tags": ["Basic", "Student", "Developer", "Creative" , "Business",  "MacOS", "M1", "8RAM", "256SSD", "Laptops"],
+    "tags": ["Basic", "Student", "Developer", "Creative" , "Business",  "MacOS", "M1", "8RAM", "256SSD", "Laptops","Refurbished"],
     "link": "",
     "overview":
       "Our thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. Our most advanced Neural Engine for up to 9x faster machine learning. The longest battery life ever in a MacBook Air. And a silent, fanless design. This much power has never been this ready to go.",
@@ -863,7 +868,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair4.avif",
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM2/macair5.avif"
     ],
-    "tags": ["Basic", "Student", "Developer", "Creative" , "Business", "MacOS", "M2", "8RAM", "256SSD", "Laptops"],
+    "tags": ["Basic", "Student", "Developer", "Creative" , "Business", "MacOS", "M2", "8RAM", "256SSD", "Laptops","Refurbished"],
     "link": "",
     "overview":
       "redesigned around the next-generation M2 chip, MacBook Air is strikingly thin and brings exceptional speed and power efficiency within its durable all‑aluminium enclosure. It’s the ultrafast, ultra-capable laptop that lets you work, play or create just about anything — anywhere.",
@@ -981,7 +986,7 @@
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM3/macair3.avif",
       "https://s3.eu-west-2.amazonaws.com/thisorthat.tech/images/Apple/MacBookAirM3/macair4.avif"
     ],
-    "tags": ["Basic", "Student", "Developer", "Creative" , "Business","MacOS","M3","8RAM","256SSD","Laptops"],
+    "tags": ["Basic", "Student", "Developer", "Creative" , "Business","MacOS","M3","8RAM","256SSD","Laptops","Refurbished"],
     "link": "",
     "overview":
       "The blazing-fast MacBook Air with the M3 chip is a super-portable laptop that sails through work and play.",
@@ -1110,7 +1115,8 @@
       "32RAM",
       "1TSSD",
       "Laptops",
-      "Windows"
+      "Windows",
+      "New"
     ],
     "link": "https://ao.com/product/ux5406sapz169w-asus-zenbook-s-14-laptop-white-103127-251.aspx",
     "overview":
@@ -1230,10 +1236,11 @@
       "Developer", 
       "Creative" ,
       "Windows",
-      "snapdragon",
+      "Snapdragon",
       "16RAM",
       "512SSD",
-      "Laptops"
+      "Laptops",
+      "New"
     ],
     "link": "https://ao.com/product/zgm00040-microsoft-surface-7-copilot-laptop-black-102030-251.aspx",
     "overview":
@@ -1349,14 +1356,14 @@
     ],
     "tags": [
       "Lenovo",
-      "Touchscreen",
       "Student",
       "Business",
       "16RAM",
       "512SSD",
       "Laptops",
       "Windows",
-      "Ultra5"
+      "Ultra5",
+      "New"
     ],
     "link": "https://www.lenovo.com/gb/en/p/laptops/yoga/yoga-2-in-1-series/lenovo-yoga-7i-2-in-1-gen-9-14-inch-intel/len101y0044",
     "overview":
@@ -1485,7 +1492,9 @@
       "Business",
       "Student",
       "Developer",
-      "Laptops"
+      "Laptops",
+      "Refurbished",
+      "New"
     ],
     "link": "https://www.laptopsdirect.co.uk/apple-macbook-pro-14-m3-8gb-512gb-ssd-silver-2023-mr7j3b-a/version.asp",
     "overview":
@@ -1610,7 +1619,8 @@
       "256SSD",
       "Laptops",
       "Windows",
-      "Ultra5"
+      "Ultra5",
+      "New"
     ],
     "link": "https://www.lenovo.com/gb/en/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-12-14-inch-intel/21kccto1wwgb4",
     "overview":
@@ -1739,7 +1749,8 @@
       "Student",
       "Developer",
       "Laptops",
-      "Windows"
+      "Windows",
+      "New"
     ],
     "link": "https://ao.com/product/am6y7eaabu-hp-omnibook-ultra-14fd0001na-laptop-grey-104190-251.aspx",
     "overview":
@@ -1863,7 +1874,8 @@
       "Creative",
       "Business",
       "Developer",
-      "Laptops"
+      "Laptops",
+      "New"
     ],
     "link": "https://ao.com/product/mw2v3ba-apple-macbook-pro-laptop-black-104023-251.aspx",
     "overview":
@@ -1991,7 +2003,8 @@
       "Creative",
       "Business",
       "Developer",
-      "Laptops"
+      "Laptops",
+      "New"
     ],
     "link": "https://ao.com/product/mx2x3ba-apple-macbook-pro-laptop-black-104036-251.aspx",
     "overview":
@@ -2119,9 +2132,9 @@
       "1TBSSD",
       "Creative",
       "Developer",
-      "Touchscreen",
       "Windows",
-      "Laptops"
+      "Laptops",
+      "New"
     ],
     "link": "https://www.asus.com/uk/laptops/for-creators/proart/proart-p16-h7606/",
     "overview":
@@ -2248,13 +2261,11 @@
       "RTX 2000 Ada",
       "64RAM",
       "2TBSSD",
-      "Workstation",
       "Creative",
       "Developer",
-      "OLED",
-      "Touchscreen",
       "Laptops",
-      "Windows"
+      "Windows",
+      "New"
     ],
     "link": "https://www.lenovo.com/gb/en/p/laptops/thinkpad/thinkpadp/thinkpad-p1-gen-7-16-inch-intel/len101t0107",
     "overview":
@@ -2376,15 +2387,14 @@
     "tags": [
       "MSI",
       "Ultra9",
-      "Titan",
       "RTX 5080",
-      "4K",
       "64RAM",
       "2TBSSD",
       "Gaming",
       "Creative",
       "Laptops",
-      "Windows"
+      "Windows",
+      "New"
     ],
     "link": "https://ao.com/product/9s7182421007-msi-titan-18-hx-ai-a2xwig007uk-laptop-black-106599-251.aspx",
     "overview":
@@ -2503,15 +2513,12 @@
     ],
   "tags": [
     "ASUS",
-    "Zephyrus",
     "Gaming",
-    "OLED",
-    "240Hz",
-    "RTX 5070 Ti",
-    "Intel Ultra 9",
+    "Ultra 9",
     "32RAM",
     "Laptops",
-    "2TBSSD"
+    "2TBSSD",
+    "New"
   ],
   "link": "https://amzn.to/45JhUjg",
   "overview": "The ASUS ROG Zephyrus G16 GU605CR is a sleek and powerful gaming laptop equipped with the Intel Core Ultra 9 285H processor and NVIDIA GeForce RTX 5070 Ti graphics. Its 16-inch 2.5K OLED display offers a buttery smooth 240Hz refresh rate with vibrant colour and ultra-fast response, perfect for competitive gaming and creative work. With 32GB RAM and a massive 2TB PCIe SSD, this machine is built for serious performance, backed by stunning visuals and premium design. Includes 3 months of Xbox Game Pass for instant access to top-tier games.",
@@ -2612,7 +2619,8 @@
       "Gaming",
       "Creative",
       "Ultra9",
-      "Laptops"
+      "Laptops",
+      "New"
     ],
     "link": "https://www.lenovo.com/gb/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-7i-gen-10-16-inch-intel/len101g0039",
     "overview":
@@ -2735,13 +2743,12 @@
     "Student",
     "Business",
     "Basic",
-    "2‑in‑1",
-    "Touchscreen",
     "i5",
     "8RAM",
     "512SSD",
     "Windows",
-    "Laptops"
+    "Laptops",
+    "New"
   ],
   "link": "https://amzn.to/44pmVuK",
   "overview": "A flexible 2‑in‑1 with a responsive touchscreen, this Pavilion x360 packs an Intel Core i5 and 8 GB RAM—great for students and business users who want note-taking, presentations or tablet-style use without spending a fortune.",
@@ -2805,13 +2812,12 @@
     "Business",
     "Developer",
     "Creative",
-    "2‑in‑1",
-    "Touchscreen",
     "i7",
     "16RAM",
     "512SSD",
     "Windows",
-    "Laptops"
+    "Laptops",
+    "New"
   ],
   "link": "https://www.currys.co.uk/products/hp-pavilion-x360-14ek1551na-14-2-in-1-laptop-intel-core-i7-512-gb-ssd-silver-10250996.html",
   "overview": "A step up in power from the i5, this Pavilion x360 with Core i7 and 16 GB RAM is smarter multitasking for creative and developer users on a convertible form factor.",
@@ -2873,13 +2879,12 @@
   "tags": [
     "Business",
     "Developer",
-    "Touchscreen",
     "Ryzen5PRO",
     "16RAM",
     "512SSD",
     "Windows",
-    "Durable",
-    "Laptops"
+    "Laptops",
+    "New"
   ],
   "link": "https://amzn.to/45NoFR8",
   "overview": "The ThinkPad L14 Gen 3 delivers enterprise-level features—touchscreen, Wi‑Fi 6E, backlit keyboard—and power from a Ryzen 5 PRO 5675U. With 16 GB RAM and 512 GB NVMe SSD, it's a solid, upgradeable, rugged laptop ideal for business and developer workflows.",
@@ -2943,13 +2948,12 @@
     "Business",
     "Developer",
     "Creative",
-    "2‑in‑1",
-    "Touchscreen",
     "Ryzen7",
     "16RAM",
     "1TBSSD",
     "Windows",
-    "Laptops"
+    "Laptops",
+    "New"
   ],
   "link": "https://amzn.to/4lb5eqe",
   "overview": "A versatile powerhouse: the HP Envy x360 14″ pairs AMD’s potent Ryzen 7 8840HS with 16 GB RAM and a massive 1 TB SSD. Add a responsive WUXGA touchscreen, long battery life, and Wi‑Fi 6E—you’ve got a 2‑in‑1 that’s ready for everything from class notes to creative work.",
@@ -3018,7 +3022,8 @@
     "512SSD",
     "RTX4050",
     "Windows",
-    "Laptops"
+    "Laptops",
+    "New"
   ],
   "link": "https://amzn.to/4eqJW5l",
   "overview": "The Acer Nitro V 15 offers a powerful gaming core with Intel's 13th‑gen i5 and dedicated RTX 4050 GPU. With 16 GB RAM, a 165 Hz FHD screen, and solid thermals, it pulls double duty for gaming and creative/developer workloads.",
@@ -3085,7 +3090,8 @@
     "1TBSSD",
     "RTX4060",
     "Windows",
-    "Laptops"
+    "Laptops",
+    "New"
   ],
   "link": "https://amzn.to/4lPRl0D",
   "overview": "The Legion 5 with 14th‑gen i7 and RTX 4060 offers desktop-level gaming in a 16\" chassis. With 1 TB storage, WQXGA 165 Hz display, and strong thermals, it’s ideal for hardcore gaming—and heavy creative or dev workloads.",
@@ -3151,8 +3157,8 @@
     "8RAM",
     "512SSD",
     "Windows",
-    "All-in-One",
-    "Desktops"
+    "Desktops",
+    "New"
   ],
   "link": "https://www.currys.co.uk/products/lenovo-a100-23.8-allinone-pc-intel-n100-512-gb-ssd-grey-10273928.html",
   "overview": "Now with a generous 512 GB SSD at the same great price, this Lenovo A100 is a powerful entry-level all‑in‑one: clean design, reliable performance, and enough storage for all your files and media.",
@@ -3215,8 +3221,8 @@
     "8RAM",
     "512SSD",
     "Windows",
-    "All-in-One",
-    "Desktops"
+    "Desktops",
+    "New"
   ],
   "link": "https://www.currys.co.uk/products/acer-aspire-c221610-21.5-allinone-pc-intel-core-i3-512-gb-ssd-black-10265173.html",
   "overview": "The upgraded Aspire C22‑1610 brings a substantial boost with the Intel Core i3‑N305 and a spacious 512 GB SSD—all in the same slim 21.5″ all‑in‑one body. Great value at £399 for students, families, or anyone wanting tidy, reliable performance.",
@@ -3278,8 +3284,8 @@
     "8RAM",
     "256SSD",
     "Windows",
-    "All-in-One",
-    "Desktops"
+    "Desktops",
+    "New"
   ],
   "link": "https://www.hp.com/gb-en/shop/product.aspx?id=a23wnea&opt=abu&sel=dtp",
   "overview": "The HP 22‑dg0005na offers a fluid all‑in‑one experience with an updated 8‑core i3‑N300, 8 GB DDR5, and 256 GB SSD. At £399, it balances sleek design with sensible performance—great for home, school, or shared family use.",
