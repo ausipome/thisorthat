@@ -124,7 +124,7 @@ export default function AimeChat() {
             {(msg.products?.length ?? 0) > 0 && (
               <ul className="mt-2 space-y-4">
                 {msg.products!.map((product) => (
-                  <ProductCard key={product.id} product={product} />
+                  <ProductCard key={product.link} product={product} />
                 ))}
               </ul>
             )}
