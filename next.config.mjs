@@ -49,6 +49,12 @@ export default bundleAnalyzer({
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'static2-ecemea.acer.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
   poweredByHeader: false,
