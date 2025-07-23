@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: 'ThisorThat.tech | This or That',
   description:
     'This or That helps you navigate the noise and buy the right tech at the right price.',
+  other: {
+    'impact-site-verification': '9d593175-3905-427a-91e4-c3aa53c9d635',
+  },
   icons: [
     {
       rel: 'apple-touch-icon',
